@@ -1,0 +1,24 @@
+==============================================================================
+REPEATERBOOK - KY TRIP ROUTE GAP-FILLERS
+==============================================================================
+Source: RepeaterBook.com per-repeater detail pages. Captured 2026-07-01.
+Purpose: source-of-record for route repeaters used in
+         `Complete Radio Plans/AVL to KY.csv` that are NOT in the scored ham/GMRS
+         pools (`CHIRP Lists/GA-IL-…VA.csv`, `GMRS GA-IL-…csv`). Most route towns
+         come from those pools; this doc covers the pool gaps on the priority
+         AVL -> Newport -> Knoxville trunk.
+
+------------------------------------------------------------------------------
+Newport, TN  (Cocke County) - on I-40 at the NC/TN line, the common trunk to KY
+------------------------------------------------------------------------------
+KG4LHC   147.09000  (+0.6)   Uplink tone 203.5, Downlink blank (On-Air Open)
+   -> programmed as Tone (encode-only) 203.5 so it keys but RX is never muted.
+   RB: https://www.repeaterbook.com/repeaters/details.php?state_id=47&ID=6856
+
+Other Newport TN repeaters on RepeaterBook (not currently pulled; available if
+more Cocke-County coverage is wanted):
+   WB4GBI  443.300  (+5)   70 cm
+   KG4LHC  443.750  (+5)   70 cm
+
+Note: the scored ham pool's "Newport" entries are **coastal Newport, NC**
+(Carteret Co) - a different town; do not use them for the TN route.

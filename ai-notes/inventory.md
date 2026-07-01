@@ -71,6 +71,85 @@ output tone; the 5 sourced only from the WNC-GMRS club list (`GEchoMtn`, `GFlatT
 
 ---
 
+## `Complete Radio Plans/Extended Baseline.csv` — 157 channels (Profile A)
+
+Built 2026-07-01. **The full `local baseline` (slots 1–131) plus best statewide-NC
+ham/GMRS and extended coverage into six border metros.** A universal codeplug like the
+baseline, extended for regional travel; still ≤ 200 and LCD-compliant.
+
+| Slots | Block | Scan | Contents |
+|------:|-------|------|----------|
+| 1–131 | Baseline core | (as baseline) | The entire `local baseline.csv` verbatim. |
+| 50–65 | Extended GMRS — metros | scan | Knoxville WRJZ925 system (`GKnoxvil`/`GPigeonF`/`GOakRidg`) + `GKnoxFC`; Tri-Cities & corridor (`GJohnsnC`/`GJohnsn2`/`GRoanMtn`/`GHampton`/`GKingspt`/`GBristol`/`GButler`); Upstate/Rock Hill (`GAnderSC`/`GGaffney`/`GYorkSC`/`GRockHil`/`GRockHi2`). |
+| 66–80 | Extended GMRS — NC statewide | scan | The 15 GMRS from `NC Coverage` (Newland→Buxton). |
+| 150–164 | Extended ham — NC statewide | scan | The 15 ham from `NC Coverage`. |
+| 165–168 | Extended ham — top NC | scan | Highest-scored NC ham `NC Coverage` missed: `SnowCmp-` (S11), `Coats-Am`/`HollySpg`/`Wendell-` (S10). |
+| 169–184 | Extended ham — metros | scan | Knoxville (`Knox-Sha`/`Knox-WJX`) + I-40 corridor (`TopOfWor`/`Gatlinbu`); Newport/Greeneville (`GreeneVl`); Tri-Cities (`Bristol-`/`JohnsonC`/`Gray-W4Y`/`Mooresbu`); Upstate SC (`MtRest-L`/`Greenvil`/`Gville-P`/`Spartanb`); Rock Hill (`York-W4P`/`FortMill`/`Sharon-W`). |
+
+**Sources (provenance):** assembled only from CHIRP Lists — `NC Coverage (GMRS + Ham).csv`,
+the ham pool `GA-IL-…VA.csv` (Profile B → A converted), and the GMRS pool
+`GMRS GA-IL-…csv`. Extended-GMRS rows keep the pool's geographic `Comment`; extended-ham
+tones are RepeaterBook-derived from the pool (TSQL = matching downlink, `Tone` =
+encode-only — same standard as the WNC ham audit).
+
+**Selection:** ham by RepeaterBook score (favoring linked/wide/net systems) + the
+corridor/wide-area repeaters that fill gaps *between* the metros (Top-of-the-World,
+Mountain Rest, Roan Mtn, the WRJZ925 & WRNU734/WRQK371 linked systems). GMRS by
+open/on-air coverage, whole linked systems kept. De-duped against the baseline.
+
+**Scan policy:** every repeater scanned (baseline local + all extended) + the two ham
+calling freqs; simplex, generic-GMRS, MURS, and WX skipped. 107 scan / 50 skip.
+
+**Note — GMRS shares 8 output channels:** several extended GMRS entries share
+`Frequency`+`Tone` with each other and with baseline/NC blocks (e.g. multiple
+462.600/141.3). They're distinct repeaters in different towns kept for labeling and
+coverage (the owner's inclusive preference); on air they're the same channel.
+
+**Gaps noted:** Greenville & Spartanburg SC have **no open GMRS** in the pool (all
+CLOSED/off-air), so those two metros are ham-only on the GMRS side; nearest open SC GMRS
+is Gaffney/York. Newport TN has no dedicated repeater — covered by Greeneville/Cocke-area
+and the I-40 corridor set.
+
+---
+
+## `Complete Radio Plans/AVL to KY.csv` — 141 channels (Profile A)
+
+Built 2026-07-01. **KY family-trip plan (SOP 3):** full `local baseline` (1–131) +
+route repeaters in drive sequence + heavy destination coverage for Somerset and
+Bowling Green. ≤ 200, LCD-compliant.
+
+| Slots | Block | Contents |
+|------:|-------|----------|
+| 1–131 | Baseline core | The entire `local baseline.csv` verbatim. |
+| 50–66 | Route GMRS (drive order) | Trunk AVL→Knoxville (`GPigeonF`/`GSevierv`/`GGatlinb`/`GKnoxvil`/`GKnoxFC`/`GOakRidg`), then Williamsburg, Somerset area (`GSomerse`/`GBeeLick`/`GNancy`), Russell Springs, and the Nashville/I-65 leg (`GNashvil`/`GLebanon`/`GGallatn`/`GHndrsnv`/`GPortlnd`/`GMillrsv`). |
+| 150–159 | Route ham — trunk + I-75 | `Madison-` (Hot Springs/Marshall), `NewprtTN` (RB gap-filler), Sevierville ×2, Knoxville ×2; Corbin ×2, London (`London-R` S10). |
+| 160–164 | **Somerset destination** | Pulled from `KY Somerset (LCARA).csv`: `SomrstV` (146.880/77.0), `SomrstU` (443.600), `MontcloV` (145.150) + 2 club simplex. |
+| 165–171 | Route ham — Cumberland Pkwy & I-40 | `Columbia` KY; Crossville ×2, Cookeville ×2, Lafayette TN; Nashville. |
+| 172–182 | **Bowling Green destination** | Pulled from `KY Bowling Green (KCARC).csv`: BG ×3, Morgantown, Franklin, Glasgow ×3, Bonnieville ×2, Cane Valley. |
+
+**Sources (provenance):** baseline + the two pools (route, RepeaterBook-derived tones)
++ the two KY club lists (destinations) + one RB gap-filler (`NewprtTN`, documented in
+`References/RepeaterBook - KY route gap-fillers.txt` — the scored pool's "Newport" is
+coastal **NC**, not the TN route town).
+
+**Route design (owner-set):** the **AVL→Newport→Knoxville trunk is common to every
+route, so it's covered best**; from Knoxville the branches are treated equally
+(US-27 Oneida/Stearns; I-75 Corbin/London; I-40 Crossville/Gordonsville/Scottsville;
+I-40→Nashville→Franklin; Cumberland Pkwy Columbia/Glasgow). Some small route towns
+(Oneida, Pine Knot, Stearns, Burnside, Gordonsville, Carthage, Hartsville, Scottsville,
+Goodlettsville) have **no repeater in the pools** — bracketed by the nearest covered
+sites.
+
+**Tones:** route from the pools (RB-derived TSQL/`Tone`); destinations from the club
+PLs as encode-only (`Tone`) where downlink isn't confirmed, so they're never muted
+(`SomrstV` is `TSQL` 77.0 — pool-confirmed broadcast). **Flag:** `MorgtnV` 146.655 —
+KCARC says "no tone" but the pool shows TSQL 100.0; encoded 100.0 (keys either way).
+
+**Scan:** all repeaters scanned; simplex (incl. the 2 club simplex), generic-GMRS,
+MURS, WX skipped. 89 scan / 52 skip.
+
+---
+
 ## `Complete Radio Plans/Arcshell with Fletcher on 8.csv` — 16 channels (Profile A)
 
 A **radio-specific** codeplug for the **Arcshell AR-5** — not a universal/LCD file.
@@ -212,6 +291,23 @@ reconstituted purely by pulling from lists. Slots match the baseline's block sch
 
 ---
 
+## `CHIRP Lists/` — KY destination lists (Profile A, added 2026-07-01)
+
+Two reusable destination blocks for KY family trips, sourced from the club reference
+docs (analog-FM-usable repeaters only). Pulled into `Complete Radio Plans/AVL to KY.csv`.
+
+- **`KY Somerset (LCARA).csv`** (5) — `SomrstV` 146.880 (`TSQL` 77.0, pool-confirmed;
+  remote-RX sites use 179.9/136.5/110.9), `SomrstU` 443.600 (`Tone` 100.0), `MontcloV`
+  145.150 (`Tone` 77.0), + Somerset/Monticello club simplex. Source:
+  `References/Lake Cumberland ARC Repeaters (Somerset KY).txt`.
+- **`KY Bowling Green (KCARC).csv`** (11) — BG (`BGrn330`/`BGrn165`/`BGrn444`),
+  Morgantown, Franklin, Glasgow ×3, Bonnieville ×2, Cane Valley. Club PLs as encode-only
+  `Tone` (or carrier where "no tone"). Source:
+  `References/Kentucky Colonels ARC Repeaters (Bowling Green KY).txt`. **Flag:** `MorgtnV`
+  KCARC "no tone" vs pool TSQL 100.0 → encoded 100.0.
+
+---
+
 ## `CHIRP Lists/` — local monitoring channel sets (Profile A)
 
 Curated RX-focused channel lists for the Asheville area, split by purpose. These
@@ -302,6 +398,9 @@ the source behind built CHIRP Lists.
 - **`NOAA Weather Radio Channels.txt`** — the 7 NWR frequencies (162.400–162.550, RX-
   only) and the local Asheville station (WXL56, 162.400, Mt. Pisgah). Source-of-record
   for `CHIRP Lists/NOAA weather.csv`. Added 2026-07-01.
+- **`RepeaterBook - KY route gap-fillers.txt`** — RB-sourced route repeaters not in the
+  scored pools, for `AVL to KY.csv` (currently `NewprtTN` KG4LHC 147.09, the priority
+  AVL→Knoxville trunk; notes that the pool's "Newport" is coastal NC). Added 2026-07-01.
 - **`Lake Cumberland ARC Repeaters (Somerset KY).txt`** — **ham** repeaters for the
   owner's **Somerset / Monticello, KY** family-visit area (LCARA). Analog + digital
   (DMR/D-Star/Fusion) across 2 m / 70 cm / 6 m / 10 m, plus club simplex. Includes a

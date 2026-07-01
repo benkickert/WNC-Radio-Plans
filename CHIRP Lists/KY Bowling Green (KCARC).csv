@@ -1,0 +1,12 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+160,BGrn330,147.330000,+,0.600000,Tone,107.2,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Bowling Green KY4BG (KCARC) PL 107.2; nightly net 9pm,,,,
+161,BGrn165,147.165000,+,0.600000,Tone,100.0,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Bowling Green W4WSM (KCARC) P25/FM PL 100.0,,,,
+162,BGrn444,444.100000,+,5.000000,Tone,100.0,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Bowling Green W4WSM (KCARC) P25/FM PL 100.0,,,,
+163,MorgtnV,146.655000,-,0.600000,Tone,100.0,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Morgantown W4WSM (KCARC no-tone / pool TSQL 100.0 - encode 100.0),,,,
+164,FrnklnV,147.135000,+,0.600000,Tone,136.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Franklin KE4SZK (KCARC) PL 136.5; net Wed 7pm,,,,
+165,GlasgwV,146.940000,-,0.600000,Tone,114.8,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Glasgow KY4X (KCARC) PL 114.8; nightly net 8pm,,,,
+166,BonnvV,146.895000,-,0.600000,Tone,114.8,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Bonnieville KY4X (KCARC) PL 114.8,,,,
+167,GlasgwU,444.925000,+,5.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Glasgow KY4X (KCARC) no tone,,,,
+168,BonnvU,444.850000,+,5.000000,Tone,114.8,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Bonnieville KY4X (KCARC) PL 114.8,,,,
+169,Glasgw2,146.850000,-,0.600000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Glasgow KY4X (KCARC) Fusion no-tone; analog usually OK,,,,
+170,CaneVly,146.640000,-,0.600000,Tone,107.2,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Cane Valley WA4UXJ (KCARC) PL 107.2; net 8:30pm,,,,

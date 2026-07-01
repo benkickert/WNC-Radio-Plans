@@ -14,7 +14,11 @@
 
 ---
 
-## 1. KY travel list — Bowling Green + Somerset
+## 1. KY travel list — Bowling Green + Somerset  ✅ DONE 2026-07-01
+**Built as `Complete Radio Plans/AVL to KY.csv` (141 ch)** + two reusable destination
+CHIRP Lists (`KY Somerset (LCARA).csv`, `KY Bowling Green (KCARC).csv`). See
+[`inventory.md`](inventory.md). Original spec below (kept for reference):
+
 A trip/route Complete Radio Plan per **SOP 3**: full `local baseline.csv` + route
 repeaters appended (route GMRS from slot **50**, route ham from slot **150**), ordered
 in drive sequence.

@@ -71,6 +71,8 @@ combine blocks into a Complete Radio Plan before flashing (see [`sops.md`](sops.
 | File | Folder | Rows | Purpose |
 |------|--------|-----:|---------|
 | `local baseline.csv` | `Complete Radio Plans/` | 91 | Everyday WNC plan: GMRS simplex + generic & local GMRS repeaters + MURS + NOAA weather + ham simplex + local WNC ham. The folder's only universal/LCD codeplug. |
+| `Extended Baseline.csv` | `Complete Radio Plans/` | 157 | Baseline core + best statewide-NC ham/GMRS + extended coverage to Knoxville, Tri-Cities, Newport/Greeneville, Greenville & Spartanburg SC, Rock Hill. Assembled from NC Coverage + the two pools. |
+| `AVL to KY.csv` | `Complete Radio Plans/` | 141 | KY family-trip plan (SOP 3): baseline core + route repeaters in drive order (AVL→Newport→Knoxville trunk, then branches to Somerset & Bowling Green) + heavy destination coverage. Built from the pools + the two KY club lists. |
 | `Arcshell with Fletcher on 8.csv` | `Complete Radio Plans/` | 16 | Radio-specific AR-5 codeplug: GMRS simplex + the Fletcher repeater on slot 8. Names left blank. |
 | `GA-IL-IN-KY-NC-OH-SC-TN-VA.csv` | `CHIRP Lists/` | 858 | Large 9-state ham-repeater reference pool, ranked by a quality score. A *source to pull from*, not a finished codeplug. |
 | `Simplex - 2m and 70cm.csv` | `CHIRP Lists/` | 22 | 2 m/70 cm national calling freqs (slots 100/101) + 10 best 2 m + 10 best 70 cm SERA FM simplex channels. Building block. |
@@ -80,6 +82,8 @@ combine blocks into a Complete Radio Plan before flashing (see [`sops.md`](sops.
 | `local gmrs repeaters.csv` | `CHIRP Lists/` | 17 | Local WNC GMRS repeaters (slots 31–47), tone-verified vs RepeaterBook NC + the WNC Radio Project codeplug. Building block. |
 | `local WNC ham.csv` | `CHIRP Lists/` | 22 | Local WNC 2 m/70 cm repeaters (slots 110–131), mapped to WCARS + RepeaterBook tone check. Building block. |
 | `NOAA weather.csv` | `CHIRP Lists/` | 7 | The 7 NOAA NWR channels (slots 91–97, RX-only); `WX1AVL`=WXL56 Asheville. Building block. |
+| `KY Somerset (LCARA).csv` | `CHIRP Lists/` | 5 | Somerset/Monticello KY destination repeaters + club simplex (analog-FM-usable), from the LCARA reference. Building block. |
+| `KY Bowling Green (KCARC).csv` | `CHIRP Lists/` | 11 | Bowling Green-area KY destination repeaters (BG, Glasgow, Bonnieville, Franklin, Morgantown, Cane Valley), from the KCARC reference. Building block. |
 | `CLT Airport.csv` | `CHIRP Lists/` | 10 | Charlotte (KCLT) airband (AM). |
 | `AVL Airport.csv` | `CHIRP Lists/` | 9 | Asheville (KAVL) airband (AM, incl. UHF mil). |
 | `Local Emergency.csv` | `CHIRP Lists/` | 21 | Buncombe County public safety / VFD monitoring (NFM). |

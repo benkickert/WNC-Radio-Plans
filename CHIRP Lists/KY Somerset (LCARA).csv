@@ -1,0 +1,6 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+150,SomrstV,146.880000,-,0.600000,TSQL,77.0,77.0,023,NN,023,Tone->Tone,FM,5.00,,10W,Somerset N4LCA 2m (LCARA); main tone 77.0 (remote-RX sites 179.9/136.5/110.9),,,,
+151,SomrstU,443.600000,+,5.000000,Tone,100.0,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Somerset AC4DM 70cm (LCARA) analog side; PL 100.0 encode-only,,,,
+152,MontcloV,145.150000,-,0.600000,Tone,77.0,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Monticello AC4DM 2m (LCARA); PL 77.0 encode-only,,,,
+153,SomrstSx,146.580000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,10W,Somerset LCARA club simplex,,,,
+154,MontcSx,147.570000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,10W,Monticello LCARA club simplex,,,,
