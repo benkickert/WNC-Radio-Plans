@@ -1,0 +1,42 @@
+==============================================================================
+NOAA WEATHER RADIO (NWR) CHANNELS
+==============================================================================
+Source: NOAA / National Weather Service - NOAA Weather Radio All Hazards
+        (NWR) national frequency list. Local station confirmed via
+        radiostation.info / Broadcastify. Captured 2026-07-01.
+Purpose: definitive source-of-record for `CHIRP Lists/NOAA weather.csv`
+         (slots 91-97).
+
+NWR broadcasts continuous weather + all-hazards alerts on 7 VHF frequencies
+nationwide. These are RECEIVE-ONLY: program Duplex = "off", no tone. Any radio
+that covers 162 MHz can listen; only the station serving your area transmits.
+
+------------------------------------------------------------------------------
+The 7 NWR frequencies
+------------------------------------------------------------------------------
+Frequency (MHz)   Baseline name
+162.400           WX1AVL   <- serves the Asheville / WNC area (see below)
+162.425           WX2
+162.450           WX3
+162.475           WX4
+162.500           WX5
+162.525           WX6
+162.550           WX7
+
+(Note: these are named sequentially by frequency in this repo. The "WX1-7"
+scanner-preset numbering used by some receivers orders them differently; the
+frequencies are what matter, so the repo keeps a simple ascending mapping.)
+
+------------------------------------------------------------------------------
+Local station serving the owner's area (Fairview / Asheville, WNC)
+------------------------------------------------------------------------------
+Callsign:   WXL56
+Frequency:  162.400 MHz
+Transmitter: Mt. Pisgah (covers Asheville and surrounding WNC)
+This is why the 162.400 row is named "WX1AVL" - it is the local Asheville NWR
+station. The other six frequencies are carried so the radio can pick up
+whichever NWR transmitter is in range while traveling.
+
+Source for the local station:
+  - radiostation.info/weather/north-carolina/WXL56/  (WXL56, 162.400, Asheville)
+  - Broadcastify "Asheville Area NOAA Weather Radio WXL56" live feed

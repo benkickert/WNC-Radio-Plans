@@ -1,0 +1,859 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,Comment
+0,FayetteV,145.210000,-,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"GA S12 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/29fqemp4"
+1,Anderson,442.825000,+,5.000000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,"SC S12 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/295oqzna"
+2,McCain-M,442.250000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"NC S12 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/23raeot8"
+3,Henderso,444.375000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S11 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/2bxmf66n"
+4,Raleigh-,441.725000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S11 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/273662j8"
+5,SnowCmp-,443.450000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S11 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/24dj5sdy"
+6,London-R,147.180000,+,0.600000,Tone,74.4,88.5,23,NN,23,Tone->Tone,FM,"KY S10 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/283j4ywg"
+7,Williams,444.050000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"KY S10 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/275odwek"
+8,Coats-Am,444.550000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S10 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/29kqo54r"
+9,HollySpg,444.325000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S10 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/2bdov4gg"
+10,Wendell-,444.875000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S10 | Sys, AllStar, Wide, Nets | https://tinyurl.com/2apqgqzq"
+11,Fowler-W,444.825000,+,5.000000,TSQL,173.8,173.8,23,NN,23,Tone->Tone,FM,"IN S10 | Sys, AllStar, Wide, Nets | https://tinyurl.com/2ydvshur"
+12,Columbia,442.725000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S10 | Sys, EchoLink, Wide, Nets | https://tinyurl.com/27bjrxqp"
+13,CedarGro,147.150000,+,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, Wide, Nets | https://tinyurl.com/28n7ndqf"
+14,Commerce,146.850000,-,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2ce4mwo7"
+15,Thomasto,147.390000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, Wide, Nets | https://tinyurl.com/2378uy8q"
+16,Hickman-,145.270000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"KY S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2c9tocfe"
+17,Cochran-,145.490000,-,1.000000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, Wide, Nets | https://tinyurl.com/278y95un"
+18,LookoutM,145.350000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/277oz78c"
+19,Angier-N,444.650000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2ynfc8g8"
+20,GreenVll,147.090000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/28c8qd5b"
+21,Ocracoke,444.225000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, EchoLink, Nets | https://tinyurl.com/27qj2kzn"
+22,Wedgefie,147.060000,+,0.600000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/27poll89"
+23,Evansvil,145.250000,-,0.600000,Cross,136.5,67.0,23,NN,23,Tone->Tone,FM,"IN S09 | Sys, Wide, Nets | https://tinyurl.com/26qbf5g4"
+24,LEX-LEXF,146.940000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"KY S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/225k5tqs"
+25,Raleigh-,145.210000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, Wide, Nets | https://tinyurl.com/28pvkemr"
+26,Sharon-W,147.375000,+,0.600000,DTCS,88.5,88.5,156,NN,156,Tone->Tone,FM,"SC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/284rdwwv"
+27,ATL-Bank,146.820000,-,0.600000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, EchoLink, Wide, Nets | https://tinyurl.com/29bhsbta"
+28,Clermont,145.310000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, AllStar, Wide | https://tinyurl.com/28nnrubp"
+29,Cumming-,441.900000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, Wide | https://tinyurl.com/27svky8k"
+30,LakePark,147.135000,+,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, Wide | https://tinyurl.com/26zujtev"
+31,LakePark,444.350000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, Wide | https://tinyurl.com/235tcbvo"
+32,McDonoug,444.875000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/25y2sa6v"
+33,McDonoug,146.715000,-,0.600000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/25q4bkxh"
+34,McDonoug,442.125000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"GA S09 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/2apdvslj"
+35,GreenVll,147.165000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S09 | Sys, EchoLink, Wide | https://tinyurl.com/2dyv3bbd"
+36,WstLafay,444.725000,+,5.000000,TSQL,173.8,173.8,23,NN,23,Tone->Tone,FM,"IN S09 | Sys, AllStar, Wide, Nets | https://tinyurl.com/273ljl93"
+37,Jenkins-,144.940000,+,2.500000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,"KY S09 | Sys, EchoLink, Wide | https://tinyurl.com/2b64kugs"
+38,Chalybea,443.100000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2y8aqjf4"
+39,Denver-A,444.650000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"NC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/29q3qear"
+40,KillDevi,145.110000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, EchoLink, Wide, Nets | https://tinyurl.com/2383ujjy"
+41,NagsHead,145.290000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, EchoLink, Wide, Nets | https://tinyurl.com/25u9pvmp"
+42,NagsHead,444.125000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/259rney4"
+43,Oxford-W,145.170000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/28pad5j3"
+44,Shallott,441.850000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"NC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/24tob9sa"
+45,Clinton-,443.675000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S09 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/27pbcwyr"
+46,Durham-C,444.925000,+,5.000000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,"NC S08 | Sys, AllStar, Wide, Nets | https://tinyurl.com/2ck87p65"
+47,MtRest-L,147.030000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"SC S08 | Sys, Wide, Nets | https://tinyurl.com/22y8mjvw"
+48,Montross,146.895000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"VA S08 | Sys, Wide, Nets | https://tinyurl.com/23rsuayg"
+49,FayetteV,444.600000,+,5.000000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"GA S08 | Sys, AllStar, Wide, Nets | https://tinyurl.com/2bybrqy6"
+50,PineMt-F,146.625000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"GA S08 | Sys, EchoLink, Wide | https://tinyurl.com/28bfpgau"
+51,WarmSpgs,146.985000,-,0.600000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"GA S08 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2bfhbomf"
+52,Hatteras,444.725000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S08 | Sys, EchoLink, Nets | https://tinyurl.com/2y2834p8"
+53,Waves-K4,444.325000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S08 | Sys, EchoLink, Nets | https://tinyurl.com/2cyaww3p"
+54,Bluefiel,146.955000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S08 | Sys, Wide | https://tinyurl.com/2ye4j2ya"
+55,Winnabow,146.820000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S08 | Sys, AllStar, Wide | https://tinyurl.com/28v7qhwq"
+56,York-W4P,147.270000,+,0.600000,DTCS,88.5,88.5,156,NN,156,Tone->Tone,FM,"SC S08 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2ckv6vxf"
+57,GreeneVl,145.410000,-,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"TN S08 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/28soxgsb"
+58,Knox-Sha,145.370000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S08 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/28xsf6vr"
+59,Byron-Fi,145.290000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"GA S08 | Sys, Wide, Nets | https://tinyurl.com/29dxg58w"
+60,Jasper-M,146.805000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S08 | Sys, Wide, Nets | https://tinyurl.com/24dfmwwt"
+61,Jasper-B,443.500000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"GA S08 | Sys, Wide | https://tinyurl.com/25ogly2e"
+62,Phelps-D,147.090000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"KY S08 | Sys, AllStar+EchoLink | https://tinyurl.com/2dy8tuzg"
+63,Whitesbu,145.460000,-,0.600000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,"KY S08 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2bhwemb8"
+64,Buxton-K,145.150000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S08 | Sys, EchoLink, Nets | https://tinyurl.com/24odre7q"
+65,Buxton-K,444.925000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S08 | Sys, AllStar, Wide | https://tinyurl.com/28w72z3d"
+66,Charlott,442.125000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"NC S08 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2dp8tjg5"
+67,Columbia,443.300000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S08 | Sys, Wide | https://tinyurl.com/29krkbxs"
+68,Aynor-W4,147.210000,+,0.600000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S08 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2be2hrxc"
+69,Aynor-WR,146.715000,-,0.600000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,"SC S08 | Sys, Wide, Nets | https://tinyurl.com/2836g4b3"
+70,Blythewo,443.650000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S08 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/27fysz86"
+71,Greenvil,145.370000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"SC S08 | Sys, Wide, Nets | https://tinyurl.com/29n85u53"
+72,Orangebu,146.880000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"SC S08 | Sys, Wide, Nets | https://tinyurl.com/2dkpb6lj"
+73,Cumberla,444.675000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S08 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2yvzggxy"
+74,Independ,146.895000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S08 | Sys, Wide | https://tinyurl.com/2byuy6bn"
+75,Jonesvil,442.575000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"VA S08 | Sys, Wide | https://tinyurl.com/24r3cbk6"
+76,SouthBos,145.350000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S08 | Sys, EchoLink, Wide, Nets | https://tinyurl.com/23yzlb5o"
+77,Stockbri,145.170000,-,0.600000,Tone,146.2,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/23a7cuot"
+78,FortMill,146.970000,-,0.600000,DTCS,88.5,88.5,156,NN,156,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/24ux5kk4"
+79,Sumner-W,147.285000,+,0.600000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide | https://tinyurl.com/265yjjp8"
+80,Ashland-,146.940000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"KY S07 | Link, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/24ruf5ao"
+81,Corbin-W,444.900000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"KY S07 | Sys, AllStar | https://tinyurl.com/27x9ykwe"
+82,Dorton-F,146.895000,+,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S07 | Sys, AllStar+EchoLink | https://tinyurl.com/24erw7xv"
+83,Grifton-,146.685000,-,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, Wide | https://tinyurl.com/2ahjgmvx"
+84,KenansVl,444.125000,+,5.000000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, Wide | https://tinyurl.com/2bvxbtyx"
+85,WinstonS,145.250000,-,0.600000,TSQL,97.4,97.4,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, EchoLink, Wide | https://tinyurl.com/29pvuvg5"
+86,Jackson-,146.790000,-,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,"OH S07 | Sys, Wide | https://tinyurl.com/2dpftvr7"
+87,Xenia-MA,147.165000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"OH S07 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2249z4nn"
+88,GreeleyV,145.230000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"SC S07 | Sys, EchoLink | https://tinyurl.com/224afu8e"
+89,Gville-P,443.425000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2y4ne2lz"
+90,LittleMt,146.625000,-,0.600000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/2a2pw9s9"
+91,Richburg,146.760000,-,0.600000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink, Wide | https://tinyurl.com/25akb4gh"
+92,SaintGeo,147.045000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"SC S07 | Sys, Wide | https://tinyurl.com/2a7b9jde"
+93,LaGrange,147.330000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, EchoLink, Wide | https://tinyurl.com/2ynx5puv"
+94,Macon-WX,147.015000,+,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide | https://tinyurl.com/28ne3vme"
+95,WarnerRo,146.850000,-,0.600000,Tone,82.5,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide, Nets | https://tinyurl.com/2yoanqp6"
+96,BurntPra,147.330000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"IL S07 | Sys, Wide | https://tinyurl.com/29w9gboe"
+97,Gillespi,444.250000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S07 | Sys, Wide | https://tinyurl.com/22d94r6m"
+98,ShelbyVl,444.050000,+,5.000000,Tone,91.5,88.5,23,NN,23,Tone->Tone,FM,"KY S07 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/26setzkw"
+99,Cheraw-W,145.490000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"SC S07 | Sys, EchoLink | https://tinyurl.com/2ak4uotu"
+100,Chester-,442.475000,+,5.000000,DTCS,88.5,88.5,23,NN,23,Tone->Tone,FM,"SC S07 | Link, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/2dcx6uwm"
+101,Knox-WJX,442.500000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S07 | Sys, Wide | https://tinyurl.com/26d7372d"
+102,Columbus,442.100000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide | https://tinyurl.com/23lgdlct"
+103,Eastman-,145.210000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide | https://tinyurl.com/2ybee3kk"
+104,Gray-Rou,145.370000,-,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide | https://tinyurl.com/2c6gn7xj"
+105,Macon-AA,145.430000,-,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide | https://tinyurl.com/22bpbowa"
+106,Macon-KD,146.895000,-,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, Wide | https://tinyurl.com/2yh89ph6"
+107,Midway-K,443.300000,+,5.000000,Tone,97.4,88.5,23,NN,23,Tone->Tone,FM,"GA S07 | Sys, EchoLink, Wide | https://tinyurl.com/2apj8uup"
+108,Schaumbu,443.575000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S07 | Sys, EchoLink, Wide | https://tinyurl.com/2c23w2n9"
+109,Shoals-K,145.210000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IN S07 | Sys, Wide | https://tinyurl.com/28nc27zd"
+110,PaintsVl,147.225000,+,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S07 | Sys, EchoLink, Nets | https://tinyurl.com/23cvp7lg"
+111,Concord-,147.210000,+,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, Nets | https://tinyurl.com/22svv9kq"
+112,Mooresvi,443.825000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, Wide | https://tinyurl.com/27287rq6"
+113,MtAiry-F,443.425000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, Wide | https://tinyurl.com/24txfg3g"
+114,Pinehurs,444.700000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, AllStar, Wide | https://tinyurl.com/29gtl4nd"
+115,Winnabow,444.850000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S07 | Sys, AllStar, Wide | https://tinyurl.com/2cfhkdbr"
+116,Columbia,442.875000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink | https://tinyurl.com/28naguws"
+117,Columbia,441.725000,+,5.000000,Tone,91.5,88.5,23,NN,23,Tone->Tone,FM,"SC S07 | Sys, Wide, Nets | https://tinyurl.com/2yaxgbrz"
+118,Donalds-,441.850000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink | https://tinyurl.com/2bd3ndb9"
+119,LittleMt,147.210000,+,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,"SC S07 | Sys, Wide | https://tinyurl.com/25gjgsm9"
+120,Orangebu,441.750000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"SC S07 | Sys, Wide, Nets | https://tinyurl.com/26tbn67y"
+121,Pageland,441.825000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink, Nets | https://tinyurl.com/287grqvw"
+122,RockHill,443.800000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink | https://tinyurl.com/2atlrx6m"
+123,6Mile-6M,442.575000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink | https://tinyurl.com/2y45ohyv"
+124,Sumter-W,443.300000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink | https://tinyurl.com/2yqmf6xd"
+125,Union-W4,441.700000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S07 | Sys, AllStar+EchoLink | https://tinyurl.com/2xpskar5"
+126,Jackson-,444.450000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"TN S07 | Sys, Wide | https://tinyurl.com/24g2gsyg"
+127,TopOfWor,147.375000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"TN S07 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2dk2uy3e"
+128,Pembroke,145.290000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S07 | Sys, Wide | https://tinyurl.com/27bf9v37"
+129,Roanoke-,444.175000,+,5.000000,DTCS,88.5,88.5,712,NN,712,Tone->Tone,FM,"VA S07 | Sys, Wide | https://tinyurl.com/22dp9pqf"
+130,Warrento,147.165000,+,0.600000,TSQL,167.9,167.9,23,NN,23,Tone->Tone,FM,"VA S07 | Link, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/27r9kv9c"
+131,Brunswic,145.330000,-,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, EchoLink | https://tinyurl.com/2aoucplp"
+132,Covingto,444.800000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"GA S06 | Link, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/244gnkxg"
+133,CarlinVl,146.865000,-,0.600000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,IL S06 | Sys | https://tinyurl.com/25rmuxwv
+134,Hickman-,444.250000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, AllStar | https://tinyurl.com/26eayg4w"
+135,OakGrove,444.125000,+,5.000000,DTCS,88.5,88.5,122,NN,122,Tone->Tone,FM,"KY S06 | Link, AllStar, Wide | https://tinyurl.com/22fz7x63"
+136,Hamlet-K,146.955000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S06 | Link, AllStar, Wide, Nets | https://tinyurl.com/24w8tkwm"
+137,Newport-,444.825000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide, Nets | https://tinyurl.com/23xekyhs"
+138,Pickens-,147.195000,+,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"SC S06 | Sys, AllStar+EchoLink | https://tinyurl.com/2642u5lf"
+139,Bristol-,441.950000,+,5.000000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,"TN S06 | Sys, AllStar, Wide | https://tinyurl.com/28c3jonq"
+140,Mooresbu,147.135000,+,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"TN S06 | Link, EchoLink, Wide, Nets | https://tinyurl.com/24mcoa74"
+141,Sneedvil,147.240000,+,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"TN S06 | Link, EchoLink, Wide | https://tinyurl.com/295kyvop"
+142,Stanton-,146.655000,-,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,"TN S06 | Sys, Wide | https://tinyurl.com/2ybxwne2"
+143,Columbus,146.745000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, Wide | https://tinyurl.com/2cfmwaow"
+144,Jasper-M,443.375000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, Wide, Nets | https://tinyurl.com/28y5j6cx"
+145,Savannah,147.330000,+,0.600000,Tone,203.5,88.5,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, EchoLink, Wide | https://tinyurl.com/236o7fm6"
+146,StoneMt-,146.760000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"GA S06 | Link, EchoLink, Wide, Nets | https://tinyurl.com/27xl8x4b"
+147,Rockford,442.625000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"IL S06 | Sys, AllStar, Wide | https://tinyurl.com/2ayrg9aa"
+148,Salem-I5,442.200000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S06 | Sys, Wide | https://tinyurl.com/29erx65m"
+149,Modoc-K9,443.325000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IN S06 | Link, EchoLink, Wide | https://tinyurl.com/2yn54lm7"
+150,Petersbu,145.450000,-,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"IN S06 | Sys, Nets | https://tinyurl.com/29ppvphf"
+151,Inez-N4K,145.270000,-,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, EchoLink | https://tinyurl.com/2bqk5ykx"
+152,Louisa-W,147.390000,+,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, EchoLink | https://tinyurl.com/2b74q3gg"
+153,Lynch-Bl,147.375000,+,0.600000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, AllStar+EchoLink | https://tinyurl.com/23bbnhsm"
+154,SalyersV,146.625000,-,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, EchoLink | https://tinyurl.com/2yxha4a9"
+155,Albemarl,444.900000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide, Nets | https://tinyurl.com/22uej3xf"
+156,BurnsVll,145.190000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S06 | Link, EchoLink, Wide, Nets | https://tinyurl.com/y4wc6oof | WCARS: N2GE Clingmans Pk / Mt Mitchell site (Yancey)"
+157,Carthage,444.200000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, AllStar, Nets | https://tinyurl.com/2bgow3xt"
+158,Concord-,444.775000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/28jf6obw"
+159,Mamie-Po,146.940000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, EchoLink | https://tinyurl.com/2yuvgzc7"
+160,NewBern-,442.075000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,NC S06 | Sys | https://tinyurl.com/2bcv3lhk
+161,Williams,145.410000,-,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/22qkj6ll"
+162,Seabrook,145.410000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S06 | Sys | https://tinyurl.com/25n6tsvp
+163,Bedford-,147.105000,+,0.600000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,"VA S06 | Link, Wide | https://tinyurl.com/2dbg3h9e"
+164,Williams,146.760000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"VA S06 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2doecstr"
+165,Dallas-R,146.895000,+,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, EchoLink, Nets | https://tinyurl.com/2a7ykutz"
+166,DownersG,145.430000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IL S06 | Link, Wide, Nets | https://tinyurl.com/2c7whc3x"
+167,Pikevill,145.150000,-,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, AllStar+EchoLink | https://tinyurl.com/2an5lo6q"
+168,Bolivia-,147.315000,+,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"NC S06 | Link, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/2bvrpd9v"
+169,Hertford,147.330000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/24ug39g5"
+170,Raleigh-,146.880000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/2yhtxk2e"
+171,RobbinsV,147.045000,-,0.600000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,"NC S06 | Link, EchoLink, Wide, Nets | https://tinyurl.com/278k7lnt"
+172,Wilmingt,444.500000,+,5.000000,Tone,67.0,88.5,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, AllStar, Nets | https://tinyurl.com/2yasqhyx"
+173,Florence,147.195000,+,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"SC S06 | Sys, EchoLink | https://tinyurl.com/2cunuw3h"
+174,Gray-W4Y,442.500000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"TN S06 | Sys, AllStar | https://tinyurl.com/258g5beo"
+175,Bedford-,146.685000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S06 | Wide, Nets | https://tinyurl.com/268pzkas"
+176,Hillsvil,146.775000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"VA S06 | Link, EchoLink, Wide, Nets | https://tinyurl.com/237kfjwj"
+177,SouthHil,147.000000,+,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"VA S06 | Sys, EchoLink | https://tinyurl.com/2amqclox"
+178,SouthHil,443.525000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"VA S06 | Sys, EchoLink | https://tinyurl.com/26s2rpsv"
+179,Rome-MtA,146.940000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"GA S06 | Link, EchoLink, Wide, Nets | https://tinyurl.com/2ybzsxxp"
+180,SandersV,145.270000,-,0.600000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,GA S06 | Sys | https://tinyurl.com/2bcjwaq5
+181,WarmSpgs,145.190000,-,0.600000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, Wide | https://tinyurl.com/23z53m4s"
+182,WarnerRo,146.670000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, AllStar+EchoLink | https://tinyurl.com/2cxj9rjt"
+183,WarnerRo,443.150000,+,5.000000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"GA S06 | Sys, AllStar+EchoLink | https://tinyurl.com/22d9hkd9"
+184,Decatur-,443.800000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"IL S06 | Sys, Wide | https://tinyurl.com/24wmurn9"
+185,Normal-W,442.700000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IL S06 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2b2n3g8k"
+186,Lynch-Bl,442.350000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, AllStar, Nets | https://tinyurl.com/2yw3akyg"
+187,PaintsVl,441.525000,+,5.000000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S06 | Sys, AllStar | https://tinyurl.com/23p529u9"
+188,Aulander,441.950000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/2cr8x8q2"
+189,Charlott,442.725000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/2daqeceq"
+190,Engelhar,146.715000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/2cfmft6g"
+191,RobbinsV,145.110000,-,0.600000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,"NC S06 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/22ld5f3o"
+192,Sparta-G,145.430000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"NC S06 | Sys, Wide | https://tinyurl.com/ybq8ot7f"
+193,Lancaste,147.030000,+,0.600000,Tone,71.9,88.5,23,NN,23,Tone->Tone,FM,"OH S06 | Link, EchoLink, Wide | https://tinyurl.com/2b9fdjyf"
+194,Owensvil,147.345000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"OH S06 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/27pfhw2h"
+195,BeechIsl,443.125000,+,5.000000,Tone,91.5,88.5,23,NN,23,Tone->Tone,FM,"SC S06 | Sys, Nets | https://tinyurl.com/2bqpl8wo"
+196,Charlest,146.760000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"SC S06 | Sys, Nets | https://tinyurl.com/2cjmlzmy"
+197,Mullins-,145.470000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"SC S06 | Sys, EchoLink | https://tinyurl.com/24oqlyv8"
+198,York-W4P,443.375000,+,5.000000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"SC S06 | Sys, Wide | https://tinyurl.com/29bankmk"
+199,Brownsvi,444.525000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"TN S06 | Sys, Wide | https://tinyurl.com/2ajl882f"
+200,Cumberla,442.850000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"TN S06 | Sys, AllStar+EchoLink | https://tinyurl.com/23ueze6u"
+201,Gatlinbu,147.195000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"TN S06 | Link, AllStar+EchoLink | https://tinyurl.com/2bmevsqf"
+202,Waynesbo,443.950000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S06 | Sys | https://tinyurl.com/2393axh9
+203,Banco-Fo,443.250000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S06 | Sys, Wide | https://tinyurl.com/2b6n2q3c"
+204,Bluefiel,443.775000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,VA S06 | Sys | https://tinyurl.com/28s64b3n
+205,FancyGap,146.970000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"VA S06 | Sys, AllStar+EchoLink | https://tinyurl.com/28hkwe7h"
+206,NewportN,145.410000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S06 | Sys, Wide | https://tinyurl.com/thdaqf8"
+207,Roanoke-,145.390000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S06 | Link, AllStar, Wide | https://tinyurl.com/2a7sx7s3"
+208,Acree-Ra,146.820000,-,0.600000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,GA S05 | Sys | https://tinyurl.com/22tola8l
+209,Bolingbr,146.835000,-,0.600000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,GA S05 | Sys | https://tinyurl.com/2dp9rkg5
+210,Wrens-W4,147.120000,+,0.600000,Tone,71.9,88.5,23,NN,23,Tone->Tone,FM,GA S05 | Sys | https://tinyurl.com/29jjpmvm
+211,MtCarmel,442.150000,+,5.000000,TSQL,203.5,203.5,23,NN,23,Tone->Tone,FM,IL S05 | Sys | https://tinyurl.com/2des97cx
+212,Morocco-,145.330000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"IN S05 | Link, Wide | https://tinyurl.com/244kkrau"
+213,NoblesVl,145.170000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"IN S05 | Link, Wide | https://tinyurl.com/2dgb7oa2"
+214,NoblesVl,443.550000,+,5.000000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"IN S05 | Link, Wide | https://tinyurl.com/2ybyg4yh"
+215,RussiaVl,442.525000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S05 | Sys | https://tinyurl.com/26az7ktp
+216,Agnes-La,145.450000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"KY S05 | Link, AllStar+EchoLink | https://tinyurl.com/266qyxcw"
+217,Crestwoo,147.390000,+,0.600000,Tone,151.4,88.5,23,NN,23,Tone->Tone,FM,"KY S05 | Wide, Nets | https://tinyurl.com/24a2jgez"
+218,Elkton-J,146.700000,-,0.600000,DTCS,88.5,88.5,115,NN,115,Tone->Tone,FM,"KY S05 | Link, AllStar+EchoLink | https://tinyurl.com/2cmqu8gy"
+219,Liberty-,146.790000,-,0.600000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,"KY S05 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/228bqlwf"
+220,Somerset,146.880000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"KY S05 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/2d7lbaun | LCARA AC4DM Somerset-88 / AllStar 552850 + EchoLink / remote-RX tones 179.9 Downtown 136.5 MtVictory 110.9 Wayne"
+221,King-Sau,145.470000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S05 | Link, EchoLink, Wide, Nets | https://tinyurl.com/29cw3hrf"
+222,RoanokeR,146.745000,-,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"NC S05 | Link, Wide | https://tinyurl.com/24sy6fwt"
+223,Archbold,145.410000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"OH S05 | Link, Wide | https://tinyurl.com/2bfp6epj"
+224,SouthPoi,146.715000,-,0.600000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,"OH S05 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/23wnwmt6"
+225,Thompson,443.337500,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"OH S05 | Link, EchoLink, Wide | https://tinyurl.com/2yyn47on"
+226,Florence,146.685000,-,0.600000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/28z6ktw2"
+227,Florence,441.575000,+,5.000000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/26snfu3a"
+228,SevierVl,443.225000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/2c2u8ts6
+229,Montezum,146.640000,-,0.600000,Tone,97.4,88.5,23,NN,23,Tone->Tone,FM,GA S05 | Sys | https://tinyurl.com/24o2rzbt
+230,Moultrie,146.790000,-,0.600000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,GA S05 | Sys | https://tinyurl.com/29hck6lu
+231,Ringgold,443.525000,+,5.000000,Tone,146.2,88.5,23,NN,23,Tone->Tone,FM,"GA S05 | Sys, AllStar | https://tinyurl.com/24fucgpd"
+232,Galvesto,146.955000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S05 | Sys | https://tinyurl.com/2ypmw3n9
+233,Berea-Bi,146.715000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"KY S05 | Wide, Nets | https://tinyurl.com/247a2zcu"
+234,PineVll-,146.835000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"KY S05 | Link, AllStar+EchoLink | https://tinyurl.com/2699n5la"
+235,Aurora-N,145.270000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,NC S05 | Sys | https://tinyurl.com/29u8df8x
+236,Bath-K4B,146.955000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S05 | Sys, Wide | https://tinyurl.com/23yr4nru"
+237,Dallas-W,145.350000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"NC S05 | Wide, Nets | https://tinyurl.com/22brgsyu"
+238,Stacy-KD,444.000000,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,NC S05 | Sys | https://tinyurl.com/23k74hp7
+239,Wingate-,443.950000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"NC S05 | Sys, Wide | https://tinyurl.com/2c7soep5"
+240,Kenton-W,146.625000,-,0.600000,Tone,85.4,88.5,23,NN,23,Tone->Tone,FM,"OH S05 | Link, Wide | https://tinyurl.com/24cfsgkk"
+241,Lima-WB8,146.670000,-,0.600000,Cross,88.5,118.8,23,NN,23,->Tone,FM,"OH S05 | Link, EchoLink, Wide | https://tinyurl.com/22kukqxh"
+242,Toledo-D,442.550000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"OH S05 | Sys, Wide | https://tinyurl.com/256gpwhe"
+243,WhiteHal,146.910000,-,0.600000,Tone,156.7,88.5,23,NN,23,Tone->Tone,FM,SC S05 | Sys | https://tinyurl.com/273zz3s6
+244,Jefferso,443.725000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/25hagza7
+245,Milan-KA,442.675000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/2d7gb9l6
+246,Tullahom,443.950000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/28jszrd2
+247,Abingdon,145.210000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,VA S05 | Sys | https://tinyurl.com/23kpk2uf
+248,Antioch-,447.775000,-,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"VA S05 | Sys, Wide | https://tinyurl.com/245ymnk8"
+249,Covingto,444.375000,+,5.000000,DTCS,88.5,88.5,712,NN,712,Tone->Tone,FM,"VA S05 | Sys, Wide | https://tinyurl.com/2d65527d"
+250,Pearisbu,443.875000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S05 | Sys, Wide | https://tinyurl.com/2ykd8f5l"
+251,SthBosto,147.060000,-,0.600000,Tone,82.5,88.5,23,NN,23,Tone->Tone,FM,VA S05 | Sys | https://tinyurl.com/26wddp7j
+252,Tazewell,147.105000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,VA S05 | Sys | https://tinyurl.com/26zrlbn9
+253,Concord-,145.390000,-,0.600000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"GA S05 | Sys, AllStar | https://tinyurl.com/22wwksna"
+254,Douglas-,147.165000,+,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"GA S05 | Link, Wide | https://tinyurl.com/26k7yemd"
+255,GainesVl,146.670000,-,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"GA S05 | Wide, Nets | https://tinyurl.com/25klw8zb"
+256,Griffin-,443.600000,+,5.000000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"GA S05 | Sys, EchoLink | https://tinyurl.com/24zqsopm"
+257,SthPorts,147.330000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"KY S05 | Wide, Nets | https://tinyurl.com/27kvd2dt"
+258,Auburn-A,147.270000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S05 | Link, EchoLink, Wide, Nets | https://tinyurl.com/29zhjxc8"
+259,WinstonS,444.000000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S05 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2yppdj4s"
+260,Maplewoo,146.835000,-,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,"OH S05 | Link, Wide | https://tinyurl.com/27hjqt5c"
+261,Florence,442.050000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, EchoLink | https://tinyurl.com/2ajhjlm7"
+262,JohnsonC,443.950000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"TN S05 | Sys, AllStar | https://tinyurl.com/2dqzezz8"
+263,Stanton-,442.250000,+,5.000000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/2yjedbur
+264,KingGeor,146.745000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S05 | Sys, Nets | https://tinyurl.com/27kvaxgv"
+265,Hiawasse,146.865000,+,0.600000,Tone,151.4,88.5,23,NN,23,Tone->Tone,FM,"GA S05 | Wide, Nets | https://tinyurl.com/2dcx9854"
+266,Jasper-M,443.562500,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S05 | Sys, Nets | https://tinyurl.com/27fh662u"
+267,Rome-MtA,443.200000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S05 | Sys, Nets | https://tinyurl.com/23vh39d7"
+268,Toccoa-T,145.250000,-,0.600000,Tone,71.9,88.5,23,NN,23,Tone->Tone,FM,"GA S05 | Link, EchoLink, Wide, Nets | https://tinyurl.com/26eytp26"
+269,Valdosta,145.230000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,GA S05 | Sys | https://tinyurl.com/23yjmzg4
+270,Woodbury,443.800000,+,5.000000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"GA S05 | Sys, AllStar | https://tinyurl.com/2yczpt9l"
+271,AltoPass,146.850000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IL S05 | Link, AllStar+EchoLink, Wide, Nets | https://tinyurl.com/2ag5esmk"
+272,Athens-W,147.045000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S05 | Wide | https://tinyurl.com/26bvaphf
+273,Blooming,146.640000,-,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,IL S05 | Wide | https://tinyurl.com/27evjgj9
+274,Champaig,146.760000,-,0.600000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,"IL S05 | Link, EchoLink, Wide | https://tinyurl.com/27tahx3h"
+275,Inglesid,147.240000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,IL S05 | Sys | https://tinyurl.com/2auq9t92
+276,Princeto,444.925000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"IL S05 | Wide, Nets | https://tinyurl.com/27sc6u4s"
+277,Jasper-K,147.195000,+,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"IN S05 | Wide, Nets | https://tinyurl.com/2yhh9pdy"
+278,Muncie-K,444.350000,+,5.000000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,"IN S05 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2xpbapxc"
+279,Dorton-A,147.045000,+,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S05 | Sys, EchoLink | https://tinyurl.com/2beqm235"
+280,Martin-A,145.190000,-,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S05 | Sys, EchoLink | https://tinyurl.com/2xt2hz98"
+281,Prestons,145.310000,-,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"KY S05 | Sys, EchoLink | https://tinyurl.com/23zjt7rc"
+282,Stanton-,146.970000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"KY S05 | Sys, AllStar | https://tinyurl.com/2c4acoyk"
+283,Wellingt,444.800000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"KY S05 | Link, EchoLink, Wide | https://tinyurl.com/27edtnfe"
+284,Burgaw-N,147.375000,+,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S05 | Link, EchoLink, Wide | https://tinyurl.com/2yv6toox"
+285,Durham-W,145.370000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S05 | Sys, EchoLink | https://tinyurl.com/23vzjgaz"
+286,Gastonia,145.450000,-,0.600000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,"NC S05 | Link, Wide | https://tinyurl.com/2bjs35kt"
+287,Goldsbor,443.000000,+,5.000000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S05 | Link, EchoLink, Wide | https://tinyurl.com/23rdwfdc"
+288,GreenVll,444.725000,+,5.000000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"NC S05 | Sys, Wide | https://tinyurl.com/22z3s4bh"
+289,Kinston-,442.000000,+,5.000000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,NC S05 | Sys | https://tinyurl.com/29y22rqg
+290,Oriental,147.210000,+,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S05 | Link, EchoLink, Wide | https://tinyurl.com/2cvlxg2y"
+291,Williams,444.250000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,NC S05 | Sys | https://tinyurl.com/2yuql2hz
+292,Belpre-W,146.970000,-,0.600000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"OH S05 | Link, EchoLink, Wide, Nets | https://tinyurl.com/275mbjmt"
+293,Columbus,145.110000,-,0.600000,Tone,67.0,88.5,23,NN,23,Tone->Tone,FM,"OH S05 | Link, EchoLink, Nets | https://tinyurl.com/2683utcr"
+294,HuberHgh,442.950000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"OH S05 | Link, EchoLink, Wide | https://tinyurl.com/26wpk3ef"
+295,Johnstow,147.090000,+,0.600000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,OH S05 | Sys | https://tinyurl.com/2ylazvdl
+296,Lancaste,146.700000,-,0.600000,Tone,94.8,88.5,23,NN,23,Tone->Tone,FM,"OH S05 | Link, EchoLink, Wide | https://tinyurl.com/2d43apry"
+297,Marietta,443.050000,+,5.000000,Tone,186.2,88.5,23,NN,23,Tone->Tone,FM,"OH S05 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/29gm9c87"
+298,Middleto,146.610000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"OH S05 | Link, EchoLink, Wide | https://tinyurl.com/2yaoazum"
+299,Toledo-N,444.950000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"OH S05 | Link, EchoLink, Wide | https://tinyurl.com/2932zeqb"
+300,Aynor-WR,441.675000,+,5.000000,Tone,162.2,88.5,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/26oexdbf"
+301,Barnwell,442.000000,+,5.000000,Tone,91.5,88.5,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/254fsbyj"
+302,Charlest,147.105000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/2yaychnj"
+303,Charlest,441.575000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/2abjsu98"
+304,Columbia,146.715000,-,0.600000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/28qbe2d9"
+305,KnightsV,146.940000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,SC S05 | Sys | https://tinyurl.com/2xnvrmcx
+306,Spartanb,147.090000,+,0.600000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,SC S05 | Sys | https://tinyurl.com/24v2hoqb
+307,WhiteHal,146.715000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"SC S05 | Sys, Nets | https://tinyurl.com/28kbc5bg"
+308,Athens-K,442.275000,+,5.000000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,"TN S05 | Link, Wide | https://tinyurl.com/2br87p8t"
+309,CHA-Sign,144.920000,+,2.500000,DTCS,88.5,88.5,73,NN,73,Tone->Tone,FM,"TN S05 | Link, AllStar+EchoLink | https://tinyurl.com/2au9ymjo"
+310,CHA-Sign,442.425000,+,5.000000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,"TN S05 | Link, AllStar, Wide | https://tinyurl.com/2cwzkz87"
+311,Clevelan,146.925000,-,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"TN S05 | Link, AllStar, Wide | https://tinyurl.com/2yy9qoca"
+312,Crossvil,147.345000,+,0.600000,Tone,118.8,88.5,23,NN,23,Tone->Tone,FM,"TN S05 | Link, AllStar | https://tinyurl.com/25agfnex"
+313,Crossvil,443.875000,+,5.000000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/2b7mb3l8
+314,FayetteV,442.300000,+,5.000000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/23wojosh
+315,Gatlinbu,444.900000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/2ar4r4cv
+316,GreeneVl,443.575000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S05 | Link, Wide | https://tinyurl.com/2auejyjm"
+317,NolensVl,443.725000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"TN S05 | Sys, Nets | https://tinyurl.com/29agdw9q"
+318,OakRidge,441.925000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S05 | Sys, Nets | https://tinyurl.com/27fvjtjr"
+319,Petros-F,147.255000,+,0.600000,Tone,94.8,88.5,23,NN,23,Tone->Tone,FM,TN S05 | Sys | https://tinyurl.com/27ga37y7
+320,FancyGap,442.425000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S05 | Link, EchoLink, Wide | https://tinyurl.com/2afqcsdb"
+321,Richmond,442.550000,+,5.000000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,VA S05 | Sys | https://tinyurl.com/2ayefbt3
+322,GainesVl,147.300000,+,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Wide | https://tinyurl.com/23co9cnw
+323,Toccoa-C,147.330000,+,0.600000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,"GA S04 | Wide, Nets | https://tinyurl.com/26z42z2y"
+324,BlueIsl-,146.640000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide, Nets | https://tinyurl.com/288vs3ar"
+325,Danville,146.820000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IL S04 | Wide, Nets | https://tinyurl.com/26dz9oyc"
+326,MtPulask,442.800000,+,5.000000,TSQL,203.5,203.5,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide | https://tinyurl.com/27tzzb9n"
+327,Warsaw-K,443.050000,+,5.000000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,"IN S04 | Link, Wide | https://tinyurl.com/2yy9l8rg"
+328,Calabash,444.750000,+,5.000000,Tone,118.8,88.5,23,NN,23,Tone->Tone,FM,"NC S04 | Link, AllStar | https://tinyurl.com/25h9gvjz"
+329,FortReco,442.675000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, EchoLink, Wide | https://tinyurl.com/2b8ne9ms"
+330,SaintCla,145.210000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2azr3rn7"
+331,Wayne-N1,444.287500,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2ycrgp8q"
+332,Blacksbu,146.880000,-,0.600000,TSQL,67.0,67.0,23,NN,23,Tone->Tone,FM,"SC S04 | Link, EchoLink, Wide, Nets | https://tinyurl.com/2do6hx8f"
+333,Chester-,145.310000,-,0.600000,DTCS,88.5,88.5,145,NN,145,Tone->Tone,FM,"SC S04 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2ayr4t66"
+334,Lexingto,147.000000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,SC S04 | Wide | https://tinyurl.com/2afg2orl
+335,Walhalla,145.290000,-,0.600000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,"SC S04 | Link, EchoLink, Wide | https://tinyurl.com/22cy47k5"
+336,MEM-WATN,146.820000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,TN S04 | Wide | https://tinyurl.com/282rtd22
+337,Oakland-,146.940000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"TN S04 | Link, EchoLink, Wide | https://tinyurl.com/2amctx82"
+338,Ripley-K,145.230000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,TN S04 | Wide | https://tinyurl.com/27htgxlp
+339,UnionCty,442.950000,+,4.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S04 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2xwpdj7j"
+340,Jarrett-,146.625000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S04 | Link, Wide | https://tinyurl.com/284nqz6u"
+341,Smithfie,147.195000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S04 | Link, EchoLink, Wide | https://tinyurl.com/23aon56c"
+342,Bowdon-A,443.850000,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Wide | https://tinyurl.com/27yfsr4y
+343,Dalton-D,147.135000,+,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,GA S04 | Wide | https://tinyurl.com/2y85b2j5
+344,Dalton-D,442.175000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,GA S04 | Wide | https://tinyurl.com/23fgbob3
+345,Greensbo,147.090000,+,0.600000,Cross,186.2,100.0,23,NN,23,Tone->Tone,FM,"GA S04 | Link, Wide | https://tinyurl.com/22bqtrxk"
+346,Peachtre,442.500000,+,5.000000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Sys | https://tinyurl.com/27wqyhyv
+347,Tyrone-K,444.675000,+,5.000000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Sys | https://tinyurl.com/28tkjdk6
+348,Godfrey-,145.230000,-,0.600000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide | https://tinyurl.com/24s8vn9c"
+349,Kickapoo,146.760000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S04 | Link, AllStar+EchoLink | https://tinyurl.com/24zy6l7q"
+350,Metamora,146.610000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink | https://tinyurl.com/28pmj98o"
+351,Greenfie,145.330000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IN S04 | Link, Wide | https://tinyurl.com/235tospy"
+352,Warsaw-K,146.985000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"IN S04 | Link, Wide | https://tinyurl.com/2agzmd8s"
+353,Lancaste,442.200000,+,5.000000,Tone,67.0,88.5,23,NN,23,Tone->Tone,FM,"KY S04 | Link, AllStar+EchoLink | https://tinyurl.com/2bgsoprg"
+354,Lebanon-,145.210000,-,0.600000,Tone,146.2,88.5,23,NN,23,Tone->Tone,FM,KY S04 | Wide | https://tinyurl.com/2dapbjdo
+355,Chocowin,147.255000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S04 | Link, EchoLink, Wide | https://tinyurl.com/229f8j6o"
+356,Gastonia,444.550000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S04 | Link, Wide | https://tinyurl.com/2d7wjm2k"
+357,HayesVll,444.675000,+,5.000000,TSQL,186.2,186.2,23,NN,23,Tone->Tone,FM,"NC S04 | Link, AllStar+EchoLink | https://tinyurl.com/29wzx6f3"
+358,JacksonV,147.000000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S04 | Link, EchoLink, Wide, Nets | https://tinyurl.com/29xg2gtb"
+359,MarsHl-W,147.180000,+,0.600000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,NC S04 | Wide | https://tinyurl.com/275efyfq | WCARS: K4MFD Wolf Ridge site (Madison)
+360,Pollocks,146.610000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S04 | Link, EchoLink, Wide | https://tinyurl.com/2648m9dl"
+361,Bainbrid,146.925000,-,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2dd56x59"
+362,Cadiz-WB,146.655000,-,0.600000,Tone,114.8,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/28rdojuq"
+363,Chillico,146.850000,-,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2y2hpyod"
+364,Fayette-,443.537500,+,5.000000,Tone,67.0,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, AllStar+EchoLink | https://tinyurl.com/2dnuruh7"
+365,Findlay-,147.150000,+,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2c6lx6jj"
+366,Georgeto,146.730000,-,0.600000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/28yl56ll"
+367,Hannibal,147.240000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/28lo2hnk"
+368,Leesburg,444.037500,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/27cpt3hm"
+369,Lithopol,145.210000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2yhxls79"
+370,Londonde,147.015000,+,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/27le8bvn"
+371,MountOra,442.200000,+,5.000000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/29ofj78y"
+372,Newbury-,147.015000,+,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S04 | Link, AllStar, Nets | https://tinyurl.com/2c6trwct"
+373,Newport-,443.600000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, AllStar+EchoLink | https://tinyurl.com/246yty73"
+374,Sidney-K,443.200000,+,5.000000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2xt7ot9h"
+375,SthWebst,145.390000,-,0.600000,Tone,136.5,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, AllStar+EchoLink | https://tinyurl.com/2a44j6kk"
+376,Toledo-U,147.270000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide, Nets | https://tinyurl.com/27u2kkco"
+377,Uniontow,442.000000,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, EchoLink, Wide | https://tinyurl.com/24oaevo8"
+378,Urbana-N,147.135000,+,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/258r442p"
+379,Widowvil,147.105000,+,0.600000,TSQL,71.9,71.9,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/288ofdpm"
+380,Wooster-,147.210000,+,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2c6p6q8w"
+381,CHS-USSY,146.790000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/24foprkx
+382,HardeeVl,147.060000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,SC S04 | Wide | https://tinyurl.com/29b69o9f
+383,NrthCHS-,146.730000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/267kkmpf
+384,WhiteHal,441.675000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2xngqldg
+385,Bristol-,146.880000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Wide | https://tinyurl.com/2cvkmaf5
+386,CHA-Sign,146.640000,-,0.600000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,"TN S04 | Link, AllStar+EchoLink | https://tinyurl.com/257l2vxh"
+387,ElkCreek,147.240000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S04 | Link, AllStar | https://tinyurl.com/2dh93x9w"
+388,MtLk-Bal,146.910000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,VA S04 | Wide | https://tinyurl.com/2cfhh7ye
+389,Roanoke-,146.745000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S04 | Link, EchoLink, Nets | https://tinyurl.com/2ah3ut7j"
+390,RockyMt-,442.675000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S04 | Link, AllStar | https://tinyurl.com/27rxq5g2"
+391,Smithfie,442.825000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"VA S04 | Link, EchoLink, Wide | https://tinyurl.com/2a6fms8q"
+392,Suffolk-,146.790000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S04 | Link, Wide | https://tinyurl.com/28w3el8t"
+393,Eatonton,146.655000,-,0.600000,Cross,186.2,100.0,23,NN,23,Tone->Tone,FM,"GA S04 | Link, Wide | https://tinyurl.com/2xlfmdnl"
+394,Fitzgera,444.400000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"GA S04 | Link, Wide | https://tinyurl.com/28w2uqhw"
+395,Irwinton,443.275000,+,5.000000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Sys | https://tinyurl.com/2buoblku
+396,Kingslan,146.835000,-,0.600000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,GA S04 | Sys | https://tinyurl.com/2c9e2ktt
+397,LaGrange,146.700000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"GA S04 | Link, Wide | https://tinyurl.com/262zjam6"
+398,SAV-WSAV,442.700000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"GA S04 | Link, EchoLink, Wide | https://tinyurl.com/24bgyh5t"
+399,Chana-N9,147.165000,+,0.600000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,IL S04 | Wide | https://tinyurl.com/2dhccwys
+400,Quincy-W,147.030000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S04 | Wide | https://tinyurl.com/2y4k7p8z
+401,Salem-I5,147.270000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S04 | Wide | https://tinyurl.com/25fozzle
+402,Cincinna,147.240000,+,0.600000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,IN S04 | Wide | https://tinyurl.com/24c6dlrw
+403,Frankfor,147.045000,+,0.600000,TSQL,173.8,173.8,23,NN,23,Tone->Tone,FM,IN S04 | Sys | https://tinyurl.com/22s4orzc
+404,Napoleon,146.805000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,IN S04 | Wide | https://tinyurl.com/28k4h8z8
+405,Fredonia,147.285000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"KY S04 | Link, EchoLink, Wide | https://tinyurl.com/2cdc7vcs"
+406,Graefenb,443.550000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"KY S04 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/22eahqnn"
+407,Versaill,145.330000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"KY S04 | Link, EchoLink, Wide | https://tinyurl.com/29s3yx9y"
+408,Madison-,147.345000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"NC S04 | Wide, Nets | https://tinyurl.com/24w6mmq3"
+409,SaintPau,147.045000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,NC S04 | Wide | https://tinyurl.com/23dnnrec
+410,Columbus,146.760000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/22ajbxer"
+411,Dayton-W,145.110000,-,0.600000,TSQL,67.0,67.0,23,NN,23,Tone->Tone,FM,"OH S04 | Link, EchoLink, Nets | https://tinyurl.com/29ynmllz"
+412,Delaware,145.190000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/27q2lpjf"
+413,EstLiver,146.700000,-,0.600000,Tone,162.2,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, EchoLink | https://tinyurl.com/243jabzz"
+414,Troy-W8F,145.230000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide, Nets | https://tinyurl.com/23upx37f"
+415,BrownsVl,147.315000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/27nqm3bn
+416,CHA-WDEF,146.790000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"TN S04 | Link, EchoLink, Wide | https://tinyurl.com/26mp2uvv"
+417,CHA-Look,145.390000,-,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"TN S04 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2yth2ldw"
+418,Covingto,146.970000,-,0.600000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"VA S04 | Link, EchoLink, Nets | https://tinyurl.com/236xdu6p"
+419,Hillsvil,147.045000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"VA S04 | Link, EchoLink, Wide | https://tinyurl.com/23a2qwuc"
+420,Lynchbur,147.195000,+,0.600000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,"VA S04 | Link, EchoLink, Wide | https://tinyurl.com/25pbb3bh"
+421,Portsmou,146.850000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"VA S04 | Link, Wide, Nets | https://tinyurl.com/2bmyv5tg"
+422,Americus,147.270000,+,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Wide | https://tinyurl.com/2yd4q76q
+423,Butler-W,444.950000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,GA S04 | Sys | https://tinyurl.com/2alcxccg
+424,Grovetow,147.195000,+,0.600000,Tone,71.9,88.5,23,NN,23,Tone->Tone,FM,"GA S04 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2c68h86q"
+425,Hahira-W,444.475000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,GA S04 | Wide | https://tinyurl.com/284xa2k7
+426,Irwinton,147.240000,+,0.600000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Sys | https://tinyurl.com/2y3z8e8v
+427,Marietta,147.535000,-,0.940000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"GA S04 | Link, Wide | https://tinyurl.com/2bybd6jm"
+428,ThomasVl,147.060000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,GA S04 | Sys | https://tinyurl.com/259n43y6
+429,WarnerRo,147.300000,+,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"GA S04 | Link, EchoLink, Wide | https://tinyurl.com/2ctht4rt"
+430,Decatur-,146.730000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide, Nets | https://tinyurl.com/2c4gj6o2"
+431,Dixon-W9,444.800000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S04 | Link, Wide | https://tinyurl.com/23mpxqw7"
+432,DownersG,442.875000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide | https://tinyurl.com/p4nvrfk"
+433,Flora-Wa,146.700000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S04 | Wide | https://tinyurl.com/223z3djp
+434,Herald-W,147.300000,+,0.600000,DTCS,88.5,88.5,23,NN,23,Tone->Tone,FM,IL S04 | Link | https://tinyurl.com/22exxkvg
+435,Herod-Wi,146.880000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IL S04 | Link, Wide | https://tinyurl.com/25umuwhb"
+436,Hinsdale,146.970000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IL S04 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/2dyrzkr9"
+437,JacksonV,146.775000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide | https://tinyurl.com/25kkd8gy"
+438,Marion-W,146.640000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide | https://tinyurl.com/2d3ehjb6"
+439,Morris-N,443.350000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"IL S04 | Link, AllStar | https://tinyurl.com/22bxssa4"
+440,Schaumbu,145.230000,-,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"IL S04 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/2c5knmmb"
+441,Tuscola-,444.450000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"IL S04 | Link, EchoLink, Wide | https://tinyurl.com/2bc3ffjx"
+442,Attica-W,443.675000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,IN S04 | Sys | https://tinyurl.com/2decdk65
+443,Boonvill,147.075000,+,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,IN S04 | Wide | https://tinyurl.com/25kf2yjl
+444,CrownPoi,444.250000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"IN S04 | Link, Wide | https://tinyurl.com/2ab9lpgn"
+445,FloydsKn,444.200000,+,5.000000,TSQL,67.0,67.0,23,NN,23,Tone->Tone,FM,"IN S04 | Link, AllStar, Wide | https://tinyurl.com/2b8hxoqt"
+446,Frankfor,442.575000,+,5.000000,TSQL,173.8,173.8,23,NN,23,Tone->Tone,FM,IN S04 | Sys | https://tinyurl.com/25fmmbx8
+447,Greencas,147.330000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,IN S04 | Wide | https://tinyurl.com/2d79r3db
+448,Loogoote,147.285000,+,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,IN S04 | Wide | https://tinyurl.com/27o7gxbz
+449,Montclai,442.900000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,IN S04 | Sys | https://tinyurl.com/23c8xwbh
+450,Plymouth,147.285000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"IN S04 | Link, EchoLink | https://tinyurl.com/298qrd7p"
+451,Boone-Ri,147.360000,+,0.600000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,NC S04 | Sys | https://tinyurl.com/2azx6vzw
+452,Buxton-K,442.425000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S04 | Link, EchoLink, Wide | https://tinyurl.com/28vsj7mx"
+453,Connelly,147.045000,+,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"NC S04 | Link, EchoLink, Wide | https://tinyurl.com/2csqo68b"
+454,Grantsbo,145.230000,-,0.600000,Tone,85.4,88.5,23,NN,23,Tone->Tone,FM,NC S04 | Wide | https://tinyurl.com/225alz9z
+455,Grantsbo,444.875000,+,5.000000,Tone,85.4,88.5,23,NN,23,Tone->Tone,FM,NC S04 | Wide | https://tinyurl.com/23fxjw3b
+456,Henderso,145.270000,-,0.600000,Tone,91.5,88.5,23,NN,23,Tone->Tone,FM,NC S04 | Sys | https://tinyurl.com/2dfnmzss
+457,Hertford,146.835000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,NC S04 | Sys | https://tinyurl.com/2alp23tp
+458,Highland,444.650000,+,5.000000,TSQL,167.9,167.9,23,NN,23,Tone->Tone,FM,"NC S04 | Link, Wide | https://tinyurl.com/2b6dmaf6"
+459,McCain-M,146.805000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,NC S04 | Wide | https://tinyurl.com/29xchqc7
+460,Oriental,145.390000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,NC S04 | Wide | https://tinyurl.com/2bcu9kt4
+461,RockyMou,147.180000,+,0.600000,Tone,82.5,88.5,23,NN,23,Tone->Tone,FM,NC S04 | Sys | https://tinyurl.com/23tddlgk
+462,Rougemon,443.275000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S04 | Link, Wide | https://tinyurl.com/2bwx2fj4"
+463,WaynesVl,444.875000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"NC S04 | Link, Wide | https://tinyurl.com/2bsqs8th"
+464,Winnabow,147.345000,+,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,NC S04 | Sys | https://tinyurl.com/233q4agl
+465,Zebulon-,442.400000,+,5.000000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S04 | Link, Wide | https://tinyurl.com/2bpfawuo"
+466,AKRN-Spr,444.200000,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, AllStar, Wide | https://tinyurl.com/29bax4sl"
+467,Akron-W8,145.170000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/27dyv6yo"
+468,Alliance,145.370000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S04 | Link, EchoLink, Wide | https://tinyurl.com/2y7fteyg"
+469,Cncnti-K,444.075000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2c6d8td2"
+470,Cincinna,145.190000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2dzduhxo"
+471,Doylesto,147.390000,+,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"OH S04 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/2d8wxu6q"
+472,Elyria-K,146.700000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2apusl8p"
+473,Elyria-L,147.150000,+,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S04 | Link, EchoLink, Wide | https://tinyurl.com/29jtkyhk"
+474,Greenfie,146.685000,-,0.600000,Tone,118.8,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/28udpzf6"
+475,Lexingto,444.350000,+,5.000000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2bg4q7qp"
+476,Owensvil,443.450000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/29onhr5a"
+477,Polk-N8S,145.130000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/2329wsw9"
+478,Springbo,145.490000,-,0.600000,Cross,123.0,77.0,23,NN,23,Tone->Tone,FM,"OH S04 | Link, EchoLink, Wide | https://tinyurl.com/2a5fbh5k"
+479,SteubenV,147.060000,+,0.600000,Tone,114.8,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Nets | https://tinyurl.com/26zq9cvd"
+480,Toledo-W,146.835000,-,0.600000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,"OH S04 | Link, Wide | https://tinyurl.com/22pnxgju"
+481,Charlest,444.775000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2azoo6ej
+482,Dillon-W,146.745000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/27v7xwnf
+483,Dorchest,443.800000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2xzdqq8o
+484,Georgeto,146.700000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2cl7utmq
+485,Greenwoo,147.165000,+,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"SC S04 | Link, EchoLink, Wide | https://tinyurl.com/29c8lsfm"
+486,KnightsV,441.450000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2bsp2f2w
+487,RockHill,147.030000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"SC S04 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/25zxca9t"
+488,Spartanb,441.950000,+,5.000000,Tone,162.2,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/29dvc2tj
+489,SummerVl,146.985000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/24jnl6qg
+490,Union-K4,146.835000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2a4eqbd5
+491,Walterbo,147.135000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2yxk4ryu
+492,Walterbo,444.850000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,SC S04 | Sys | https://tinyurl.com/2deg772o
+493,CHA-Sign,443.125000,+,5.000000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/2bmknhh5
+494,Clevelan,442.025000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/25jq9hmh
+495,Columbia,442.725000,+,5.000000,Cross,88.5,100.0,23,NN,23,->Tone,FM,TN S04 | Sys | https://tinyurl.com/23u3v9lz
+496,Cookevil,444.600000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/2ykrr73u
+497,Cookevil,147.210000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"TN S04 | Link, EchoLink, Wide | https://tinyurl.com/2c8lyem5"
+498,CrossVll,443.850000,+,5.000000,Cross,88.5,118.8,23,NN,23,->Tone,FM,TN S04 | Sys | https://tinyurl.com/26upmgnp
+499,DupontSp,444.000000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/2aat3wdz
+500,Eaton-KI,147.270000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,TN S04 | Wide | https://tinyurl.com/23fdhfmu
+501,GreeneVl,443.825000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,TN S04 | Wide | https://tinyurl.com/22ntysam
+502,Heritage,443.075000,+,5.000000,Tone,156.7,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/2bwsu6x8
+503,Hixson-W,444.450000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"TN S04 | Link, Wide | https://tinyurl.com/24olesz6"
+504,Jackson-,444.875000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/24ellddt
+505,Knoxvill,444.500000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/24zlcvgd
+506,LobelVll,442.850000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/28sbdnr5
+507,Maryvill,443.900000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/238f2odz
+508,McEwen-W,443.375000,+,5.000000,Tone,114.8,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/23e2p54u
+509,Morristo,444.725000,+,5.000000,Tone,156.7,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/2bjegarz
+510,Nashvill,442.800000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/2yw4gqu6
+511,Newport-,443.300000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,TN S04 | Wide | https://tinyurl.com/279gvzyy
+512,SignalMt,442.150000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/2yoc34qd
+513,Woodbury,444.650000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,TN S04 | Sys | https://tinyurl.com/29tuf52p
+514,Crozet-B,146.895000,-,0.600000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,"VA S04 | Link, Wide | https://tinyurl.com/277xhc26"
+515,FancyGap,444.150000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/2c3zvew5
+516,Floyd-W4,147.210000,+,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,VA S04 | Wide | https://tinyurl.com/27gqy3eg
+517,FrontRoy,442.725000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/2xtvjze4
+518,GordonsV,147.120000,+,0.600000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,"VA S04 | Link, EchoLink, Wide | https://tinyurl.com/29xaxc4g"
+519,Hanover-,145.110000,-,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,VA S04 | Wide | https://tinyurl.com/2cv5x2u3
+520,Honaker-,147.075000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/22s2m79d
+521,KingGeor,146.775000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/2xqxrlre
+522,Madison-,147.030000,+,0.600000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,"VA S04 | Link, AllStar, Wide | https://tinyurl.com/24d35f83"
+523,Marion-K,146.640000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"VA S04 | Wide, Nets | https://tinyurl.com/27bwwgmr"
+524,Norton-H,443.737500,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/26hsvtnd
+525,Powhatan,147.315000,+,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,VA S04 | Wide | https://tinyurl.com/2cq5alzn
+526,SthHl-Co,145.470000,-,0.600000,Tone,82.5,88.5,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/27dr3kgt
+527,Staunton,145.170000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/27shhefh
+528,Staunton,444.200000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/23bkty7c
+529,Vesta-Lo,444.700000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,VA S04 | Sys | https://tinyurl.com/22yxdw2y
+530,Barnesvi,147.225000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/23ascu4s
+531,Dallas-W,146.955000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"GA S03 | Link, EchoLink, Nets | https://tinyurl.com/22b5xlok"
+532,Folkston,146.790000,-,0.600000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,"GA S03 | Link, AllStar+EchoLink | https://tinyurl.com/2ywobown"
+533,Morganto,147.165000,+,0.600000,Tone,151.4,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2cbnxfvn
+534,Nicholls,145.250000,-,0.600000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/26hg2zm2
+535,Roswell-,147.060000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S03 | Link, EchoLink, Wide | https://tinyurl.com/24f8ypyt"
+536,Benton-K,146.805000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/25hrenwt
+537,Dixon-WX,146.970000,-,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink, Wide | https://tinyurl.com/234a8l9s"
+538,MountCar,442.325000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/22jw6c48
+539,Virden-K,147.090000,+,0.600000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/27pmbgoa
+540,Woodstoc,146.835000,-,0.600000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"IL S03 | Wide, Nets | https://tinyurl.com/2975yga3"
+541,FortWayn,146.880000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"IN S03 | Wide, Nets | https://tinyurl.com/28asjk5p"
+542,Lebanon-,147.105000,+,0.600000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/2au4vo97
+543,Leopold-,145.190000,-,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/28o7bunc
+544,Middlebu,146.640000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"IN S03 | Link, EchoLink, Wide | https://tinyurl.com/26r8h7d5"
+545,Peru-K9Z,147.345000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"IN S03 | Link, EchoLink, Nets | https://tinyurl.com/2yktn77s"
+546,Reynolds,147.255000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/24gft5jr
+547,ShelbyVl,145.480000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/2asqa7s6
+548,Vincenne,443.675000,+,5.000000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/25mxgs57
+549,Brooks-W,146.700000,-,0.600000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,"KY S03 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/2djdyvmg"
+550,DanVll-P,145.310000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/23cjrapj
+551,Gastonia,147.120000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink | https://tinyurl.com/2b39myw5"
+552,Wilson-W,444.900000,+,5.000000,Tone,179.9,88.5,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink | https://tinyurl.com/23n5d4hz"
+553,Canton-C,147.120000,+,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/24b92gy8"
+554,Cncnti-M,146.880000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink, Wide | https://tinyurl.com/2co9mkaz"
+555,London-K,147.285000,+,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/2asr4jz9"
+556,Wapakone,442.150000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/22jmo9rc
+557,BeanStat,443.450000,+,5.000000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2a7npvjw
+558,Jonesbor,443.100000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/248dkter"
+559,Amherst-,145.490000,-,0.600000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2czjahat
+560,CarnesVl,146.895000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/23ddk4eg
+561,ClarkesV,145.390000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/23hpo5re
+562,Claxton-,147.075000,+,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/265s3v55
+563,Ellersli,441.975000,+,5.000000,Tone,67.0,88.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, AllStar | https://tinyurl.com/236nb9q5"
+564,Evans-K4,146.985000,-,0.600000,TSQL,71.9,71.9,23,NN,23,Tone->Tone,FM,"GA S03 | Link, EchoLink, Wide, Nets | https://tinyurl.com/29o2lojg"
+565,Newnan-K,145.130000,-,0.600000,Tone,156.7,88.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, EchoLink, Wide | https://tinyurl.com/2382lmcf"
+566,Perry-Ho,146.955000,-,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, EchoLink | https://tinyurl.com/2de8z7ym"
+567,SnellVll,147.075000,+,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, EchoLink, Wide | https://tinyurl.com/2cnyuxvz"
+568,SummerVl,147.225000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2a7ujh6q
+569,Sumner-W,444.800000,+,5.000000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/28edc6uw
+570,Allerton,147.285000,+,0.600000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2abgmjt8
+571,Anna-Uni,443.575000,+,5.000000,TSQL,192.8,192.8,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/22bfxnck
+572,Carbonda,146.730000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2b66s37m
+573,DownersG,444.475000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S03 | Wide, Nets | https://tinyurl.com/2bnefd52"
+574,Effingha,146.895000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/25edbllu
+575,Elsah-Pr,145.310000,-,0.600000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2c9u66e6
+576,Elvaston,145.210000,-,0.600000,TSQL,97.4,97.4,23,NN,23,Tone->Tone,FM,"IL S03 | Link, AllStar, Wide | https://tinyurl.com/29jafcms"
+577,Freeport,147.300000,+,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/262y5sy8
+578,Freeport,442.000000,+,5.000000,TSQL,146.2,146.2,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink | https://tinyurl.com/27f7hxlg"
+579,Ina-Rend,145.190000,-,0.600000,TSQL,71.9,71.9,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/29bjr2b4
+580,Lovingto,444.275000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink | https://tinyurl.com/28yavyt3"
+581,MtVernon,147.135000,+,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2bf7xn2p
+582,Peoria-P,443.175000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S03 | Link, Wide | https://tinyurl.com/227x84bj"
+583,Robinson,147.360000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/27cw8yov
+584,RockIsla,146.775000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2y6sdwt6
+585,Vandalia,146.745000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2cr7c9np
+586,Wheaton-,444.275000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink, Wide | https://tinyurl.com/266f2868"
+587,Winnebag,442.350000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink | https://tinyurl.com/24azjm28"
+588,Bremen-W,145.190000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/276lxhr5
+589,Columbia,147.270000,+,0.600000,TSQL,97.4,97.4,23,NN,23,Tone->Tone,FM,"IN S03 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/2yxjg5dt"
+590,HortonVl,146.865000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/228lvaxb
+591,Lawrence,147.285000,+,0.600000,Tone,146.2,88.5,23,NN,23,Tone->Tone,FM,"IN S03 | Link, AllStar+EchoLink | https://tinyurl.com/2yo5zvzz"
+592,Lawrence,443.875000,+,5.000000,Tone,146.2,88.5,23,NN,23,Tone->Tone,FM,"IN S03 | Link, AllStar+EchoLink | https://tinyurl.com/2bqqy8pz"
+593,Lynn-K9N,441.512500,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/2cd2g2kz
+594,Newburgh,145.430000,-,0.600000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/22h4q6ee
+595,OgdenDun,443.000000,+,5.000000,TSQL,173.8,173.8,23,NN,23,Tone->Tone,FM,"IN S03 | Link, AllStar | https://tinyurl.com/28esgkq3"
+596,Corbin-W,146.610000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"KY S03 | Link, EchoLink, Nets | https://tinyurl.com/23hmr5ub"
+597,HopkinsV,444.750000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"KY S03 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/22q5bzz3"
+598,Prspct-C,145.280000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"KY S03 | Link, EchoLink | https://tinyurl.com/2anco58y"
+599,Carthage,145.020000,+,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2yevl664
+600,GraysCre,442.450000,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"NC S03 | Link, AllStar | https://tinyurl.com/2b35mpxh"
+601,Hampstea,146.940000,-,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/263zmlhs
+602,Hampstea,443.550000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink, Wide | https://tinyurl.com/29yklj94"
+603,King-Sau,147.315000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S03 | Wide, Nets | https://tinyurl.com/2762majh"
+604,Laurinbu,146.625000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/24rcw6t5
+605,Lumberto,147.360000,+,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2ygktr5h
+606,Marion-W,146.985000,-,0.600000,Tone,118.8,88.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/273yajoj
+607,Moyock-W,443.025000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/264h2fpe
+608,Rockingh,147.510000,-,2.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2yn23j9q
+609,Scotland,444.075000,+,5.000000,TSQL,203.5,203.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2yqkn99r
+610,Ashland-,444.037500,+,5.000000,TSQL,71.9,71.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide, Nets | https://tinyurl.com/2bk3lkx8"
+611,Bellbroo,147.045000,+,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"OH S03 | Link, AllStar+EchoLink | https://tinyurl.com/28tc9k5x"
+612,Columbus,146.670000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink, Wide | https://tinyurl.com/26khow4c"
+613,Defiance,147.090000,+,0.600000,Cross,123.0,107.2,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/23qfw5u4"
+614,Greenfie,444.775000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/288qf28g"
+615,Hillsbor,147.210000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/24nqssoe"
+616,Hillsbor,444.675000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2amant7e"
+617,JacksonV,147.225000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/2agjvbdf
+618,Kent-K8I,146.895000,-,0.600000,Tone,118.8,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink, Nets | https://tinyurl.com/28cmek34"
+619,Lakewood,146.880000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, AllStar | https://tinyurl.com/28d3jf5k"
+620,Mentor-L,145.210000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/264kwoxt"
+621,Mentor-L,444.475000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"OH S03 | Link, AllStar+EchoLink | https://tinyurl.com/2amwrb76"
+622,MtVernon,146.790000,-,0.600000,TSQL,71.9,71.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/2yogq538"
+623,MtVernon,444.600000,+,5.000000,TSQL,71.9,71.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2xotvk74"
+624,Pataskal,147.330000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/276r4vqe
+625,PennsVll,444.400000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, AllStar, Wide | https://tinyurl.com/24llfo6o"
+626,Rogers-A,444.912500,+,5.000000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,OH S03 | Wide | https://tinyurl.com/2bro6x4b
+627,Toledo-N,146.940000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2aglyrx8"
+628,Urbana-A,146.955000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2ce2qo5x"
+629,Xenia-Fi,443.100000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/27cqamw6
+630,AdamsRun,147.345000,+,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/2ccjbbzx
+631,Bowman-K,146.835000,-,0.600000,TSQL,179.9,179.9,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/22klrjsu
+632,Columbia,444.875000,+,5.000000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"SC S03 | Link, AllStar, Wide | https://tinyurl.com/2yecd3go"
+633,Greenwoo,443.900000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,SC S03 | Nets | https://tinyurl.com/24qqvduh
+634,Marion-K,147.000000,-,0.600000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/2dmqhogt
+635,MtRest-L,442.775000,+,5.000000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,"SC S03 | Link, EchoLink, Wide, Nets | https://tinyurl.com/262nr2pu"
+636,Newport-,442.325000,+,5.000000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/298hp36f
+637,Pickens-,442.050000,+,5.000000,Tone,82.5,88.5,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/22jfyj9z
+638,Pickens-,443.450000,+,5.000000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,"SC S03 | Link, AllStar+EchoLink | https://tinyurl.com/26ctqq2e"
+639,RussellV,147.300000,+,0.600000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/22qlxbym
+640,TimmonsV,147.315000,+,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/28b8kp47
+641,ClarksVl,146.640000,-,0.600000,Tone,179.9,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2ylah47n
+642,ClarksVl,443.150000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2a5yc4kv
+643,Colleged,147.000000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar+EchoLink | https://tinyurl.com/2ce564td"
+644,Crossvil,146.865000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"TN S03 | Link, EchoLink, Wide | https://tinyurl.com/235crrmj"
+645,Elizabet,146.700000,-,0.600000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2yxvhnlm
+646,Lafayett,146.730000,-,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/234nvmdj
+647,Memphis-,442.600000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar+EchoLink, Wide | https://tinyurl.com/28k32rsr"
+648,Nash-Bre,146.670000,-,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar+EchoLink | https://tinyurl.com/2c9kwavy"
+649,SevierVl,444.300000,+,5.000000,Tone,118.8,88.5,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar+EchoLink | https://tinyurl.com/24flbwwx"
+650,UnionCit,442.950000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar, Wide | https://tinyurl.com/22727za5"
+651,Woodbury,442.012500,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/22ybxeym
+652,BerryVll,444.300000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"VA S03 | Link, AllStar+EchoLink | https://tinyurl.com/2aydj6x2"
+653,Fairfax-,146.790000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/224k44ls
+654,FarmVll-,146.955000,-,0.600000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2bw7ut6x
+655,FarmVll-,443.300000,+,5.000000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2b7whbar
+656,Pearisbu,147.135000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/282x98l3
+657,Surry-WT,147.030000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2b8epmx3
+658,Walkerto,146.715000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2cnrkeor
+659,Wintergr,444.550000,+,5.000000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2ytgty8v
+660,Blooming,146.970000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2a32pzn2
+661,Jesup-KE,146.865000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2db4wzx5
+662,Rockmart,443.475000,+,5.000000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, Wide | https://tinyurl.com/22otrbou"
+663,Vienna-B,147.375000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2bjxvq6m
+664,Waleska-,147.015000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S03 | Wide, Nets | https://tinyurl.com/23wck98v"
+665,Waleska-,145.190000,+,2.260000,Cross,173.8,107.2,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/28zks27x
+666,Northfie,147.345000,+,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IL S03 | Wide, Nets | https://tinyurl.com/2datds5h"
+667,Princeto,146.955000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S03 | Wide, Nets | https://tinyurl.com/2xosbvh4"
+668,Quincy-W,443.900000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/25rzg4jq
+669,Tremont-,146.910000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2dnyroz9
+670,Frenchto,146.820000,-,0.600000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,IN S03 | Nets | https://tinyurl.com/2advxvyt
+671,IND-W9IC,146.970000,-,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"IN S03 | Link, Wide | https://tinyurl.com/2a4plx6h"
+672,Mitchell,146.730000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IN S03 | Wide, Nets | https://tinyurl.com/2bu4d26h"
+673,Paoli-KB,147.045000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IN S03 | Link, AllStar, Wide | https://tinyurl.com/28a6g56x"
+674,Rossvill,145.370000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/2chbgwut
+675,Rossvill,443.500000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/29twgkoh
+676,Rushvill,147.000000,+,0.600000,Tone,127.3,88.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/25ygv2l7
+677,Winamac-,145.480000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/25lf77j9
+678,Princeto,145.230000,-,0.600000,TSQL,179.9,179.9,23,NN,23,Tone->Tone,FM,"KY S03 | Link, AllStar+EchoLink | https://tinyurl.com/23s86ch9"
+679,Stamping,442.100000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"KY S03 | Link, AllStar+EchoLink, Nets | https://tinyurl.com/2aennxlo"
+680,Dobson-W,444.525000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2a38xps9
+681,Elizabet,146.655000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2y8gz85r
+682,Lincolnt,147.015000,+,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/26zf9nln
+683,StatesVl,146.685000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,"NC S03 | Wide, Nets | https://tinyurl.com/24p87vgo"
+684,Dayton-K,444.250000,+,5.000000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2auuz2k5"
+685,Pomeroy-,146.865000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/27cm439q"
+686,Anderson,146.970000,-,0.600000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/2a6ysy5w
+687,Benton-O,147.180000,+,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2yzujw78
+688,Brighton,145.490000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"TN S03 | Link, EchoLink, Wide | https://tinyurl.com/27v2gmfm"
+689,JohnsonC,146.790000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"TN S03 | Link, EchoLink, Wide | https://tinyurl.com/25umg5zj"
+690,Knox-WIM,145.230000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2ys43cmd
+691,Sneedvil,442.450000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2aurd4bk
+692,Annandal,147.210000,+,0.600000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2bbmhuox
+693,FlsChurc,146.625000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"VA S03 | Link, Wide | https://tinyurl.com/25m8sttq"
+694,Harrison,145.130000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"VA S03 | Wide, Nets | https://tinyurl.com/2bwe44b7"
+695,Lynchbur,145.270000,-,0.600000,Tone,136.5,88.5,23,NN,23,Tone->Tone,FM,"VA S03 | Link, EchoLink | https://tinyurl.com/2bzbujga"
+696,Norfolk-,147.075000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"VA S03 | Link, Nets | https://tinyurl.com/2yll4vbq"
+697,Norfolk-,145.330000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"VA S03 | Link, EchoLink, Nets | https://tinyurl.com/23qsahkb"
+698,Norfolk-,442.950000,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"VA S03 | Link, EchoLink, Nets | https://tinyurl.com/2bedo3f3"
+699,Petersbu,147.390000,+,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,"VA S03 | Link, Wide | https://tinyurl.com/279k2bmc"
+700,Richmond,145.430000,-,0.600000,TSQL,74.4,74.4,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/26w83mvd
+701,Waynesbo,147.075000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2af9qpdh
+702,ATL-Geor,145.150000,-,0.600000,TSQL,167.9,167.9,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2auehftx
+703,BlairsVl,147.210000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2xo3wp2t
+704,Colbert-,146.745000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2c6w2uq7
+705,Colbert-,442.150000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/28ucy6tt
+706,Dahloneg,146.835000,+,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2bq4gayf
+707,Dawsonvi,443.975000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2bt88pag
+708,Douglas-,443.000000,+,5.000000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2yjqvj8b
+709,Higgston,442.500000,+,5.000000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, EchoLink, Wide | https://tinyurl.com/2xra6vpg"
+710,Jasper-K,440.537500,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,"GA S03 | Link, AllStar, Wide | https://tinyurl.com/2ykvw82l"
+711,Jasper-K,146.700000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2yp7psm7
+712,Jasper-M,441.675000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/269som3n
+713,Kennesaw,443.600000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, AllStar | https://tinyurl.com/265w383q"
+714,Kingslan,146.895000,-,0.600000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/279jzgvf
+715,Lavonia-,146.715000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/29q5kl6s
+716,Marietta,147.345000,+,0.600000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2adxjcbz
+717,Marietta,443.450000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, Wide | https://tinyurl.com/2ba6kjb6"
+718,Molena-W,145.250000,-,0.600000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, AllStar, Wide | https://tinyurl.com/29qh3vl8"
+719,SkyVly-A,145.320000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/259slfy4
+720,Tiger-Gl,145.160000,-,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/2347bxn3
+721,Valdosta,146.760000,-,0.600000,Tone,141.3,88.5,23,NN,23,Tone->Tone,FM,"GA S03 | Link, AllStar+EchoLink | https://tinyurl.com/2bf8gvt5"
+722,Waleska-,443.075000,+,5.000000,DTCS,88.5,88.5,411,NN,411,Tone->Tone,FM,GA S03 | Wide | https://tinyurl.com/24ma8gj4
+723,Abingdon,444.325000,+,5.000000,TSQL,173.8,173.8,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2bo2mm8q
+724,Alton-K9,442.775000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/29lhutw9
+725,Arcola-W,444.375000,+,5.000000,TSQL,192.8,192.8,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/22sgcxst
+726,Arlingto,441.675000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S03 | Link, AllStar | https://tinyurl.com/2dke69ba"
+727,Beardsto,443.950000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/277x2aj6
+728,Blooming,146.790000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/26e6hx53
+729,Bolingbr,443.525000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink | https://tinyurl.com/23ky97ml"
+730,Canton-K,147.285000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/268y7p3y
+731,Channaho,444.600000,+,5.000000,TSQL,136.5,136.5,23,NN,23,Tone->Tone,FM,"IL S03 | Link, Wide | https://tinyurl.com/2ynck2g9"
+732,Chicago-,443.750000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink, Wide | https://tinyurl.com/26wul9b6"
+733,Elgin-WR,146.790000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/27mwrvgc
+734,Freeport,147.390000,+,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2bpsuk6r
+735,Gurnee-N,443.150000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/22z528a6
+736,Hardin-N,147.300000,+,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,IL S03 | basic | https://tinyurl.com/2yxn4or4
+737,Hinsdale,443.300000,+,5.000000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,"IL S03 | Link, AllStar+EchoLink | https://tinyurl.com/24fawcll"
+738,JacksonV,444.675000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/237hqkax
+739,Kankakee,146.940000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"IL S03 | Link, EchoLink, Wide | https://tinyurl.com/28ypw2rk"
+740,Mattoon-,444.925000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/23otp2bl
+741,Olney-KC,442.525000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/2xpohrz4
+742,Peoria-O,147.330000,+,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"IL S03 | Link, Wide | https://tinyurl.com/2c4lwx95"
+743,Robinson,442.800000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/29sntlod
+744,Schaumbu,146.700000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/28yy4bus
+745,Tallula-,444.900000,+,5.000000,Tone,151.4,88.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/25kkuj6f
+746,Towerhil,147.390000,+,0.600000,TSQL,203.5,203.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/22q76t3a
+747,Tremont-,146.670000,-,0.600000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,IL S03 | Wide | https://tinyurl.com/28dtht6d
+748,Greentow,442.112500,+,5.000000,TSQL,173.8,173.8,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/23zewrto
+749,Hartford,146.655000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"IN S03 | Link, EchoLink | https://tinyurl.com/284whx2k"
+750,IND-KM9E,442.650000,+,5.000000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,"IN S03 | Link, Wide | https://tinyurl.com/29lo5oq6"
+751,IND-W9AM,146.745000,-,0.600000,DTCS,88.5,88.5,346,NN,346,Tone->Tone,FM,"IN S03 | Link, AllStar, Wide | https://tinyurl.com/2aarf9xc"
+752,IND-Will,147.210000,+,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IN S03 | Link, EchoLink, Wide | https://tinyurl.com/29yodbwp"
+753,IND-WTHR,146.700000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"IN S03 | Wide, Nets | https://tinyurl.com/2yry6xmq"
+754,MerrillV,147.000000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"IN S03 | Link, Wide | https://tinyurl.com/27svwzyu"
+755,MerrillV,442.075000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"IN S03 | Link, Wide | https://tinyurl.com/29r2ru6e"
+756,Mishawak,147.330000,+,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/27ucrwmh
+757,NewCastl,441.400000,+,5.000000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/26seslzx
+758,SummitVl,145.310000,-,0.600000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,IN S03 | Wide | https://tinyurl.com/2cwwtymj
+759,Bardstow,145.470000,-,0.600000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,"KY S03 | Link, EchoLink, Nets | https://tinyurl.com/232fjw84"
+760,CaneVly-,146.640000,-,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/22t8fl53 | KY Colonels: WA4UXJ Cane Valley / nightly 8:30pm CST net
+761,Columbia,147.195000,+,0.600000,Tone,136.5,88.5,23,NN,23,Tone->Tone,FM,"KY S03 | Link, EchoLink, Wide | https://tinyurl.com/2xogpm9j"
+762,Fairdale,442.500000,+,5.000000,DTCS,88.5,88.5,365,NN,365,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/2dpbq3do
+763,Fredonia,444.825000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/295sjnzd
+764,Georgeto,146.685000,-,0.600000,TSQL,141.3,141.3,23,NN,23,Tone->Tone,FM,"KY S03 | Link, EchoLink, Wide | https://tinyurl.com/24xxj33m"
+765,Irvine-A,147.015000,+,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/2aqqfcdd
+766,Irvine-A,444.000000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/2y9ap59o
+767,LaGrange,440.525000,+,5.000000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/27765jv8
+768,London-K,442.900000,+,5.000000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/2dc27o2n
+769,Morganto,146.655000,-,0.600000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/22f3kzm3 | KY Colonels list: W4WSM Morgantown
+770,OwingsVl,147.075000,+,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"KY S03 | Link, EchoLink, Wide | https://tinyurl.com/23rjhgwy"
+771,Rosine-K,145.270000,-,0.600000,Tone,77.0,88.5,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/2483jtpr
+772,TaylorMi,146.790000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,KY S03 | Wide | https://tinyurl.com/2cvjunxw
+773,Uniontow,145.290000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,KY S03 | Nets | https://tinyurl.com/232a9tvv
+774,Ammon-Bl,145.250000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/25duz368
+775,Burgaw-N,442.025000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/248f9rc8
+776,Charlott,442.650000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink, Wide | https://tinyurl.com/2c6uq6w3"
+777,Clinton-,443.075000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/25hr6wlv
+778,Clinton-,146.790000,-,0.600000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/23j635tz
+779,FayetteV,146.910000,-,0.600000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S03 | Wide, Nets | https://tinyurl.com/29ujtpmd"
+780,Gastonia,442.700000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink, Nets | https://tinyurl.com/24ux62lk"
+781,Gastonia,442.775000,+,5.000000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/26y9w36q
+782,Gastonia,145.230000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink, Wide | https://tinyurl.com/2bkdlu3h"
+783,Hillsbor,442.075000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,"NC S03 | Link, AllStar, Wide | https://tinyurl.com/2yesz23h"
+784,King-Sau,146.790000,-,0.600000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2cjn3k5y
+785,Lansing-,444.300000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink | https://tinyurl.com/22xch5wf"
+786,Louisbur,146.805000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/29wvnf32
+787,Lumberto,444.575000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2497vfbu
+788,Morganto,147.150000,+,0.600000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,"NC S03 | Link, EchoLink, Nets | https://tinyurl.com/292rt6ax"
+789,Raleigh-,442.950000,+,5.000000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2cgq5pn8
+790,RobbinsV,442.375000,+,5.000000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,NC S03 | Wide | https://tinyurl.com/2asfyelq
+791,Attica-N,443.675000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/24spm46q
+792,Columbus,444.200000,+,5.000000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2y62msj5"
+793,Columbus,146.970000,-,0.600000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/24qsm6xt"
+794,Dayton-N,443.600000,+,5.000000,TSQL,123.0,123.0,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/237bx2l7"
+795,EstCLE-C,442.287500,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/255wwjqs"
+796,Fairfiel,146.700000,-,0.600000,Tone,123.0,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/296kus2k"
+797,Gallipol,147.060000,+,0.600000,Tone,74.4,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/243bbol9"
+798,Hamilton,146.970000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/28ub4xr3"
+799,Ironton-,444.625000,+,5.000000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/236gjzc9
+800,Lexingto,147.015000,+,0.600000,Tone,71.9,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/29hjzntx"
+801,Lima-K8T,147.030000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2xo4wash"
+802,Logan-K8,147.345000,+,0.600000,TSQL,114.8,114.8,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/27ck4eqw
+803,LoudonVl,146.745000,-,0.600000,Tone,71.9,88.5,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/2bqhl2dp
+804,Loveland,443.800000,+,5.000000,Tone,67.0,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, AllStar+EchoLink | https://tinyurl.com/2bvhagp5"
+805,Marietta,443.850000,+,5.000000,TSQL,186.2,186.2,23,NN,23,Tone->Tone,FM,"OH S03 | Link, AllStar | https://tinyurl.com/2bvvfbrl"
+806,Marysvil,145.350000,-,0.600000,TSQL,127.3,127.3,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/28szamaj"
+807,Mogadore,444.487500,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/28kfvoqn"
+808,Oregon-N,443.300000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/24ma4jow"
+809,Parma-K8,146.820000,-,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"OH S03 | Link, AllStar+EchoLink | https://tinyurl.com/224qbhe9"
+810,Parma-KB,145.410000,-,0.600000,Tone,110.9,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/2a99bdhe"
+811,Parma-KB,442.225000,+,5.000000,Tone,131.8,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, EchoLink | https://tinyurl.com/24mnd8ve"
+812,Pomeroy-,443.700000,+,5.000000,TSQL,91.5,91.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2azsltoh"
+813,Richfiel,442.550000,+,5.000000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/2dlcddgr"
+814,Salem-KA,444.675000,+,5.000000,Tone,156.7,88.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/28qjzcck"
+815,Salem-KB,147.285000,+,0.600000,Tone,88.5,88.5,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/2ysa459q
+816,Salem-WD,147.375000,+,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,OH S03 | Link | https://tinyurl.com/2ch3gzrm
+817,Toledo-K,444.650000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,"OH S03 | Link, Wide | https://tinyurl.com/25d9yflj"
+818,Clemson-,145.450000,-,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,SC S03 | Link | https://tinyurl.com/2ddahm35
+819,Clemson-,444.625000,+,5.000000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,SC S03 | Link | https://tinyurl.com/26pzqpfx
+820,Conway-W,145.110000,-,0.600000,TSQL,85.4,85.4,23,NN,23,Tone->Tone,FM,"SC S03 | Link, EchoLink, Wide | https://tinyurl.com/28j5fal5"
+821,Gaffney-,147.135000,+,0.600000,TSQL,162.2,162.2,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/2cwxchaw
+822,Gville-C,146.610000,-,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"SC S03 | Link, EchoLink, Wide | https://tinyurl.com/29jnfdy3"
+823,LittleMt,443.875000,+,5.000000,DTCS,88.5,88.5,315,NN,315,Tone->Tone,FM,"SC S03 | Link, AllStar+EchoLink | https://tinyurl.com/2cv5wx2y"
+824,RockHill,147.225000,+,0.600000,TSQL,110.9,110.9,23,NN,23,Tone->Tone,FM,"SC S03 | Link, AllStar, Wide | https://tinyurl.com/2cdlnfo7"
+825,SaintMat,442.775000,+,5.000000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,"SC S03 | Link, AllStar, Wide | https://tinyurl.com/2decxkdb"
+826,Sumter-W,147.015000,+,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/2cfuskgq
+827,Vance-KJ,146.805000,-,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,SC S03 | Wide | https://tinyurl.com/2a6cf5ob
+828,Bethpage,443.750000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2bx7hj2r
+829,Clevelan,442.925000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2ajbvsrl
+830,Colleged,444.900000,+,5.000000,TSQL,94.8,94.8,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar, Wide | https://tinyurl.com/2aw9jb9p"
+831,CollierV,444.125000,+,5.000000,TSQL,107.2,107.2,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/24vnstq6
+832,CollierV,443.100000,+,5.000000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,"TN S03 | Link, AllStar+EchoLink | https://tinyurl.com/2xr7r9zr"
+833,Georgeto,442.025000,+,5.000000,Tone,100.0,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2a3wejt8
+834,GreeneVl,144.920000,+,2.500000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/28rya9ee
+835,GreeneVl,145.150000,-,0.600000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/29x8ekhf
+836,GreeneVl,444.675000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/273ancry
+837,Harriman,147.120000,+,0.600000,TSQL,82.5,82.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/25jk39ha
+838,Harriman,442.200000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2dou23et
+839,Jamestow,147.090000,+,0.600000,,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2d83mcst
+840,Knox-Bea,444.175000,+,5.000000,,88.5,88.5,23,NN,23,Tone->Tone,FM,"TN S03 | Link, EchoLink, Wide | https://tinyurl.com/2apbj6eu"
+841,Knox-Sha,443.250000,+,5.000000,TSQL,88.5,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2cp6u4pd
+842,Morristo,147.030000,+,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/2bjgn9y4
+843,SthPitts,147.150000,+,0.600000,TSQL,151.4,151.4,23,NN,23,Tone->Tone,FM,"TN S03 | Link, EchoLink | https://tinyurl.com/2xzywp8v"
+844,TopOfWor,444.950000,+,5.000000,TSQL,118.8,118.8,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/24xgqaut
+845,TopOfWor,442.250000,+,5.000000,Tone,118.8,88.5,23,NN,23,Tone->Tone,FM,TN S03 | Wide | https://tinyurl.com/26qpgc6o
+846,Bluemont,147.300000,+,0.600000,Tone,146.2,88.5,23,NN,23,Tone->Tone,FM,VA S03 | Link | https://tinyurl.com/29zdnqqw
+847,Christia,147.075000,+,0.600000,DTCS,88.5,88.5,712,NN,712,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/259mwyjr
+848,Eastvill,147.345000,+,0.600000,TSQL,156.7,156.7,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/27zr7l9q
+849,FancyGap,442.575000,+,5.000000,TSQL,100.0,100.0,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/286zjz68
+850,FancyGap,145.330000,-,0.600000,TSQL,77.0,77.0,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/237zn87h
+851,Frederic,442.575000,+,5.000000,TSQL,79.7,79.7,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2cuk37jo
+852,Louisa-M,145.330000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,"VA S03 | Wide, Nets | https://tinyurl.com/24ajynz8"
+853,MartinsV,147.120000,+,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2bhtm8ry
+854,MartinsV,147.285000,+,0.600000,Tone,107.2,88.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/2yzb5oea
+855,MaxMeado,442.525000,+,5.000000,TSQL,103.5,103.5,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/27lzdrxt
+856,Roanoke-,145.410000,-,0.600000,Tone,103.5,88.5,23,NN,23,Tone->Tone,FM,"VA S03 | Link, Wide | https://tinyurl.com/22fg3fr5"
+857,Waynesbo,145.290000,-,0.600000,TSQL,131.8,131.8,23,NN,23,Tone->Tone,FM,VA S03 | Wide | https://tinyurl.com/29j6j9yk

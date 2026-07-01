@@ -1,0 +1,97 @@
+AIRPORT ATC FREQUENCY REFERENCE — KCLT (Charlotte) & KAVL (Asheville)
+=====================================================================
+Verified: 2026-06-29
+Purpose:  Source-of-record for the airband monitoring CHIRP Lists
+          (CHIRP Lists/CLT Airport.csv, CHIRP Lists/AVL Airport.csv).
+          Everything in those lists must trace back to an entry here.
+
+All frequencies are AM-mode, receive-only (airband: 118.000-136.975 MHz VHF;
+225-400 MHz UHF military). Listening only — these are not legal/possible to
+transmit on with the fleet. UHF entries (225-400) are receivable only on some
+radios (see ai-notes/radios.md).
+
+SOURCES
+-------
+- FAA Chart Supplement, via AirNav:
+    https://www.airnav.com/airport/KCLT
+    https://www.airnav.com/airport/KAVL
+- CLT approach/departure sector labels (TRACON sectors + arrival gates):
+    https://cltflyer.com/airport-frequencies/
+    (derived from the Charlotte ATCT 7110.65 SOP, ZTL ARTCC)
+- KAVL approach sector heading split: FAA Chart Supplement / ATC SOP
+    (124.65 covers hdg 160-339; 125.80 covers hdg 340-159).
+
+
+=====================================================================
+KCLT — CHARLOTTE/DOUGLAS INTERNATIONAL
+=====================================================================
+
+VHF — Tower (by runway)
+  118.100   Tower — RWY 18L/36R (primary)
+  126.400   Tower — RWY 18C/36C
+  133.350   Tower — RWY 18R/36L
+
+VHF — Approach / Departure (Charlotte TRACON sectors)
+  125.350   App/Dep — South gate (BTSEY)
+  135.600   App/Dep — North gate (JOOLS)
+  124.000   App/Dep — South (High)
+  120.050   App/Dep — South (Low)
+  120.500   App/Dep — North (High)
+  134.750   App/Dep — North (Low)
+  128.325   App/Dep — East (Low)
+  126.150   App/Dep — Final
+
+VHF — Other
+  121.800   Ground (west)
+  121.900   Ground (east)
+  127.150   Clearance Delivery
+  121.150   D-ATIS (arrivals)
+  132.100   D-ATIS (departures)
+  122.950   UNICOM
+  121.500   Emergency (guard)
+
+UHF (military, 225-400 MHz)
+  257.800   Tower
+  257.200   Approach/Departure
+  307.800   Approach/Departure
+  348.600   Ground (east) / Clearance Delivery
+  243.000   Emergency (guard)
+
+
+=====================================================================
+KAVL — ASHEVILLE REGIONAL
+=====================================================================
+Tower hours 0630-2300; outside those hours field is CTAF and
+approach/departure is handled by Atlanta ARTCC (132.625 / 353.625,
+Sugarloaf Mtn RCAG).
+
+VHF
+  121.100   Tower / CTAF
+  121.900   Ground
+  120.200   ATIS
+  122.950   UNICOM
+  124.650   Approach/Departure — sector covering hdg 160-339
+  125.800   Approach/Departure — sector covering hdg 340-159
+  121.500   Emergency (guard)
+
+UHF (military, 225-400 MHz)
+  257.800   Tower
+  269.575   Approach/Departure
+  351.800   Approach/Departure (also Instrument Clearance, hdg 080-299)
+  243.000   Emergency (guard)
+
+Tower-closed (via Atlanta ARTCC, Sugarloaf Mtn)
+  132.625 / 353.625   Approach/Departure
+  122.300             RDU Radio (RCO)
+
+
+NOTES ON SECTOR LABELS
+----------------------
+- CLT: CHIRP Lists/CLT Airport.csv was reconciled to this reference on
+  2026-06-29 — sector labels corrected (126.150 = Final; 125.350 = South
+  gate/BTSEY; 135.600 = North gate/JOOLS; 128.325 = East Low; 134.750 =
+  North Low) and the original unverified arrival-fix lists removed.
+- KAVL: the approach split is by aircraft heading, not a clean
+  "East/West." 124.650 = hdg 160-339, 125.800 = hdg 340-159. The
+  UHF<->VHF sector pairing (269.575 / 351.800) is not published in
+  these sources; treat the E/W labels as approximate.

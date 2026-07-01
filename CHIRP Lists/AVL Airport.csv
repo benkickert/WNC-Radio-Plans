@@ -1,0 +1,10 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+150,AVLTwrU,257.800000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,KAVL Tower (UHF mil),,,,
+151,AVLADEU,269.575000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,KAVL App/Dep (UHF mil; VHF-pairing unverified),,,,
+152,AVLADWU,351.800000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,KAVL App/Dep (UHF mil; also IFR clearance hdg 080-299),,,,
+153,AVLTwrV,121.100000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,Tower / CTAF,,,,
+154,AVLGrndV,121.900000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,Ground,,,,
+155,UnicomV,122.950000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,UNICOM,,,,
+156,AVLADWV,124.650000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep (hdg 160-339),,,,
+157,AVLADEV,125.800000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep (hdg 340-159),,,,
+158,AVLAtisV,120.200000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,ATIS,,,,

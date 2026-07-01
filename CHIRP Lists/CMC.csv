@@ -1,0 +1,6 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+191,CMCSAR1,462.560000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,CMC-SAR primary (crew ops),,,,
+192,CMCSAR2,462.680000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,CMC-SAR secondary,,,,
+193,CMCSAR3,467.702500,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,CMC-SAR tertiary,,,,
+194,VSAR16,155.160000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,NFM,5.00,,10W,National Interop SAR (CMC tag VSAR16),,,,
+195,UTAC41D,453.462500,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,NFM,5.00,,10W,UHF interop TAC41 Direct - joint CMC/HCSAR; band-plan 453.4625 (CMC doc lists .4525); NIFOG PL 156.7 if TX,,,,

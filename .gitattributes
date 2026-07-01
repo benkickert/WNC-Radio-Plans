@@ -1,0 +1,6 @@
+# Normalize line endings: text files stored and checked out as LF everywhere
+# (CHIRP CSVs and the notes stay LF-consistent across Windows/Mac/Linux).
+* text=auto eol=lf
+
+# Binary reference material — never touch line endings.
+*.pdf binary

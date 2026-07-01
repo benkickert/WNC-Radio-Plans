@@ -1,0 +1,36 @@
+==============================================================================
+FCC MURS CHANNEL PLAN  (Multi-Use Radio Service)
+==============================================================================
+Source: FCC rules, 47 CFR Part 95 Subpart J (MURS) - §95.2563 (frequencies),
+        §95.2567 (power / authorized bandwidth). Captured 2026-07-01.
+Purpose: definitive source-of-record for the MURS channels in
+         `CHIRP Lists/GMRS and MURS.csv` (slots 81-85).
+
+MURS is a 5-channel, license-free VHF service. Key limits (all channels):
+  - Max power: 2 W ERP.  No repeaters, no interconnection to the phone network.
+  - External / elevated antennas permitted (unlike FRS).
+
+------------------------------------------------------------------------------
+Ch   Frequency (MHz)   Max bandwidth        Mode      Common name
+------------------------------------------------------------------------------
+ 1   151.8200          11.25 kHz (narrow)   NFM       "MURS 1"
+ 2   151.8800          11.25 kHz (narrow)   NFM       "MURS 2"
+ 3   151.9400          11.25 kHz (narrow)   NFM       "MURS 3"
+ 4   154.5700          20 kHz (wide ok)     FM        "Blue Dot"
+ 5   154.6000          20 kHz (wide ok)     FM        "Green Dot"
+
+Notes:
+  - The three 151 MHz channels (1-3) are restricted to 11.25 kHz bandwidth -
+    program them NFM.
+  - The two 154 MHz channels (4-5) allow up to 20 kHz - wideband FM is fine.
+    154.570 = "blue dot", 154.600 = "green dot" (the old business-band dot
+    colors that pre-date MURS; these two channels were grandfathered in).
+  - MURS is simplex only: Duplex empty, Offset 0.000000.
+
+------------------------------------------------------------------------------
+Note on power in this repo
+------------------------------------------------------------------------------
+The house convention in the Complete Radio Plans carries `10W` on the MURS rows
+(the radio's high setting). The FCC MURS ceiling is 2 W ERP - well below that.
+Power is set per radio; the owner adjusts as desired. Recorded here for
+reference so a MURS-legal build can be trimmed to 2 W if wanted.

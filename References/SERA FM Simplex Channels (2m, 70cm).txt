@@ -1,0 +1,64 @@
+SERA FM VOICE SIMPLEX CHANNELS — 2 m & 70 cm
+============================================
+Verified: 2026-06-29
+Purpose:  Source-of-record for CHIRP Lists/Simplex - 2m and 70cm.csv.
+          Every simplex channel in that list is a SERA-coordinated FM voice
+          simplex frequency listed below.
+
+SOURCE
+------
+SERA (Southeastern Repeater Association) Frequency Utilization Plans, in
+References/SERA/ :
+  - sera-fup-144.pdf   (2 m / 144-148 MHz)
+  - sera-fup-440.pdf   (70 cm / 420-450 MHz)
+
+
+2 m — FM VOICE SIMPLEX  (FUP-144)
+---------------------------------
+SERA 2 m FM voice simplex sub-bands: 146.400-146.585 and 147.405-147.585.
+Channels marked "*" are permitted only if they don't interfere with nearby
+repeater inputs; the owner's list uses ONLY non-* (clean) channels.
+
+  National 2 m FM simplex calling channel: 146.520 (included in the list at
+  slot 101 as "2mCall" - see NOTES).
+
+  Non-* (clean) simplex channels:
+    146.535  146.550  146.565  146.580  146.595
+    147.510  147.525  147.540  147.555  147.570  147.585
+
+  In the CSV (10 simplex channels at slots 102-111, plus 146.520 calling at 101):
+    146.535 / .550 / .565 / .580 / .595
+    147.525 / .540 / .555 / .570 / .585
+  (147.510 deliberately skipped — used as an output by a distant Rockingham NC
+   repeater.)
+
+
+70 cm — FM VOICE SIMPLEX  (FUP-440)
+-----------------------------------
+SERA 70 cm "22 Simplex FM Voice Channels," 445.9125-446.1750 on a 12.5 kHz grid:
+    445.9125 .9250 .9375 .9500 .9625 .9750 .9875
+    446.0000* .0125 .0250 .0375 .0500 .0625 .0750 .0875 .1000
+    446.1125 .1250 .1375 .1500 .1625 .1750
+  (* 446.0000 = National FM simplex calling channel.)
+
+  In the CSV (10 simplex channels at slots 112-121, plus 446.000 calling at 100):
+    445.925 / .950 / .975
+    446.025 / .050 / .075 / .100 / .125 / .150 / .175
+
+
+NOTES
+-----
+- The two national FM simplex CALLING channels are included at the top of the
+  list (slots 100/101) so they carry the same slot numbers as in local baseline.csv:
+    slot 100 = 70cmCall = 446.000  (national 70 cm FM simplex calling; SERA FUP-440)
+    slot 101 = 2mCall   = 146.520  (national 2 m FM simplex calling;  SERA FUP-144)
+  These are the standard national calling frequencies; every other row is an
+  additional (non-calling) simplex channel. Calling rows use 10W (primary use);
+  the additional simplex rows use 5.0W (bump per radio).
+- All channels FM, carrier squelch (no tone). Power per radio.
+- Two rows carry an extra club-simplex annotation from the LCARA reference
+  (References/Lake Cumberland ARC Repeaters (Somerset KY).txt):
+    146.580 = Somerset KY (LCARA) club simplex
+    147.570 = Monticello KY (LCARA) club simplex
+- Selection rule for extending the list: non-* SERA FM voice simplex only;
+  cross-check any new channel against all local repeater CSVs for conflicts.

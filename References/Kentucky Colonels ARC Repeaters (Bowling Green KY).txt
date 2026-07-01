@@ -1,0 +1,66 @@
+================================================================================
+KENTUCKY COLONELS AMATEUR RADIO CLUB (KY4BG) - Bowling Green, KY area
+================================================================================
+Captured: 2026-06-25  |  Source: KCARC "Local Repeaters and Nets" (ky4bg.com)
+Region: Bowling Green, KY (Warren Co) + nearby - an owner family-visit area
+(see ai-notes conventions "Frequent destinations").
+Source note: "partial list for club members or stations located near Bowling
+Green, KY; does not represent all repeaters in the area" (use RepeaterBook for full).
+
+Format: Output (offset) Tone | mode/notes | location.  [digital] = not analog-FM.
+
+--------------------------------------------------------------------------------
+KY4BG - KCARC, Bowling Green
+--------------------------------------------------------------------------------
+  147.330 (+0.6)  PL 107.2   analog FM; EchoLink K4WKU-L; net nightly 9:00pm CST
+
+--------------------------------------------------------------------------------
+W4WSM system - Bowling Green   (photografics.net/repeater)
+--------------------------------------------------------------------------------
+  147.165 (+0.6)  PL 100.0   mixed-mode P25/FM (FM usable)
+  146.625 (-0.6)  --         D-Star & Fusion                              [digital]
+  444.100 (+5)    PL 100.0   mixed-mode P25/FM (FM usable)
+  444.700 (+5)    --         DMR, Color Code 1                            [digital]
+
+--------------------------------------------------------------------------------
+W4WSM system - Morgantown (Butler Co, N of BG)
+--------------------------------------------------------------------------------
+  444.375 (+5)    --         DMR, Color Code 1                            [digital]
+  146.655 (-0.6)  no tone    analog FM
+
+--------------------------------------------------------------------------------
+KE4SZK - Simpson County ARS, Franklin (S of BG)   (kn4utv.club)
+--------------------------------------------------------------------------------
+  147.135 (+0.6)  PL 136.5   analog FM; net Wed 7:00pm CST
+  444.8375 (+5)   --         DMR, Color Code 1; + APRS iGate/digipeater   [digital]
+
+--------------------------------------------------------------------------------
+KY4X - Cave City Ham Club / Glasgow (E of BG)   (ky4x.org)
+--------------------------------------------------------------------------------
+  146.940 (-0.6)  PL 114.8   Glasgow; EchoLink KY4X-R; net nightly 8:00pm CST
+  146.895 (-0.6)  PL 114.8   Bonnieville
+  444.925 (+5)    no tone    Glasgow
+  444.850 (+5)    PL 114.8   Bonnieville
+  146.850 (-0.6)  no tone    Glasgow; Fusion C4FM net Tue 7pm CST; Wires-X 09953
+
+--------------------------------------------------------------------------------
+WA4UXJ - Central Kentucky ARC, Cane Valley (NE, Adair Co)
+--------------------------------------------------------------------------------
+  146.640 (-0.6)  PL 107.2   analog FM; net nightly 8:30pm CST
+
+--------------------------------------------------------------------------------
+USABLE ON THE OWNER'S ANALOG FM FLEET (annotation, not from source)
+--------------------------------------------------------------------------------
+Fleet is analog FM only. Analog-accessible repeaters near Bowling Green:
+  147.330 (+0.6) PL 107.2   Bowling Green (KY4BG)
+  147.165 (+0.6) PL 100.0   Bowling Green (W4WSM, P25/FM)
+  444.100 (+5)   PL 100.0   Bowling Green (W4WSM, P25/FM)
+  146.655 (-0.6) no tone    Morgantown
+  147.135 (+0.6) PL 136.5   Franklin
+  146.940 (-0.6) PL 114.8   Glasgow
+  146.895 (-0.6) PL 114.8   Bonnieville
+  444.925 (+5)   no tone    Glasgow
+  444.850 (+5)   PL 114.8   Bonnieville
+  146.850 (-0.6) no tone    Glasgow (Fusion machine; analog FM usually OK)
+  146.640 (-0.6) PL 107.2   Cane Valley
+(Digital-only DMR/D-Star: 146.625, 444.700, 444.375, 444.8375 - not usable.)

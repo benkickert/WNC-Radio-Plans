@@ -1,0 +1,47 @@
+==============================================================================
+WCARS REPEATER LIST  -  Western Carolina Amateur Radio Society
+==============================================================================
+Source: WCARS (wcars.org)  |  Captured: 2026-06-25
+Region: Western North Carolina - the owner's home area (Fairview /
+Asheville and surrounding counties). Many of these already appear in the
+Complete Radio Plans (local baseline / AVL to ATL).
+
+Columns:
+  Output    = repeater OUTPUT freq (what you listen to / RX), MHz
+  Input     = repeater INPUT freq (what you transmit), MHz
+  Tone In   = CTCSS tone (PL) required to key the repeater; blank = none listed
+  Call Sign = trustee/licensee call
+  Bands present: 6 m (52-53), 2 m (144-148), 1.25 m (222-224), 70 cm (442-449)
+
+Output   Input    Tone In   Call Sign  Description                    County
+-------  -------  --------  ---------  -----------------------------  ------------
+146.91   146.31   91.5 PL   W4MOE      Spivey Mountain                Buncombe
+224.6    223                KI4DNY     Spivey Mountain                Buncombe
+224.98   223.38             KG4LGY     Alexander                      Buncombe
+53.19    52.19    100.0 PL  KG4LGY     Alexander                      Buncombe
+146.76   146.16             N2GE       Mt. Pisgah                     Haywood
+146.805  147.405  94.8 PL   KI4GMA     Canton                         Haywood
+147.39   147.99   94.8 PL   N4DTR      Chambers Mtn                   Haywood
+224.26   222.66             N2GE       Mt. Pisgah                     Haywood
+444.45   449.45             N4DTR      Utah Mtn, Waynesville          Haywood
+147.105  147.705  91.5 PL   WA4KNI     Bearwallow Mountain            Henderson
+145.27   144.67             WA4KNI     Bearwallow Mountain            Henderson
+145.255  143.655            KJ4JAL     Pinnacle Mountain              Henderson
+146.64   146.04   91.5 PL   WB4YAO     Bearwallow Mountain            Henderson
+224.24   222.64             WA4KNI     Bearwallow Mountain            Henderson
+444.25   449.25             WA4KNI     Bearwallow Mountain            Henderson
+442.45   447.45             WA4TOG     Bearwallow Mountain            Henderson
+147.24   146.64   151.4 PL  W4GHZ      Franklin                       Macon
+444.375  449.375            N4DTR      Cowee Mtn, Franklin            Macon
+145.31   144.71             K4CF       Bakersville                    Mitchell
+147.135  147.975            K4HXZ      Pinacle Mtn, S of Brevard      Transylvania
+145.19   144.59             N2GE       Clingman's Peak, Mt. Mitchell  Yancey
+147.375  147.975            KD4WAR     Burnsville                     Yancey
+224.54   222.94             N2GE       Clingman's Peak, Mt. Mitchell  Yancey
+443.6    448.6              N2GE       Clingman's Peak, Mt. Mitchell  Yancey
+442.225  447.225            N4YR       Clingman's Peak, Mt. Mitchell  Yancey
+53.63    52.63    100.0 PL  N4YR       Clingman's Peak, Mt. Mitchell  Yancey
+147.18   147.78   94.8 PL   K4MFD      Wolf Ridge, NC                 Madison
+145.35   144.75   100.0 PL  KD4CED     Cashiers                       Jackson
+
+Total: 28 repeaters.

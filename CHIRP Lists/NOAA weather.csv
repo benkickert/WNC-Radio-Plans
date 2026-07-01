@@ -1,0 +1,8 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+91,WX1AVL,162.400000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,6.0W,Asheville WXL56 Mt Pisgah (NOAA/NWS),,,,
+92,WX2,162.425000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,6.0W,NOAA NWR channel (NOAA/NWS),,,,
+93,WX3,162.450000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,6.0W,NOAA NWR channel (NOAA/NWS),,,,
+94,WX4,162.475000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,6.0W,NOAA NWR channel (NOAA/NWS),,,,
+95,WX5,162.500000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,6.0W,NOAA NWR channel (NOAA/NWS),,,,
+96,WX6,162.525000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,6.0W,NOAA NWR channel (NOAA/NWS),,,,
+97,WX7,162.550000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,S,6.0W,NOAA NWR channel (NOAA/NWS),,,,

@@ -1,0 +1,70 @@
+==============================================================================
+REPEATERBOOK — WNC HAM REPEATER TONE VERIFICATION (uplink vs downlink)
+==============================================================================
+Source: RepeaterBook.com per-repeater detail pages (details.php), NC (state_id=37).
+Captured/verified: 2026-07-01.
+Purpose: definitive source-of-record for the TONE MODE (TSQL vs Tone vs carrier)
+         of the repeaters in `CHIRP Lists/local WNC ham.csv`.
+
+WHY THIS DOC EXISTS
+-------------------
+`WCARS Repeater List.txt` lists only "Tone In" — the CTCSS tone required to ACCESS
+(key) the repeater (the UPLINK tone). It does NOT say whether the repeater transmits
+a tone on its OUTPUT (the DOWNLINK). TSQL only works if the repeater transmits a
+matching tone on its output; otherwise TSQL mutes the receiver and you miss the
+repeater entirely. RepeaterBook's detail page lists Uplink Tone and Downlink Tone
+SEPARATELY, so it can answer the output-tone question. This doc records that check.
+
+DECISION RULE (owner's standard)
+--------------------------------
+- Downlink tone documented AND equals uplink  -> TSQL (source-ID + won't miss).
+- Only an uplink/access tone documented (downlink blank / CSQ / mismatched)
+                                              -> Tone (encode-only): key with the
+     access tone, carrier RX so the repeater is NEVER missed.
+- No tone documented at all                   -> carrier.
+Note: ham repeater outputs are each on a UNIQUE frequency, so carrier RX has no
+source-confusion downside (that only matters on shared channels like GMRS outputs).
+
+------------------------------------------------------------------------------
+Verified against RepeaterBook detail pages
+------------------------------------------------------------------------------
+Name      Output    Call    RB Uplink  RB Downlink   Decision      RB detail (ID)
+BearV1    145.270   WA4KNI   91.5       (blank)       Tone 91.5     ID 113
+BearV3    147.105   WA4KNI   91.5       79.7 (!=)     Tone 91.5     ID 115
+BearV2    146.640   WB4YAO   91.5       (blank)       Tone 91.5     ID 114
+SpiveyV   146.910   W4MOE    91.5       (blank)       Tone 91.5     ID 48
+FranklnV  147.240   W4GHZ    151.4      (blank)       Tone 151.4    ID 96
+ChmbrsV   147.390   N4DTR    94.8       CSQ           Tone 94.8     ID 214
+CashrsV   145.350   KD4CED   151.4      151.4         Tone 151.4 *  ID 19087
+CoweeU    444.375   N4DTR    131.8(in)  (DMR/none)    Tone 131.8    ID 356
+
+  URLs: https://www.repeaterbook.com/repeaters/details.php?state_id=37&ID=<ID>
+
+  * CashrsV CONFLICT — NEEDS OWNER VERIFICATION:
+    RepeaterBook shows 151.4 (uplink AND downlink) for KD4CED 145.350, but
+    `WCARS Repeater List.txt` lists 100.0 for the same repeater. The list encodes
+    the RB value (151.4) since RB is the live coordinated database and shows it
+    in+out, but the access tone for keying should be confirmed. RX is carrier
+    (Tone mode) either way, so the repeater is heard regardless of this conflict.
+    (BearV3's 79.7 downlink is also anomalous vs its 91.5 uplink; treated as
+    unreliable, so Tone/91.5 encode, carrier RX.)
+
+------------------------------------------------------------------------------
+Not individually fetched from RB — decided from available references
+------------------------------------------------------------------------------
+BearU2    444.250   WA4KNI   91.5 access   -> Tone 91.5
+   Part of the same WA4KNI Bearwallow system as BearV1/BearV3, neither of which
+   has a clean matching downlink; treated the same. Access tone 91.5 (WCARS/RB).
+CantonV   146.805   KI4GMA   94.8 access   -> Tone 94.8
+   WCARS lists 94.8; RepeaterBook Canton listing was ambiguous ("no tone" hint,
+   non-standard + offset to avoid the Gastonia 146.805). Tone/94.8 keys it if a
+   tone is required and is harmless if not; carrier RX = never missed.
+WolfRdV   147.180   K4MFD    94.8 access   -> Tone 94.8
+   WCARS lists 94.8; RB detail not separately fetched. Same encode-only treatment.
+
+------------------------------------------------------------------------------
+Carrier (no tone) — WCARS lists no access tone; left carrier
+------------------------------------------------------------------------------
+BakersV 145.310, BearU1 442.450, BurnsvV 147.375, ClngmnU1 442.225,
+ClngmnU2 443.600, ClngmnV 145.190, PinBrvV 147.135, PinHenV 145.255,
+PisgahV 146.760, UtahMtU 444.450.

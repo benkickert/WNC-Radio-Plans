@@ -1,0 +1,11 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+140,CLTFinV,126.150000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep Final,,,,
+141,CLTSgtV,125.350000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep South gate (BTSEY),,,,
+142,CLTNgtV,135.600000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep North gate (JOOLS),,,,
+143,CLTHiNV,120.500000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep North (High),,,,
+144,CLTHiSV,124.000000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep South (High),,,,
+145,CLTLoEV,128.325000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep East (Low),,,,
+146,CLTLoNV,134.750000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep North (Low),,,,
+147,CLTLoSV,120.050000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,App/Dep South (Low),,,,
+148,CLTTwrLV,118.100000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,Tower RWY 18L/36R,,,,
+149,CLTTwrCV,126.400000,off,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,AM,5.00,,10W,Tower RWY 18C/36C,,,,

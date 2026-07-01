@@ -1,0 +1,93 @@
+==============================================================================
+FCC GMRS CHANNEL PLAN  (General Mobile Radio Service)
+==============================================================================
+Source: FCC rules, 47 CFR Part 95 Subpart E (GMRS) - §95.563 (frequencies),
+        §95.567 (power / authorized bandwidth). Captured 2026-07-01.
+Purpose: definitive source-of-record for the GMRS channels in
+         `CHIRP Lists/GMRS and MURS.csv` (simplex ch 1-22 + the 8 generic
+         repeater channels).
+
+GMRS uses 30 channels total: 22 simplex/FRS-shared channels plus 8 repeater
+pairs (the repeater OUTPUTs are the same 8 "462 main" frequencies as ch 15-22).
+
+------------------------------------------------------------------------------
+Channels 1-7  -  462 MHz interstitial (shared with FRS 1-7)
+------------------------------------------------------------------------------
+Ch   Frequency (MHz)   Max power (GMRS)   Max bandwidth
+ 1   462.5625          5 W                20 kHz (wide FM ok)
+ 2   462.5875          5 W                20 kHz
+ 3   462.6125          5 W                20 kHz
+ 4   462.6375          5 W                20 kHz
+ 5   462.6625          5 W                20 kHz
+ 6   462.6875          5 W                20 kHz
+ 7   462.7125          5 W                20 kHz
+
+------------------------------------------------------------------------------
+Channels 8-14  -  467 MHz interstitial (low power, hand-held only)
+------------------------------------------------------------------------------
+Ch   Frequency (MHz)   Max power   Max bandwidth
+ 8   467.5625          0.5 W       12.5 kHz (NFM required)
+ 9   467.5875          0.5 W       12.5 kHz
+10   467.6125          0.5 W       12.5 kHz
+11   467.6375          0.5 W       12.5 kHz
+12   467.6625          0.5 W       12.5 kHz
+13   467.6875          0.5 W       12.5 kHz
+14   467.7125          0.5 W       12.5 kHz
+
+------------------------------------------------------------------------------
+Channels 15-22  -  462 MHz main (also the 8 repeater OUTPUT channels)
+------------------------------------------------------------------------------
+Ch   Frequency (MHz)   Max power   Max bandwidth
+15   462.5500          50 W        20 kHz (wide FM ok)
+16   462.5750          50 W        20 kHz
+17   462.6000          50 W        20 kHz
+18   462.6250          50 W        20 kHz
+19   462.6500          50 W        20 kHz
+20   462.6750          50 W        20 kHz
+21   462.7000          50 W        20 kHz
+22   462.7250          50 W        20 kHz
+
+------------------------------------------------------------------------------
+Repeater channels  -  467 MHz main (repeater INPUTs, +5 MHz offset)
+------------------------------------------------------------------------------
+A GMRS repeater listens on 462.xxx (the ch 15-22 output) and receives on the
+467.xxx input 5 MHz above it. Program a repeater channel as: Frequency = the
+462 output, Duplex = "+", Offset = 5.000000.
+
+Output (RX, MHz)   Input (TX, MHz)   Named in baseline
+462.5500           467.5500          GMRS15R
+462.5750           467.5750          GMRS16R
+462.6000           467.6000          GMRS17R
+462.6250           467.6250          GMRS18R
+462.6500           467.6500          GMRS19R
+462.6750           467.6750          GMRS20R*   (* = national travel channel)
+462.7000           467.7000          GMRS21R
+462.7250           467.7250          GMRS22R
+Repeater inputs (467 main): max power 50 W, 20 kHz bandwidth.
+
+------------------------------------------------------------------------------
+The 141.3 Hz "travel tone" (convention, NOT an FCC rule)
+------------------------------------------------------------------------------
+141.3 Hz has become the de facto CTCSS "travel tone" for open GMRS repeaters:
+a traveler can switch to a repeater channel with 141.3 and try to key up without
+knowing the local tone. It is a widely-adopted convention, not standardized or
+required - each repeater owner picks their own tone, and 141.3 is simply the
+most commonly encountered / agreed travel-and-emergency tone. 462.675 (ch 20)
++ 141.3 is the recognized national GMRS calling/travel channel (hence GMRS20R*).
+The generic repeater block in `GMRS and MURS.csv` (GMRS15R-22R) programs all 8
+repeater outputs with TSQL 141.3 so any open repeater on the travel tone can be
+worked/heard while mobile. Real local repeaters use their actual tones - see
+`Local GMRS Repeaters.txt` and `CHIRP Lists/local gmrs repeaters.csv`.
+
+Sources for the travel-tone convention:
+  - myGMRS.com forums, "Use of Travel Tone"
+  - RadioReference.com, "The history behind 462.675 MHz and the travel tone"
+  (Convention only; the frequency/offset facts above are the FCC regulatory source.)
+
+------------------------------------------------------------------------------
+Note on power in this repo
+------------------------------------------------------------------------------
+The house convention in the Complete Radio Plans uses the radio's high setting
+(`10W`) on the 462 GMRS channels. The FCC limits above (5 W on ch 1-7, 0.5 W on
+ch 8-14) are the regulatory ceilings; ch 8-14 must stay NFM. Power is set per
+radio - the owner adjusts as desired; these limits are recorded for reference.

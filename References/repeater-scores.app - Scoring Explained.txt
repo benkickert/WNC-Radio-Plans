@@ -1,0 +1,92 @@
+================================================================================
+REPEATER SCORING — repeater-scores.app
+================================================================================
+Source: repeater-scores.app  |  Captured: 2026-06-25
+Applies to: the scored multi-state repeater pools in CHIRP Lists/
+            (e.g. GA-IL-IN-KY-NC-OH-SC-TN-VA.csv), whose Comment field carries
+            a "STATE/<score><flags>" badge.
+
+--------------------------------------------------------------------------------
+SCORING EXPLAINED
+--------------------------------------------------------------------------------
+Repeater scores are in the style of "high score", not a grade or rating out of 10.
+EX: The highest scoring repeater is currently a 15.5 from KB3AWQ out of
+Williamsport PA.
+
+Scores add up from several signals, including regular nets, linked services like
+AllStar, EchoLink, or IRLP, linked repeater systems, broader stated coverage,
+wide-area operation, and public-service affiliations like ARES, RACES, or SKYWARN.
+
+Coverage can matter a lot. A repeater with strong stated mobile or regional
+coverage can score well even if it has few other flags.
+
+Repeaters that are more isolated from nearby sites can also receive a bonus, since
+they may be more valuable in sparse coverage areas.
+
+Use a higher Score >= value when you want a tighter list of higher-confidence
+repeaters. Use a lower threshold when you want a broader list or are traveling
+through thinner coverage areas.
+
+You can set a different minimum score for each state or province to keep dense
+regions selective while leaving sparse regions more inclusive.
+
+Data comes from RepeaterBook, so a lower score does not always mean a repeater is
+bad. It may simply have less detail available.
+
+If a file grows too large for the radio, the builder automatically raises score
+thresholds until the export fits.
+
+--------------------------------------------------------------------------------
+SCORING EXAMPLES
+--------------------------------------------------------------------------------
+A repeater with broad stated coverage and several weekly nets can score well even
+if it has no linked-service flags.
+
+A repeater with AllStar or EchoLink, linked repeaters, and public-service
+affiliations will usually rise quickly because multiple useful signals stack
+together.
+
+A repeater with only one small clue, like a single net or a minimal description,
+may stay lower even if it is still perfectly usable on the air.
+
+An isolated repeater in a sparse area can pick up bonus value because it may fill a
+coverage gap that nearby sites do not.
+
+--------------------------------------------------------------------------------
+SCORING SHORTHAND  (badge form: ST/SXCWN)
+--------------------------------------------------------------------------------
+On the ICOM-5100, the Sub Name field uses a compact badge in the form ST/SXCWN to
+display the repeater score and relevant details that likely matter to you.
+
+ST  the state or province abbreviation. Example: OR/ means Oregon.
+S   the repeater score shown as a single digit. Decimal scores are floored, and
+    anything above 9 is shown as 9.
+X   the link slot: S for a system-linked repeater, L for other linked repeaters,
+    and - for neither.
+C   the connectivity slot: A for AllStar, E for EchoLink, B for both, and - for
+    neither.
+W   the repeater looks wide-area, either because RepeaterBook marks it that way or
+    because the stated coverage is strong enough to qualify.
+N   the repeater has at least 2 nets. A single net does not light that flag.
+
+A dash like - means that flag is not present for that repeater.
+
+--------------------------------------------------------------------------------
+SCORING + DATA SHORTHAND EXAMPLES
+--------------------------------------------------------------------------------
+OR/7SEWN  Oregon, score 7, system-linked, has EchoLink, qualifies as wide-area,
+          and has at least two nets.
+OR/4-BW-  Oregon, score 4, has both AllStar and EchoLink and qualifies as
+          wide-area, but is not marked linked and does not have enough nets to
+          light the N flag.
+WA/4L-W-  Washington, score 4, linked and wide-area, but has neither AllStar nor
+          EchoLink, and does not have enough nets to light the N flag.
+WA/1----  Washington, score 1 and none of the tracked badge flags present.
+
+--------------------------------------------------------------------------------
+NOTE ON THIS REPO'S CSV COMMENTS
+--------------------------------------------------------------------------------
+The single-digit / max-9 score rule above is specifically the ICOM-5100 Sub Name
+*badge*. The scored CSV(s) in CHIRP Lists/ keep the FULL numeric score in the
+Comment field (e.g. "GA/12SBWN" = score 12), then the same XCWN flags. So in those
+files the number can exceed 9; the four flag characters decode exactly as above.

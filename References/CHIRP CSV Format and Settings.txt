@@ -1,0 +1,161 @@
+CHIRP CSV FORMAT & SETTINGS REFERENCE
+=====================================
+Captured: 2026-06-29
+Purpose:  Definitive reference for the CHIRP import/export CSV layout and for how to
+          set every field — especially the tone modes (Tone / TSQL / DTCS / Cross).
+          Authoritative companion to ai-notes/file-format.md (which covers how THIS
+          repo uses the format).
+
+SOURCES (CHIRP official)
+------------------------
+- CHIRP Memory Editor Columns:  https://chirpmyradio.com/projects/chirp/wiki/MemoryEditorColumns
+- CHIRP Developers Tone Modes:  https://chirpmyradio.com/projects/chirp/wiki/DevelopersToneModes
+- CHIRP CSV HowTo:              https://chirpmyradio.com/projects/chirp/wiki/CSV_HowTo
+- CHIRP "Tone Programming Examples" (official CHIRP doc, saved alongside this file):
+    References/CHIRP Tone Programming Examples (CHIRP official).pdf
+
+
+1. THE CSV LAYOUT
+-----------------
+CHIRP keys on the header row by COLUMN NAME (the order of named columns is flexible,
+and trailing columns may be omitted — CHIRP fills sensible defaults). One row = one
+memory/channel. Only Name + Frequency are strictly required; the rest take defaults.
+
+Full ("Profile A") column set used in this repo:
+  Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,
+  DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,
+  URCALL,RPT1CALL,RPT2CALL,DVCODE
+
+(The lean "Profile B" set drops TStep, Skip, Power and the four D-STAR columns.)
+
+
+2. COLUMN-BY-COLUMN
+-------------------
+Location      Memory/channel slot number (integer; unique within the file).
+Name          Display label. (This fleet: <= 8 characters.)
+Frequency     RX frequency in MHz. For a repeater this is the OUTPUT (what you hear).
+Duplex        TX offset direction. Values:
+                (blank) = simplex (TX = RX)
+                +       = TX above RX by Offset
+                -       = TX below RX by Offset
+                off     = receive-only (no transmit)   <- monitor / weather channels
+                split   = explicit TX frequency given in the offset/TX field
+Offset        Offset magnitude in MHz (e.g. 0.600000 for 2 m, 5.000000 for 70 cm /
+              GMRS). 0.000000 for simplex.
+Tone          TONE MODE (see section 3). Values: (blank)=none, Tone, TSQL, DTCS, Cross.
+rToneFreq     The CTCSS tone TRANSMITTED, in Hz (the repeater "access"/PL tone).
+              Used by Tone mode and as the TX side of a Cross mode. Default 88.5.
+cToneFreq     The CTCSS tone used for RECEIVE squelch, in Hz ("ToneSql"). Used by TSQL
+              and as the RX side of a Cross mode. Default 88.5.
+DtcsCode      The DCS/DTCS code TRANSMITTED. Used by DTCS mode and the TX side of Cross.
+              Default 023.
+DtcsPolarity  Two letters, TX then RX: N = normal, R = reverse (inverted). Default NN.
+RxDtcsCode    The DCS code for RECEIVE squelch when TX and RX codes differ (Cross).
+              Default 023.
+CrossMode     Which TX/RX combination "Cross" uses (see section 3). Default Tone->Tone.
+Mode          Modulation / channel width: FM (wide, 25 kHz), NFM (narrow, 12.5 kHz),
+              AM (airband), WFM (broadcast), DV (D-STAR), etc.
+TStep         Tuning step in kHz (this repo: 5.00).
+Skip          Scan flag: S = skip during scan; blank = include in scan.
+Power         TX power level STRING the selected radio recognizes (e.g. 10W, 5.0W, or
+              named levels like High/Low). If a value is rejected on import, change it
+              to one the radio exposes.
+Comment       Free text.
+URCALL, RPT1CALL, RPT2CALL, DVCODE   D-STAR digital fields (blank for analog FM).
+
+
+3. TONE MODES — THE KEY SOP
+---------------------------
+Terminology (as CHIRP names things):
+  CSQ    = carrier squelch — no sub-audible tone/code at all.
+  CTCSS  = sub-audible tone (a.k.a. PL, Channel Guard, Quiet Channel).
+           CHIRP calls it "Tone" on transmit and "TSQL" when used on both TX and RX.
+  DTCS   = digital code squelch (a.k.a. DCS, DPL, CDCSS).
+  Cross  = "split tones": the TX tone/code differs from the RX tone/code.
+
+The Tone column picks the mode; the other columns supply the values:
+
+  Tone = (blank/none)  No tone. TX and RX both carrier squelch (CSQ).
+                       Hears everything; transmits no tone.
+                       Use for: monitoring/scanner channels, simplex calling freqs.
+
+  Tone = Tone          TX a CTCSS tone (rToneFreq); RX is carrier (no tone squelch).
+                       "Encode only." Still hears all traffic on the channel.
+                       Use for: a repeater that needs an access tone to key up, when
+                       you also want to hear everything on its output.
+
+  Tone = TSQL          TX a CTCSS tone AND open RX squelch only on the SAME tone
+                       (cToneFreq). "Encode + decode, same tone." RX stays quiet unless
+                       the matching tone is present. The most common repeater setting.
+
+  Tone = DTCS          TX a DCS code AND open RX squelch only on the same DCS code
+                       (DtcsCode + DtcsPolarity). Digital equivalent of TSQL.
+
+  Tone = Cross         TX and RX differ; CrossMode says how. Left of ">" is always TX,
+                       right of ">" is always RX:
+            Tone->Tone   TX rToneFreq (CTCSS)   RX cToneFreq (different CTCSS)
+            Tone->DTCS   TX rToneFreq (CTCSS)   RX RxDtcsCode (DCS)
+            DTCS->Tone   TX DtcsCode (DCS)      RX cToneFreq (CTCSS)
+            DTCS->DTCS   TX DtcsCode (DCS)      RX RxDtcsCode (different DCS)
+            ->Tone       TX nothing (CSQ)       RX cToneFreq (CTCSS)   [RX-tone only]
+            ->DTCS       TX nothing (CSQ)       RX RxDtcsCode (DCS)
+            DTCS->       TX DtcsCode (DCS)      RX nothing (CSQ)
+            (Tone-> , i.e. TX CTCSS / RX none, collapses to plain "Tone" mode.)
+
+DTCS polarity: DtcsPolarity is two letters (TX,RX). N = normal, R = reverse/inverted.
+  Combinations: NN (default), NR, RN, RR. Reverse polarity is occasionally needed to
+  match a particular repeater.
+
+Worked scenarios (from the official CHIRP "Tone Programming Examples"):
+  TX CSQ   / RX CSQ            -> Tone = (blank)
+  TX CTCSS / RX CSQ           -> Tone = Tone        (rToneFreq = TX tone)
+  TX CSQ   / RX CTCSS         -> Tone = Cross, CrossMode = ->Tone   (cToneFreq = RX tone)
+  TX & RX SAME CTCSS          -> Tone = TSQL        (cToneFreq = the tone)
+  TX & RX DIFFERENT CTCSS     -> Tone = Cross, CrossMode = Tone->Tone
+  TX CTCSS / RX DCS           -> Tone = Cross, CrossMode = Tone->DTCS
+  TX DCS   / RX CTCSS         -> Tone = Cross, CrossMode = DTCS->Tone
+  TX DCS   / RX CSQ           -> Tone = Cross, CrossMode = DTCS->
+  TX CSQ   / RX DCS           -> Tone = Cross, CrossMode = ->DTCS
+  TX & RX SAME DCS            -> Tone = DTCS        (DtcsCode + polarity)
+  TX & RX DIFFERENT DCS       -> Tone = Cross, CrossMode = DTCS->DTCS
+
+Note: not every radio supports every tone mode; CHIRP clamps on import to what the
+selected model allows.
+
+
+4. HOW THIS REPO APPLIES THE ABOVE
+----------------------------------
+- Toneless channels carry INERT placeholders: rToneFreq=88.5, cToneFreq=88.5,
+  DtcsCode=023, DtcsPolarity=NN, CrossMode=Tone->Tone. They mean nothing until the
+  Tone column selects a mode — don't read meaning into them.
+- Repeaters: use TSQL when the repeater uses the same CTCSS both ways (most common);
+  Tone (encode-only) when we want to hear all of a repeater's output but still key it;
+  DTCS for digital-coded repeaters; Cross only for genuine split-tone repeaters.
+  For TSQL rows this repo sets rToneFreq = cToneFreq (same value) for safety.
+- Monitoring / RX-only channels (airport, Local Emergency): Tone = (blank), carrier
+  squelch, so all traffic is heard; Duplex = off.
+- Mode: FM except where narrowband is required — NFM for GMRS ch 8-14, MURS 1-3, and
+  most public-safety channels; AM for airband.
+
+
+5. COMMON PITFALLS (TX/RX TONE) — learned checks
+------------------------------------------------
+- 88.5 IS AMBIGUOUS: it is both a very common real CTCSS tone AND CHIRP's default
+  placeholder. A row showing 88.5 may be a genuine tone or a leaked placeholder.
+  Disambiguate by the MODE: if Tone is blank/none, 88.5 is just the inert placeholder;
+  if the mode is Tone/TSQL, treat 88.5 as a real tone (confirm against the repeater
+  listing when in doubt). (Audit 2026-06-29: e.g. NC Coverage Hamlet-K 146.955 = a
+  real 88.5 per RepeaterBook.)
+- TSQL vs Tone for MONITORING: TSQL keeps RX squelched unless the repeater transmits
+  the matching tone on its OUTPUT. If a repeater is access-tone-only (no downlink
+  tone), TSQL makes it sound dead even though you can key it. So: if you can transmit
+  through a repeater but never hear it, switch that channel from TSQL to Tone
+  (encode-only) — TX keeps the access tone, RX opens on carrier. This repo sets TSQL
+  only where the source shows matching uplink+downlink tones; uplink-only repeaters
+  use Tone.
+- The settings that, when wrong, make CHIRP write the wrong TX/RX tone:
+    * TSQL must have rToneFreq == cToneFreq.
+    * Tone (encode-only) must carry the tone in rToneFreq (not cToneFreq).
+    * DTCS must have DtcsCode == RxDtcsCode (use Cross for genuinely split codes).
+  An audit of all CHIRP Lists (2026-06-29) found every toned row already satisfies
+  these — no TX/RX mismatches.

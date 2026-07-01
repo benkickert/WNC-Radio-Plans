@@ -1,0 +1,58 @@
+================================================================================
+LAKE CUMBERLAND AMATEUR RADIO CLUB (LCARA) - Somerset / Monticello, KY
+================================================================================
+Captured: 2026-06-25
+Region: Somerset, KY (Pulaski Co) + Monticello, KY (Wayne Co) - an owner
+family-visit area (see ai-notes conventions "Frequent destinations").
+
+Club-maintained repeaters. Donations + member dues fund equipment.
+
+--------------------------------------------------------------------------------
+SIMPLEX (non-repeater) FREQUENCIES THE CLUB USES
+--------------------------------------------------------------------------------
+  Somerset     146.580
+  Monticello   147.570
+
+--------------------------------------------------------------------------------
+SOMERSET, KY - Repeater "88"  (AC4DM)
+--------------------------------------------------------------------------------
+2 m:
+  146.880  (- 0.6)  CTCSS 77.0   - N4LCA
+           Yaesu DR-2X, analog FM / System Fusion (stand-alone, not Internet)
+           Fusion DG-ID 88 | EchoLink AC4DM-R | AllStar node 552850
+  Remote receive sites (same 146.880 (-) freq, RX-only, different access tone):
+           Downtown        CTCSS 179.9
+           Mount Victory   CTCSS 136.5
+           Wayne County    CTCSS 110.9
+
+70 cm:
+  443.600  (+ 5)    CTCSS 100.0  - AC4DM
+           Yaesu DR-2X, analog FM / Wires-X | Fusion DG-ID 88 | Node 84651 LCARA Room
+  444.8375 (+ 5)    - N4LCA (B)   D-STAR, gateway enabled, accepts commands  [digital]
+  444.2125 (+ 5)    Color Code 1  - N1DTA   DMR, Kentucky DMR Network         [digital]
+
+10 m:
+  29.680   CTCSS 100.0  - AC4DM
+
+--------------------------------------------------------------------------------
+MONTICELLO, KY - Repeater "150"  (AC4DM)
+--------------------------------------------------------------------------------
+2 m:
+  145.150  (- 0.6)  CTCSS 77.0   - AC4DM
+           Yaesu DR-2X, analog FM / System Fusion (stand-alone) | Fusion DG-ID 15
+70 cm:
+  444.9625 (+ 5)    Color Code 1  - N1DTA   DMR, Kentucky DMR Network          [digital]
+6 m:
+  53.390   (- 1.0)  CTCSS 100.0
+
+--------------------------------------------------------------------------------
+USABLE ON THE OWNER'S ANALOG FM FLEET (annotation, not from source)
+--------------------------------------------------------------------------------
+The fleet is analog FM only (no DMR/D-Star/Fusion, no 6 m/10 m). Analog-accessible:
+  Somerset    146.880 (-0.6)  PL 77.0   (2 m)
+  Somerset    443.600 (+5)    PL 100.0  (70 cm; analog side of the Fusion machine)
+  Monticello  145.150 (-0.6)  PL 77.0   (2 m)
+Plus the club simplex: Somerset 146.580, Monticello 147.570.
+(Digital-only 444.8375/444.2125/444.9625 and the 6 m/10 m machines are not usable
+on the current fleet. Remote-RX tones on 146.880 are for transmit access from those
+areas - program 146.880 with the tone matching where you are.)

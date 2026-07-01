@@ -1,0 +1,61 @@
+BUNCOMBE COUNTY PUBLIC-SAFETY MONITORING REFERENCE
+==================================================
+Verified: 2026-06-29
+Purpose:  Source-of-record for CHIRP Lists/Local Emergency.csv. Every channel in
+          that list is verified below against the RadioReference Buncombe County
+          database.
+
+SOURCE
+------
+RadioReference.com — Buncombe County, NC (database last updated 2026-06-18):
+  References/Buncombe County, North Carolina (NC) Scanner Frequencies and Radio
+  Frequency Reference.pdf
+
+The CHIRP list is a DELIBERATE SUBSET focused on the owner's Fairview / SE-Buncombe
+area + countywide fire/EMS + the standard state/SAR channels. The full RR database
+lists many more agencies (sheriff, every VFD, municipalities, schools, the P25
+trunked systems) that are intentionally NOT carried here.
+
+All channels are RECEIVE-ONLY monitoring (Duplex=off) and programmed CARRIER SQUELCH
+(no tone) so all traffic is heard — standard scanner practice. The verified PL/DPL
+tones are recorded below for reference only (needed solely if transmitting, which the
+owner does not do on these). Mode NFM (RR: "FMN") throughout.
+
+
+VERIFIED CHANNELS  (CHIRP Lists/Local Emergency.csv)
+----------------------------------------------------
+Slot Name      Frequency   Tone (RR)   License  Description (RR)
+160  BCoEMS    460.1625    103.5 PL    WPWZ319  Buncombe EMS Dispatch
+161  BCoMed5   463.1000    107.2 PL    KEG236   Buncombe EMS - Patient Reports "MED-5"
+162  BCo340    155.3400    179.9 PL    KEG236   Buncombe EMS - Patient Reports "340 HEAR"
+163  BCoFrPag  154.8150    91.5 PL     KDC300   Buncombe Fire Paging (also Fire Backup)
+164  BCoFrCom  155.6100    103.5 PL    KDC300   Buncombe Fire Comm
+165  BCoFrMA   158.8050    103.5 PL    KDC300   Buncombe Fire Mutual Aid Net
+166  BCoFrF1   155.5650    103.5 PL    KDC300   Buncombe Fireground 1
+167  BCoFrF2   151.4300    103.5 PL    KDC300   Buncombe Fireground 2
+168  BCoFrF3   155.7300    103.5 PL    KDC300   Buncombe Fireground 3
+169  BCoFrF4   158.8650    103.5 PL    KDC300   Buncombe Fireground 4
+170  NCFire    154.2800    CSQ (none)           State Fire (national fire mutual aid)
+171  NCEMS     155.2800    CSQ (none)  KEG236   State EMS/Rescue "280"
+172  SARCmn    155.1600    CSQ (none)           SAR Common (National SAR)
+173  SkylandX  155.5650    167.9 PL    WPJT733  Buncombe Fire - Skyland Rebroadcast
+174  BCoFrMed  154.0625    103.5 PL    KDC300   Buncombe Fire Med
+175  FairVFD   159.3525    125 DPL     WQCB291  Fairview VFD Repeater
+176  RynoVFD   154.1750    136.5 PL    WPQB464  Reynolds VFD Repeater
+177  RiceVFD   154.2950    136.5 PL    WQBD633  Riceville VFD Repeater
+178  SkyVFD    154.3550    136.5 PL    WPHE287  Skyland VFD Repeater
+179  AVLFrDsp  158.8200    151.4 PL    WPWW256  Asheville Fire Dispatch (patched to TRS)
+180  AVLSchl   152.4050    411 DPL     WQKI344  Asheville Schools
+
+NOTES
+-----
+- All 21 frequencies + descriptions match the RR database exactly (2026-06-29 check).
+- Slot 173 (Skyland Rebroadcast) re-uses 155.565 (= Fireground 1) on a separate
+  transmitter and tone (167.9 PL) — intentional duplicate.
+- Primary Buncombe dispatch is now P25 trunked; these conventional channels are the
+  paging / fireground / VFD / backup / mutual-aid freqs that remain analog-monitorable.
+- Two channels use DPL (DCS) rather than PL: 159.3525 (D125) and 152.405 (D411).
+- VFD subset = Fairview/Reynolds/Riceville/Skyland (the owner's SE-Buncombe area).
+  Other Buncombe VFDs in RR (Barnardsville, Broad River, Enka, French Broad,
+  Leicester, Reems Creek, Swannanoa, Upper Hominy, West Buncombe, Woodfin) were
+  intentionally omitted.

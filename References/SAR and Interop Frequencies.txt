@@ -1,0 +1,52 @@
+SAR / INTEROP FREQUENCY REFERENCE
+=================================
+Verified: 2026-06-29
+Purpose:  Source-of-record for the CMC search-and-rescue / interop CHIRP List
+          (CHIRP Lists/CMC.csv). Everything in that list traces to an entry here.
+
+"CMC" = CMC-SAR, a search-and-rescue crew (joint operations with HCSAR = Henderson
+County SAR). Their channel set, names, and operating practice come from the CMC
+Baofeng radio operations manual (see SOURCES).
+
+SOURCES
+-------
+- CMC-SAR radio operations manual:
+    References/Radio operations manual.docx.pdf
+    (definitive source for the CMC channel set, names, and operating practice)
+- NIFOG — National Interoperability Field Operations Guide v2.02 (CISA, 2024):
+    https://www.cisa.gov/sites/default/files/2024-12/NIFOG%202.02_508%20FINAL%20VERSION%2012%2003%202024.pdf
+- RadioReference, National Interoperability:
+    https://www.radioreference.com/db/aid/7742
+
+SOURCE PRIORITY (owner-set, 2026-06-29)
+---------------------------------------
+Where the CMC manual disagrees with the band-plan / NIFOG standard, THE BAND PLAN
+WINS. This applies to UTAC41D below.
+
+
+VERIFIED CHANNELS  (CHIRP Lists/CMC.csv)
+----------------------------------------
+Name      Frequency    Mode  Tone        Source / notes
+CMCSAR1   462.5600     FM    none        CMC manual — primary CMC-ops channel.
+CMCSAR2   462.6800     FM    none        CMC manual — secondary.
+CMCSAR3   467.7025     FM    none        CMC manual — tertiary.
+VSAR16    155.1600     NFM   none        CMC manual + NIFOG — National Interop SAR.
+UTAC41D   453.4625     NFM   (156.7)     NIFOG band-plan value. The CMC manual lists
+                                         453.4525 — OVERRIDDEN per the band-plan rule
+                                         above. NIFOG PL is 156.7; left carrier here
+                                         for monitoring (set 156.7 to TX in a joint op).
+
+NOTES
+-----
+- Mode: the CMC manual says set the radio WIDE ("for general use"), so CMCSAR1-3 are
+  FM. VSAR16 and UTAC41D are national interop channels and are narrowband (NFM) per
+  the band plan.
+- Tones: the CMC manual programs NO access tones (carrier squelch); CTCSS is set ad
+  hoc only if another agency on the channel requires it. So all channels are carrier
+  here. UTAC41D's NIFOG tone (156.7) is recorded above for if/when TX is needed.
+- UTAC41D TX discipline: per the CMC manual, do NOT transmit unless in a joint
+  CMC/HCSAR operation and directed — it is heavily used by local emergency agencies.
+- The off-raster CMC frequencies (462.5600 / 462.6800 / 467.7025) are intentional:
+  the manual states they were "carefully chosen so as not to interfere" with other
+  users in the region.
+- Name "VSAR16" is the CMC manual's own tag (the bare NIFOG tag is "VSAR").
