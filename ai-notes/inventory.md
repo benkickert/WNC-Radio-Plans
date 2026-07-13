@@ -1,6 +1,6 @@
 # Inventory — What's in Each CSV
 
-> **Last updated:** 2026-07-01
+> **Last updated:** 2026-07-13
 > Keep this in sync when files are added, removed, or substantially restructured.
 
 The region of interest is **Western North Carolina (Asheville = "AVL") and the
@@ -112,6 +112,36 @@ and the I-40 corridor set.
 
 ---
 
+## `Complete Radio Plans/Extended Baseline (skip all but local).csv` — 157 channels (Profile A)
+
+Added 2026-07-13. **Identical channel content to `Extended Baseline.csv` — only the
+`Skip` column differs.** A "carry-everything, scan-nothing-distant" variant: the owner
+wants the full regional set *in the radio* but doesn't want the out-of-area repeaters
+cluttering the default scan, since any channel can be added to scan at the radio when
+travelling. See the **quiet-scan variant** entry in [`conventions.md`](conventions.md).
+
+**Scan policy (41 ch):** the same scan set as `local baseline.csv` — the 17 local WNC
+GMRS repeaters (31–47), the 22 local WNC ham repeaters (110–131), and the two ham
+calling freqs (100/101). **Everything else is `Skip=S`**, including all extended GMRS
+(50–80) and extended ham (150–184) — the blocks that scan in `Extended Baseline.csv`.
+
+**Maintenance:** treat `Extended Baseline.csv` as the parent. If a channel is added or
+changed there, mirror it here and set `Skip` per the policy above; don't let the two
+files' channel content drift apart.
+
+> **Origin note (2026-07-13):** the owner created this by editing scan flags in CHIRP
+> and exporting from the UV-5R Mini, so the first version carried CHIRP's own
+> radio-side values: `Power` rewritten `10W`→`5.0W` / `2.0W`→`1.0W`, and TSQL rows
+> collapsed to `rToneFreq=88.5` with the tone only in `cToneFreq`. It was **normalized
+> back to house values** (10W/2.0W/6.0W, `rToneFreq == cToneFreq`) so the CSV stays
+> fleet-neutral and CHIRP does the per-radio clamping at *import* time — see
+> [`open-questions.md`](open-questions.md) #6. The export also carried 11 stray
+> repeaters at slots 989–999 that were already sitting in the Mini's memory from an
+> earlier trip; they were dropped from the CSV (8 duplicate rows already in
+> `AVL to KY.csv`; the 3 genuinely-new ones are queued in [`todo.md`](todo.md)).
+
+---
+
 ## `Complete Radio Plans/AVL to KY.csv` — 141 channels (Profile A)
 
 Built 2026-07-01. **KY family-trip plan (SOP 3):** full `local baseline` (1–131) +
@@ -147,6 +177,43 @@ KCARC says "no tone" but the pool shows TSQL 100.0; encoded 100.0 (keys either w
 
 **Scan:** all repeaters scanned; simplex (incl. the 2 club simplex), generic-GMRS,
 MURS, WX skipped. 89 scan / 52 skip.
+
+---
+
+## `Complete Radio Plans/Scan Channels (201+).csv` — 40 channels (Profile A)
+
+Built 2026-07-13. **A supplement plan, not a standalone codeplug** — slots start at
+**201**, so it loads *on top of* any universal ≤ 200 plan and fills the empty memory
+above it. Only the **999-channel radios (UV-5R Mini, UV-5G Plus)** can hold it; the
+TD-H9/TD-H8 stop at 200. See [`conventions.md`](conventions.md) ("Supplement plans")
+and [`sops.md`](sops.md) SOP 6.
+
+Purpose: the owner's **monitoring/scanner set** — local emergency services plus both
+airports — carried in the spare memory rather than spending base-plan slots on it.
+
+| Slots | Block | Ch. | Pulled from |
+|------:|-------|----:|-------------|
+| 201–221 | Buncombe County public safety | 21 | `CHIRP Lists/Local Emergency.csv` |
+| 225–233 | Asheville airport (KAVL) | 9 | `CHIRP Lists/AVL Airport.csv` |
+| 235–244 | Charlotte airport (KCLT) | 10 | `CHIRP Lists/CLT Airport.csv` |
+
+Gaps at 222–224, 234, and 245+ are left for growth (`CMC.csv` is the obvious next
+block).
+
+**Sources (provenance):** pulled verbatim from the three CHIRP Lists above — only
+`Location` was renumbered. Those lists trace to `References/Buncombe County
+Public-Safety Frequencies.txt` (RadioReference) and `References/Airport Frequencies
+(KCLT, KAVL).txt` (FAA Chart Supplement / CLT ATCT SOP).
+
+**Everything is receive-only** (`Duplex=off`) — public-safety and airband channels are
+monitor-only and must never have a transmit path. **All 40 are in scan** (`Skip` blank);
+the plan *is* the scan set.
+
+**Radio caveat (reference, not a filter — the file carries the full set per
+[`radios.md`](radios.md)):** the airport blocks are **AM airband**. The UV-5R Mini
+receives VHF airband and 351.800 but *not* the AVL mil channels at 257.800/269.575
+(slots 225/226); the UV-5G Plus receives **no** airband at all, so on it the 18 airport
+channels are dead air while the 21 public-safety channels work fine.
 
 ---
 
@@ -482,10 +549,12 @@ remains the editable source of truth; if a plan changes, regenerate the `.img` r
 than hand-editing (an `.img` is model-specific binary, not text-editable).
 
 **Naming:** `<Radio> - <Plan>.img` — the radio model it's for, then the plan it was
-built from.
+built from. (CHIRP's own save-dialog default is `<Radio>_<Model>_<YYYYMMDD>.img`, which
+names the radio but not the plan — rename to the convention above when filing one.)
 
-**Currently empty** — no radio images are checked in. Build one by importing a
-Complete Radio Plan CSV into CHIRP for the target radio model and saving the image here.
+| File | Radio | Built from |
+|------|-------|------------|
+| `Baofeng_UV-5R Mini_20260710.img` | Baofeng UV-5R Mini | `Extended Baseline (skip all but local).csv` (downloaded from the radio 2026-07-10; also contains 11 leftover repeaters at slots 989–999 from an earlier trip that are **not** in the CSV — see that plan's entry above) |
 
 ---
 

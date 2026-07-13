@@ -4,3 +4,4 @@
 
 # Binary reference material — never touch line endings.
 *.pdf binary
+*.img binary

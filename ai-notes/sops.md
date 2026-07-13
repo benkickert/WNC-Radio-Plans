@@ -110,6 +110,36 @@ in scan.
 
 ---
 
+## SOP 6 — Build a supplement plan (slots 201+, high-memory radios)
+
+> Added 2026-07-13. A **supplement** is extra content loaded **on top of** a universal
+> ≤ 200 plan, using the empty memories above 200 on the **UV-5R Mini / UV-5G Plus**
+> (999 ch). It is **not** a standalone codeplug and **won't fit the TD-H9/TD-H8**
+> (200 ch) or the AR-5 (16 ch). See [`conventions.md`](conventions.md).
+
+Use it when content is genuinely *additive* — monitoring/scanner sets, destination
+blocks, seasonal channels — and you don't want to spend base-plan slots on it.
+
+1. **Decide the base plan it rides on.** A supplement must not collide with the base's
+   1–200. (Since every base plan is ≤ 200, any supplement starting at 201 is safe with
+   *all* of them — that's the point of the rule.)
+2. **Pull rows from `CHIRP Lists/` only** (the provenance rule applies exactly as for a
+   universal plan — never hand-enter a channel).
+3. **Renumber into thematic blocks from 201 up, leaving gaps** for growth. The
+   slot-100 ham/GMRS split does **not** apply up here — organize by purpose instead.
+4. **Keep house values:** Profile A columns, `Name` ≤ 8 chars, `10W`/`2.0W`/`6.0W`
+   power, `rToneFreq == cToneFreq` on TSQL. CHIRP clamps per-radio at import.
+5. **Set `Skip` for the supplement's own purpose** — a monitoring/scan supplement is
+   all-scan; a destination supplement follows the trip-plan policy.
+6. **RX-only content stays RX-only:** `Duplex=off` on public-safety, airband, and
+   weather channels. Never leave a transmit path on a channel you're not licensed for.
+7. **Name it `<Purpose> (201+).csv`** and validate per SOP 4, substituting "no slot
+   below 201" for the ≤ 200 / slot-100 checks.
+8. **Load order in CHIRP:** import the base plan, then import the supplement into the
+   same image, then write to the radio.
+
+---
+
 ## SOP 4 — Validate before handing off / importing
 
 Check, at minimum:

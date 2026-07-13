@@ -33,6 +33,11 @@ working in this folder and links the rest of the docs:
 
 - **Two hard LCD limits:** channel `Name` ≤ 8 chars, ≤ 200 channels per codeplug.
 - **Slot split at 100:** GMRS / MURS / listen-only on slots 1–99, amateur on 100+.
+- **Plans are universal unless labeled otherwise.** A plan loads on the whole fleet
+  unless its name says it's for one radio (e.g. the Arcshell file).
+- **Extra content goes above slot 200.** The 999-channel radios (UV-5R Mini, UV-5G Plus)
+  can carry a **supplement plan** (`<Purpose> (201+).csv`) loaded *on top of* a universal
+  plan — never grow a base plan past 200.
 - **Provenance chain:** `References/` → `CHIRP Lists/` → `Complete Radio Plans/`. Every
   list channel traces to a reference; every plan is assembled only by pulling from lists.
 - **Tone standard:** `TSQL` (`rTone==cTone`) when a repeater broadcasts its tone; `Tone`

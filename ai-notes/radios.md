@@ -24,6 +24,22 @@ multi-radio plan to ≤ 200 for cross-radio consistency. The **Arcshell AR-5 is 
 16-channel special case** — it gets its own tiny dedicated codeplug, so the 200 rule
 doesn't apply to it.
 
+## Using the extra memory on the 999-channel radios (supplement plans)
+
+The ≤ 200 rule is about keeping **base plans universal** — it is *not* a ceiling on what
+a big radio may carry. To use the spare memory on a 999-channel radio, load a
+**supplement plan (slots 201+)** *on top of* a universal plan; the base plan stays
+untouched and still flashes to the TIDs. See [`conventions.md`](conventions.md) and
+[`sops.md`](sops.md) SOP 6.
+
+| Radio | Memory | Can take a 201+ supplement? |
+|-------|-------:|------------------------------|
+| **Baofeng UV-5R mini** | 999 | ✅ yes — ~799 free slots above a 200-ch base. RX airband, so the airport blocks work (VHF airband + 351.8 only). |
+| **Baofeng UV-5G Plus** | 999 | ✅ yes — but **no airband/mil RX**, so airport channels are dead air on it; public-safety VHF/UHF monitoring works. |
+| **TID TD-H9** | 200 | ❌ no — memory stops at 200. |
+| **TID TD-H8** | 200 | ❌ no — memory stops at 200. (Ironically the best airband/mil receiver in the fleet, but it has no room above 200; airport content has to go *inside* a ≤ 200 plan for this radio.) |
+| **Arcshell AR-5** | 16 | ❌ no. |
+
 ## The radios (all programmed via CHIRP / CSV)
 
 | Radio | TX capability | Memory | Notes |

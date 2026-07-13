@@ -1,6 +1,6 @@
 # Conventions
 
-> **Last updated:** 2026-07-01
+> **Last updated:** 2026-07-13
 > The owner's house style. Follow these so new files match the existing ones.
 > (Inferred from the current files — confirm with the owner where noted.)
 
@@ -77,13 +77,59 @@ The owner standardizes codeplugs to load across the fleet. Two firm rules:
 2. **≤ 200 channels per codeplug.** Total rows (excluding the header) must not
    exceed 200. **Basis:** the TID radios (TD-H9 / TD-H8) hold exactly 200; the
    UV-5R mini and UV-5G Plus hold 999, but the owner keeps every multi-radio plan to
-   ≤ 200 for consistency. See [`radios.md`](radios.md).
+   ≤ 200 for consistency. See [`radios.md`](radios.md). *(The way to use the extra
+   memory on the 999-channel radios is a **supplement plan at slots 201+** — an add-on
+   loaded on top of a universal plan, never an over-200 base plan. See below.)*
 
 **Exception — Arcshell AR-5:** it holds only **16** channels and is a special case
 with its own tiny dedicated codeplug; the ≤ 200 rule doesn't apply to it.
 
 Any multi-radio file intended to load on a radio must satisfy both rules. (The big
 state pool does **not** yet — it's raw source, see [`inventory.md`](inventory.md).)
+
+## The three kinds of Complete Radio Plan
+
+Everything in `Complete Radio Plans/` is one of these. **Default to universal.**
+
+1. **Universal (LCD) plan — the default.** Loads on the whole fleet: ≤ 200 channels,
+   ≤ 8-char names, `Name`/slot/tone rules all obeyed. Unless a plan is explicitly
+   labeled otherwise, it is universal. (`local baseline`, `Extended Baseline`,
+   `AVL to KY`, and the quiet-scan variant.)
+2. **Radio-specific plan.** Tuned to one radio's quirks and named for it (e.g.
+   `Arcshell with Fletcher on 8.csv` — blank names, 5 W, GMRS-only, 16 ch). May break
+   the universal conventions where that radio demands it; note the deviation in
+   [`inventory.md`](inventory.md).
+3. **Supplement plan (slots 201+) — for high-memory radios.** See below.
+
+## Supplement plans — adding channels above slot 200
+
+The ≤ 200 cap exists for the **TID radios** (TD-H9 / TD-H8 hold exactly 200). The
+**UV-5R Mini and UV-5G Plus hold 999**, so on those radios there is room to carry
+*extra* channels **on top of** a universal plan without compromising it. That's what a
+**supplement plan** is: a Complete Radio Plan whose slots **start at 201**, designed to
+be loaded **in addition to** a ≤ 200 universal plan, not instead of it.
+
+**Rules for a supplement:**
+- **Slots start at 201** and never overlap a base plan's 1–200. This is what keeps the
+  two loadable together — CHIRP merges by `Location`, so a supplement simply fills the
+  empty memories above the base plan.
+- **The universal plan stays untouched.** Never renumber or trim a base plan to make
+  room; the whole point is that the base is unchanged and still flashes to the TIDs.
+- **The slot-100 service split does not extend above 200.** That split governs the
+  1–199 / 100+ layout of a base plan. Above 200 you're in supplement space — organize
+  it in **thematic blocks with gaps**, the same way the base plan blocks its ranges.
+- **Everything else still applies:** `Name` ≤ 8 chars, house `Power`/tone values,
+  Profile A columns, and the **provenance rule** (assemble only by pulling rows from
+  `CHIRP Lists/`).
+- **Name the file with its slot range** — `<Purpose> (201+).csv` — so it's obvious at a
+  glance that it's an add-on, not a whole codeplug.
+- **Know which radios can take it:** UV-5R Mini and UV-5G Plus (999 memories) only. The
+  **TD-H9/TD-H8 cannot** — they stop at 200, so a supplement is silently useless there.
+  The AR-5 (16 ch) certainly cannot. See [`radios.md`](radios.md).
+
+**Loading:** in CHIRP, import the universal plan first, then import the supplement into
+the same image; the supplement lands in memories 201+ and both write to the radio
+together. Build one per [`sops.md`](sops.md) SOP 6.
 
 ## Memory-slot (`Location`) governing rule
 
@@ -121,7 +167,10 @@ Observed in `local baseline.csv`:
   relaxation, to be flagged in that plan's [`inventory.md`](inventory.md) entry.
 - Add new entries within the matching block; if a block fills, use the gap above
   the next block rather than renumbering everything.
-- Watch the **200-channel ceiling** when adding — there are only ~101 ham slots.
+- Watch the **200-channel ceiling** when adding — there are only ~101 ham slots. If a
+  plan is full and the content is *extra* (monitoring, destination, seasonal), don't
+  squeeze it in — put it in a **supplement plan at 201+** (above) for the high-memory
+  radios instead of degrading the universal plan.
 
 The block table above is the **baseline layout**. Other plan types keep
 the same ≤99/≥100 split but arrange blocks differently. In particular, **trip plans
@@ -199,9 +248,34 @@ Different plan archetypes have different scan rules. Set `Skip` per the plan's t
   + the 2m/70cm calling freqs. All simplex (GMRS *and* ham), MURS, and WX are `Skip=S`.
   **Keep duplicate repeaters both in scan.**
 - **Radio-specific plan** (e.g. the AR-5 file): per that radio's use.
+- **Quiet-scan variant of a regional plan** (e.g. `Extended Baseline (skip all but
+  local).csv`): **same channels, home scan.** Carry the full regional set in the radio
+  but scan only the *immediate-area* repeaters + the calling freqs — i.e. the home
+  plan's scan policy applied to a bigger channel list. Everything distant is `Skip=S`
+  and switched into scan **at the radio** when the owner actually travels. Name it
+  `<Parent Plan> (skip all but local).csv` and keep its channel content identical to
+  the parent — **only `Skip` may differ.**
 
 Constant across types: the **2m & 70cm national calling freqs are always in scan**;
 **MURS and WX are never in scan**.
+
+## Round-tripping through CHIRP / a radio (don't bake radio values into a CSV)
+
+Exporting a CSV **from CHIRP after it has been loaded into a radio** rewrites values to
+that radio's conventions. Observed on a UV-5R Mini export (2026-07-10):
+
+- `Power` is rewritten to the radio's own levels (`10W` → `5.0W`, `2.0W` → `1.0W`).
+- `TSQL` rows are collapsed to CHIRP's internal form: `rToneFreq=88.5` with the real
+  tone only in `cToneFreq` (the split this repo deliberately avoids — see the tone
+  standard above).
+- Channels already sitting in the radio's memory come along too (the Mini's 999-slot
+  memory contributed 11 leftover repeaters at slots 989–999).
+
+None of that hurts *that* radio, but it makes the CSV radio-specific and drops it out of
+the provenance chain. **Rule: a CSV in this repo carries house values** (`10W`/`2.0W`/
+`6.0W`, `rToneFreq == cToneFreq`, ≤ 8-char names, ≤ 200 slots) **and lets CHIRP clamp at
+import time.** If you edit a plan by way of the radio, port the *intended change* back
+into the source CSV (e.g. just the `Skip` column) rather than committing the export.
 
 ## Frequent destinations (priority coverage)
 
@@ -224,6 +298,9 @@ Descriptive, human-readable filenames describing scope:
 - A route as `<FROM> to <TO>.csv`.
 - A multi-state pool as the hyphenated state list (`GA-IL-IN-KY-NC-OH-SC-TN-VA.csv`).
 - A role as a plain label (`local baseline.csv`).
+- A **supplement plan** as `<Purpose> (201+).csv` — the slot range marks it as an
+  add-on for the 999-channel radios (`Scan Channels (201+).csv`).
+- A **scan variant** of an existing plan as `<Parent Plan> (skip all but local).csv`.
 - **Optional `(MMM-YYYY)` date tag** to mark an older/legacy or dated version
   (e.g. a `(Jun-2026)` suffix) — signals "this one is older."
 - A **radio image** (`IMG Files/*.img`) as `<Radio> - <Plan>.img` — the radio model

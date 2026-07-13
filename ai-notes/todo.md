@@ -33,6 +33,31 @@ in drive sequence.
 - Name `AVL to KY.csv`. (A prior version was discarded in the cleanup — rebuild to the
   current standard, including the foolproof tones.)
 
+## 1b. Source the 3 uncovered TN route repeaters  *(added 2026-07-13)*
+The UV-5R Mini export surfaced 11 repeaters the owner hand-entered on a Bowling Green →
+Asheville drive some months ago (radio slots 989–999). **8 duplicate rows already in
+`AVL to KY.csv`** (Cookeville, Newport 147.09, Knoxville-Sharps, Crossville, Lafayette,
+BGrn330/BGrn165/BGrn444) — nothing to do. **3 are in no plan, list, or pool** and fill
+real gaps on the I-40 / Cumberland corridor that `AVL to KY.csv` already flags as
+uncovered:
+
+| Radio name | Freq | Duplex/Offset | Tone (as entered) | Likely site |
+|-----------|------|---------------|-------------------|-------------|
+| `Carth2m` | 145.250 | −0.600 | TSQL 114.8 | **Carthage TN** — listed in `AVL to KY.csv` as "no repeater in the pools" |
+| `NewP22m` | 146.730 | −0.600 | carrier | a **2nd Newport TN** repeater (distinct from `NewprtTN` 147.09) |
+| `woodBTN2m` | 146.910 | −0.600 | carrier | **Woodbury TN?** — name unconfirmed |
+
+**Do:** verify each against RepeaterBook (freq / offset / uplink+downlink tone / call /
+town), add to a sourced CHIRP List with a `References/` entry (extend
+`References/RepeaterBook - KY route gap-fillers.txt`), then pull into `AVL to KY.csv`
+per SOP 3. Rename to the 8-char convention (`woodBTN2m` is 9). **Don't copy the radio's
+values in blind** — they're hand-entered and unverified.
+
+⚠️ **Suspected error to check while you're there:** the radio's `Knox2m` (145.370) is
+programmed **`+0.400`**, but `AVL to KY.csv`'s `Knox-Sha` on the same frequency uses the
+standard 2 m **`−0.600`**. If the radio is wrong, that channel has never keyed the
+Knoxville repeater. Confirm against RepeaterBook/SERA and fix the radio.
+
 ## 2. Definitive NC supplement list (CHIRP List)
 A fully-verified statewide-NC **building block** (GMRS + ham) to combine with the
 baseline for NC-wide coverage — the refined successor to

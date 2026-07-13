@@ -1,6 +1,6 @@
 # Open Questions
 
-> **Last updated:** 2026-07-01
+> **Last updated:** 2026-07-13
 > Things inferred but not confirmed by the owner. A future AI should resolve these
 > with the owner and then fold the answer into the relevant note file (and delete
 > the question here).
@@ -27,12 +27,21 @@
 > - Q7 — `local baseline.csv` is the owner's first plan but **just one of many**
 >   Complete Radio Plans, **not** a propagating master. See [`inventory.md`](inventory.md).
 
-## 6. Per-radio `Power` level strings  *(still open — revisit)*
+## 6. Per-radio `Power` level strings  *(mostly RESOLVED 2026-07-13 — keep house values)*
 `10W`/`2.0W`/`6.0W` are used in Profile A. **Confirm these import cleanly on each
 radio**, or note the level strings each model expects, so pulls can target the
 right values.
+- ✅ **Resolved for the UV-5R Mini (2026-07-13):** `Extended Baseline.csv` (house `10W`
+  / `2.0W`) imported into the Mini fine — **CHIRP clamps to the radio's own levels on
+  import**, and the round-trip export came back as `5.0W` / `1.0W`. So a single CSV
+  carrying house values **loads correctly on both the 10 W TID radios and the 5 W
+  Baofengs**; no per-radio power variant is needed. Keep house values in the CSV and
+  let CHIRP translate (see the round-trip rule in [`conventions.md`](conventions.md)).
 - Data point: **UV-5R Mini = High / Low** (5 W / 2 W) — uses named levels, not
-  wattage strings, so a `10W` value would just clamp to High.
+  wattage strings, so a `10W` value would just clamp to High. (CHIRP's export renders
+  those as `5.0W`/`1.0W`.)
+- Still to confirm the same way: **TD-H9 / TD-H8** (expected fine — house values were
+  chosen for them) and the **AR-5** (`5.0W`).
 - Data point: **TD-H8 = 10 W**, **TD-H9 = 10 W** (TID radios are 10 W class). Exact
   CHIRP level labels (High/Mid/Low vs wattage) TBC.
 - UV-5G Plus = 5 W GMRS. AR-5 = vendor doesn't publish wattage (codeplug uses 5.0W).
