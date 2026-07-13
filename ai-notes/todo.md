@@ -33,30 +33,39 @@ in drive sequence.
 - Name `AVL to KY.csv`. (A prior version was discarded in the cleanup — rebuild to the
   current standard, including the foolproof tones.)
 
-## 1b. Source the 3 uncovered TN route repeaters  *(added 2026-07-13)*
-The UV-5R Mini export surfaced 11 repeaters the owner hand-entered on a Bowling Green →
-Asheville drive some months ago (radio slots 989–999). **8 duplicate rows already in
-`AVL to KY.csv`** (Cookeville, Newport 147.09, Knoxville-Sharps, Crossville, Lafayette,
-BGrn330/BGrn165/BGrn444) — nothing to do. **3 are in no plan, list, or pool** and fill
-real gaps on the I-40 / Cumberland corridor that `AVL to KY.csv` already flags as
-uncovered:
+## 1b. Carthage TN gap-filler + fix the radio's Knoxville offset  *(added 2026-07-13)*
 
-| Radio name | Freq | Duplex/Offset | Tone (as entered) | Likely site |
-|-----------|------|---------------|-------------------|-------------|
-| `Carth2m` | 145.250 | −0.600 | TSQL 114.8 | **Carthage TN** — listed in `AVL to KY.csv` as "no repeater in the pools" |
-| `NewP22m` | 146.730 | −0.600 | carrier | a **2nd Newport TN** repeater (distinct from `NewprtTN` 147.09) |
-| `woodBTN2m` | 146.910 | −0.600 | carrier | **Woodbury TN?** — name unconfirmed |
+**Background (already evaluated — don't redo).** The UV-5R Mini export carried 11
+repeaters the owner hand-entered on a Bowling Green → Asheville drive months ago (radio
+memory 989–999). They are the **least-verified data in the system** — hand-entered at the
+plan/radio level, below every tier of the provenance chain — so they were evaluated
+against `References/` first, then the CHIRP Lists, and dropped from the CSV. Outcome:
 
-**Do:** verify each against RepeaterBook (freq / offset / uplink+downlink tone / call /
-town), add to a sourced CHIRP List with a `References/` entry (extend
-`References/RepeaterBook - KY route gap-fillers.txt`), then pull into `AVL to KY.csv`
-per SOP 3. Rename to the 8-char convention (`woodBTN2m` is 9). **Don't copy the radio's
-values in blind** — they're hand-entered and unverified.
+- **8 were duplicates** of rows already in `AVL to KY.csv` (Cookeville, Newport 147.09,
+  Knoxville-Sharps, Crossville, Lafayette, BGrn330/BGrn165/BGrn444). Nothing to do.
+- **`NewP22m` 146.730 — refuted.** `References/RepeaterBook - KY route gap-fillers.txt`
+  enumerates Newport TN's repeaters (147.090 + 443.300 + 443.750); **there is no 146.730
+  in Newport.** The pool's TN 146.730 is **Lafayette** (TSQL 114.8), which the radio also
+  had as `LaFTN2m` — so this was a mislabeled duplicate with the tone dropped. Nothing to
+  add.
+- **`woodBTN2m` 146.910 — unsupported.** In this repo 146.910 is **`SpiveyV` (W4MOE,
+  Spivey Mtn)**, the local WNC repeater in the baseline; no TN repeater exists at 146.910
+  anywhere in the pool. A carrier-squelch 146.910 just hears Spivey. Only worth chasing
+  if "Woodbury TN" turns out to be real on RepeaterBook.
 
-⚠️ **Suspected error to check while you're there:** the radio's `Knox2m` (145.370) is
-programmed **`+0.400`**, but `AVL to KY.csv`'s `Knox-Sha` on the same frequency uses the
-standard 2 m **`−0.600`**. If the radio is wrong, that channel has never keyed the
-Knoxville repeater. Confirm against RepeaterBook/SERA and fix the radio.
+**Remaining work — two items:**
+
+1. **`Carth2m` 145.250 / −0.600 / TSQL 114.8 — the one genuine candidate.** No TN entry
+   at 145.250 exists in the ham pool and nothing in `References/`, which matches
+   `AVL to KY.csv` already flagging **Carthage TN as a pool gap** on the Cumberland/I-40
+   leg. **Do:** verify on RepeaterBook (freq / offset / uplink+downlink tone / call /
+   town), record it in `References/RepeaterBook - KY route gap-fillers.txt`, add it to a
+   CHIRP List, then pull into `AVL to KY.csv` per SOP 3. **Don't copy the radio's values
+   in blind** — they are unverified hand entries.
+2. ⚠️ **Fix the radio's `Knox2m` (145.370), programmed `+0.400`.** The ham pool has
+   `Knox-Sha` at the standard 2 m **`−0.600`** (Tone 100.0, S08, Sharps Ridge) and
+   `AVL to KY.csv` carries it correctly — so the **radio is wrong** and that channel has
+   never keyed Knoxville. Nothing to change in any CSV; correct it on the radio.
 
 ## 2. Definitive NC supplement list (CHIRP List)
 A fully-verified statewide-NC **building block** (GMRS + ham) to combine with the

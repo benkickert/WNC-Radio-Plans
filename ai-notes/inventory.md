@@ -36,9 +36,12 @@ ham 110–131) and the two ham calling freqs (100/101) are in scan. Everything e
 (23–30)**, MURS, and WX. (The generic block was moved to skip 2026-07-01 — it's a
 "try any open repeater on the travel tone" set, not part of the everyday scan.)
 
-**Role:** the owner's everyday-local plan and the only universal (LCD) Complete Radio
-Plan in the folder. It carries the 8 SERA ham-simplex channels (102–109) and the 22
-local WNC ham repeaters at 110–131.
+**Role:** the owner's everyday-local plan, and the **core that the other universal plans
+build on** — `Extended Baseline`, its quiet-scan variant, and `AVL to KY` all carry it
+verbatim at slots 1–131 and append from there. It carries the 8 SERA ham-simplex
+channels (102–109) and the 22 local WNC ham repeaters at 110–131. (It is *not* a
+propagating master: a change here does not automatically flow into those plans — see
+[`open-questions.md`](open-questions.md) Q7.)
 
 **Tones (verified 2026-06-29):** all repeater freqs/offsets cross-checked against the
 WCARS + WNC-GMRS club lists and RepeaterBook — fully consistent. Tones set to the
@@ -575,10 +578,20 @@ CHIRP Lists/  (building blocks)
       │  ham ≥100 / GMRS ≤99); convert Profile B → A as needed; pull ONLY from lists
       ▼
 Complete Radio Plans/  (finished codeplugs to flash whole)
-      local baseline.csv      — universal / LCD everyday WNC plan
-      Arcshell ... on 8.csv   — AR-5-specific (16-ch, GMRS)
+  universal / LCD (load on the whole fleet, ≤200 ch):
+      local baseline.csv                          — everyday WNC plan (91)
+      Extended Baseline.csv                       — + statewide NC & border metros (157)
+      Extended Baseline (skip all but local).csv  — same channels, local-only scan (157)
+      AVL to KY.csv                               — baseline + KY trip route (141)
+  radio-specific:
+      Arcshell ... on 8.csv                       — AR-5-specific (16-ch, GMRS)
+      │
+      │  ── on the 999-channel radios only, a supplement loads on TOP of a
+      │     universal plan, filling memory above slot 200:
+      │        Scan Channels (201+).csv           — emergency + airport monitoring (40)
       │
       │  import into CHIRP under the radio model, save the image
       ▼
-IMG Files/*.img  (binary radio images — currently none)
+IMG Files/*.img  (binary radio images)
+      Baofeng_UV-5R Mini_20260710.img
 ```

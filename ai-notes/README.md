@@ -70,7 +70,7 @@ combine blocks into a Complete Radio Plan before flashing (see [`sops.md`](sops.
 
 | File | Folder | Rows | Purpose |
 |------|--------|-----:|---------|
-| `local baseline.csv` | `Complete Radio Plans/` | 91 | Everyday WNC plan: GMRS simplex + generic & local GMRS repeaters + MURS + NOAA weather + ham simplex + local WNC ham. The folder's only universal/LCD codeplug. |
+| `local baseline.csv` | `Complete Radio Plans/` | 91 | Everyday WNC plan: GMRS simplex + generic & local GMRS repeaters + MURS + NOAA weather + ham simplex + local WNC ham. The core the other universal plans build on (they carry it verbatim at 1–131). |
 | `Extended Baseline.csv` | `Complete Radio Plans/` | 157 | Baseline core + best statewide-NC ham/GMRS + extended coverage to Knoxville, Tri-Cities, Newport/Greeneville, Greenville & Spartanburg SC, Rock Hill. Assembled from NC Coverage + the two pools. |
 | `Extended Baseline (skip all but local).csv` | `Complete Radio Plans/` | 157 | Same channels as `Extended Baseline.csv`; only the `Skip` column differs — scans just the local WNC repeaters + calling freqs (41 ch), distant ones carried but silent. |
 | `AVL to KY.csv` | `Complete Radio Plans/` | 141 | KY family-trip plan (SOP 3): baseline core + route repeaters in drive order (AVL→Newport→Knoxville trunk, then branches to Somerset & Bowling Green) + heavy destination coverage. Built from the pools + the two KY club lists. |
