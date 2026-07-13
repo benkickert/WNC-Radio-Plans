@@ -145,9 +145,9 @@ files' channel content drift apart.
 
 ---
 
-## `Complete Radio Plans/AVL to KY.csv` — 141 channels (Profile A)
+## `Complete Radio Plans/AVL to KY.csv` — 143 channels (Profile A)
 
-Built 2026-07-01. **KY family-trip plan (SOP 3):** full `local baseline` (1–131) +
+Built 2026-07-01; Carthage + Woodbury added 2026-07-13. **KY family-trip plan (SOP 3):** full `local baseline` (1–131) +
 route repeaters in drive sequence + heavy destination coverage for Somerset and
 Bowling Green. ≤ 200, LCD-compliant.
 
@@ -157,21 +157,23 @@ Bowling Green. ≤ 200, LCD-compliant.
 | 50–66 | Route GMRS (drive order) | Trunk AVL→Knoxville (`GPigeonF`/`GSevierv`/`GGatlinb`/`GKnoxvil`/`GKnoxFC`/`GOakRidg`), then Williamsburg, Somerset area (`GSomerse`/`GBeeLick`/`GNancy`), Russell Springs, and the Nashville/I-65 leg (`GNashvil`/`GLebanon`/`GGallatn`/`GHndrsnv`/`GPortlnd`/`GMillrsv`). |
 | 150–159 | Route ham — trunk + I-75 | `Madison-` (Hot Springs/Marshall), `NewprtTN` (RB gap-filler), Sevierville ×2, Knoxville ×2; Corbin ×2, London (`London-R` S10). |
 | 160–164 | **Somerset destination** | Pulled from `KY Somerset (LCARA).csv`: `SomrstV` (146.880/77.0), `SomrstU` (443.600), `MontcloV` (145.150) + 2 club simplex. |
-| 165–171 | Route ham — Cumberland Pkwy & I-40 | `Columbia` KY; Crossville ×2, Cookeville ×2, Lafayette TN; Nashville. |
-| 172–182 | **Bowling Green destination** | Pulled from `KY Bowling Green (KCARC).csv`: BG ×3, Morgantown, Franklin, Glasgow ×3, Bonnieville ×2, Cane Valley. |
+| 165–173 | Route ham — Cumberland Pkwy & I-40 | `Columbia` KY; Crossville ×2, Cookeville ×2, Lafayette TN; **`CarthgV` (Carthage) + `WoodbryV` (Woodbury/Short Mtn)** — RB gap-fillers added 2026-07-13; Nashville. |
+| 174–184 | **Bowling Green destination** | Pulled from `KY Bowling Green (KCARC).csv`: BG ×3, Morgantown, Franklin, Glasgow ×3, Bonnieville ×2, Cane Valley. |
 
 **Sources (provenance):** baseline + the two pools (route, RepeaterBook-derived tones)
-+ the two KY club lists (destinations) + one RB gap-filler (`NewprtTN`, documented in
-`References/RepeaterBook - KY route gap-fillers.txt` — the scored pool's "Newport" is
-coastal **NC**, not the TN route town).
++ the two KY club lists (destinations) + `CHIRP Lists/KY route gap-fillers (RepeaterBook).csv`
+(`NewprtTN`, `CarthgV`, `WoodbryV` — the three route repeaters absent from the scored
+pools; note the pool's "Newport" is coastal **NC**, not the TN route town).
 
 **Route design (owner-set):** the **AVL→Newport→Knoxville trunk is common to every
 route, so it's covered best**; from Knoxville the branches are treated equally
 (US-27 Oneida/Stearns; I-75 Corbin/London; I-40 Crossville/Gordonsville/Scottsville;
 I-40→Nashville→Franklin; Cumberland Pkwy Columbia/Glasgow). Some small route towns
-(Oneida, Pine Knot, Stearns, Burnside, Gordonsville, Carthage, Hartsville, Scottsville,
+(Oneida, Pine Knot, Stearns, Burnside, Gordonsville, Hartsville, Scottsville,
 Goodlettsville) have **no repeater in the pools** — bracketed by the nearest covered
-sites.
+sites. **Carthage is now covered** (2026-07-13): RepeaterBook confirmed KJ4EVS 145.250,
+and the wide Short Mountain site at Woodbury was added with it — both sourced outside the
+pools via the gap-filler list.
 
 **Tones:** route from the pools (RB-derived TSQL/`Tone`); destinations from the club
 PLs as encode-only (`Tone`) where downlink isn't confirmed, so they're never muted
@@ -361,6 +363,32 @@ reconstituted purely by pulling from lists. Slots match the baseline's block sch
 
 ---
 
+## `CHIRP Lists/KY route gap-fillers (RepeaterBook).csv` — 3 channels (Profile A)
+
+Added 2026-07-13. The route repeaters on the AVL→KY corridor that **exist in no pool** —
+sourced individually from RepeaterBook detail pages and recorded in
+`References/RepeaterBook - KY route gap-fillers.txt`. Pulled into `AVL to KY.csv`.
+
+| Slot | Name | Freq | Tone | Site |
+|-----:|------|------|------|------|
+| 150 | `NewprtTN` | 147.090 (+0.6) | `Tone` 203.5 | Newport TN KG4LHC — the AVL→Knoxville trunk |
+| 151 | `CarthgV` | 145.250 (−0.6) | `Tone` 114.8 | Carthage TN KJ4EVS — I-40, Smith Co (the "no repeater in the pools" gap) |
+| 152 | `WoodbryV` | 146.910 (−0.6) | `Tone` 114.8 | Woodbury TN W4YXA, Short Mtn — wide site covering Cookeville→Nashville |
+
+All three are **encode-only `Tone`**: RepeaterBook lists an uplink (access) tone but no
+downlink tone, which can't justify `TSQL` — so they key on the access tone and RX stays
+carrier, never muted. (Same standard as the WNC ham audit.)
+
+**Why this list exists:** `NewprtTN` had previously been pulled from the References doc
+*straight into the plan*, skipping the CHIRP-List tier. This list closes that provenance
+gap and gives the two new repeaters a proper home.
+
+⚠️ **`WoodbryV` 146.910 collides with baseline `SpiveyV`** (W4MOE Spivey Mtn, tone 91.5) —
+same frequency, different tone and region. Both are kept as separate channels; this is
+deliberate, like the shared GMRS outputs.
+
+---
+
 ## `CHIRP Lists/` — KY destination lists (Profile A, added 2026-07-01)
 
 Two reusable destination blocks for KY family trips, sourced from the club reference
@@ -469,8 +497,12 @@ the source behind built CHIRP Lists.
   only) and the local Asheville station (WXL56, 162.400, Mt. Pisgah). Source-of-record
   for `CHIRP Lists/NOAA weather.csv`. Added 2026-07-01.
 - **`RepeaterBook - KY route gap-fillers.txt`** — RB-sourced route repeaters not in the
-  scored pools, for `AVL to KY.csv` (currently `NewprtTN` KG4LHC 147.09, the priority
-  AVL→Knoxville trunk; notes that the pool's "Newport" is coastal NC). Added 2026-07-01.
+  scored pools: `NewprtTN` KG4LHC 147.09 (the priority AVL→Knoxville trunk), plus
+  **Carthage KJ4EVS 145.250 and Woodbury/Short Mtn W4YXA 146.910** (added 2026-07-13,
+  with the off-air Carthage 146.730 flagged do-not-program and the 146.910-vs-`SpiveyV`
+  frequency collision noted). Notes that the pool's "Newport" is coastal NC.
+  Source-of-record for `CHIRP Lists/KY route gap-fillers (RepeaterBook).csv`.
+  Added 2026-07-01.
 - **`Lake Cumberland ARC Repeaters (Somerset KY).txt`** — **ham** repeaters for the
   owner's **Somerset / Monticello, KY** family-visit area (LCARA). Analog + digital
   (DMR/D-Star/Fusion) across 2 m / 70 cm / 6 m / 10 m, plus club simplex. Includes a
@@ -582,7 +614,7 @@ Complete Radio Plans/  (finished codeplugs to flash whole)
       local baseline.csv                          — everyday WNC plan (91)
       Extended Baseline.csv                       — + statewide NC & border metros (157)
       Extended Baseline (skip all but local).csv  — same channels, local-only scan (157)
-      AVL to KY.csv                               — baseline + KY trip route (141)
+      AVL to KY.csv                               — baseline + KY trip route (143)
   radio-specific:
       Arcshell ... on 8.csv                       — AR-5-specific (16-ch, GMRS)
       │

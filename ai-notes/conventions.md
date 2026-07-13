@@ -219,6 +219,17 @@ appears elsewhere.
   DTCS). The old split — `rToneFreq=88.5` with the real tone only in `cToneFreq` — is the
   bug that can make CHIRP write **88.5 as the TX tone** and fail to key the repeater.
   Never leave that placeholder on a toned row.
+
+> ⚠️ **88.5 is both the placeholder AND a real CTCSS tone — read the `Tone` column, not
+> the number.** A tone value is inert **only when the `Tone` mode column is empty**. When
+> a mode *is* set, `88.5` is **real data**: that repeater genuinely uses 88.5 Hz. Roughly
+> 60 such rows exist (e.g. baseline `GWeaverv` — `TSQL` 88.5, confirmed from the WNC Radio
+> Project codeplug; `Crossvil` 443.875 — `Tone` 88.5 from the RepeaterBook-derived pool).
+> **Never "clean up" an 88.5 on a row whose `Tone` mode is set** — you'd be deleting a
+> working tone. The pattern to hunt for is the *split* (`rToneFreq=88.5` while
+> `cToneFreq` holds a different, real tone), which is what CHIRP's own export produces —
+> not the presence of 88.5 itself. Any validator you write must test the split, not the
+> value.
 - **DTCS repeater:** use `DTCS` with `DtcsCode == RxDtcsCode` (decodes the code on RX, so
   it distinguishes like TSQL). `DTCS` imports everywhere — avoid `Cross` on the LCD
   baseline since simpler radios may not support it.

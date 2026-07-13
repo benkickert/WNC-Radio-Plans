@@ -120,8 +120,12 @@ a fresh export is ever re-imported.)
 - **A repeater's listening frequency is the output.** With `Duplex=+/-` and an
   `Offset`, the radio transmits on output ± offset. Don't put the input freq in
   `Frequency`.
-- **`88.5` / `023` are defaults, not data.** They appear on toneless channels as
-  placeholders. The active tone is only meaningful when `Tone`/`CrossMode` says so.
+- **`88.5` / `023` are defaults, not data — *unless a tone mode is set*.** They appear on
+  toneless channels as placeholders, and the tone is only meaningful when the `Tone`
+  column says so. **But 88.5 Hz is also a real CTCSS tone**, and ~60 rows here legitimately
+  use it (e.g. `GWeaverv` `TSQL` 88.5, `Crossvil` 443.875 `Tone` 88.5). So: read the
+  **`Tone` mode column**, not the number. Mode empty → the 88.5 is inert; mode set → the
+  88.5 is real and **must not be stripped**. See [`conventions.md`](conventions.md).
 - **`NFM` vs `FM` matters on air.** GMRS channels 8–14 and MURS 1–3 are narrowband
   by regulation; keep them `NFM`.
 - **Mixing profiles** (e.g. adding D-STAR columns to Profile B rows) can confuse a

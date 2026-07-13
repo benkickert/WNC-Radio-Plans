@@ -22,3 +22,52 @@ more Cocke-County coverage is wanted):
 
 Note: the scored ham pool's "Newport" entries are **coastal Newport, NC**
 (Carteret Co) - a different town; do not use them for the TN route.
+
+------------------------------------------------------------------------------
+Carthage, TN  (Smith County) - I-40 west of Cookeville, on the Nashville leg
+------------------------------------------------------------------------------
+Captured 2026-07-13 from RepeaterBook detail pages.
+
+KJ4EVS   145.25000  (-0.600, in 144.650)   Uplink tone 114.8, Downlink none listed
+   -> programmed as Tone (encode-only) 114.8 so it keys but RX is never muted.
+   Open / On-Air. FM analog, 25 kHz. SERA-coordinated; emergency generator power.
+   Note: "limited coverage due to tower upgrades" (RB, reviewed 2026-01-04).
+   RB: https://www.repeaterbook.com/repeaters/details.php?state_id=47&ID=24145
+
+Also in Smith County (not pulled):
+   KJ4EVS  444.500  (+5)   70 cm, Carthage / Smith County EMA - Open, On-Air
+   K4TP    146.730  (-0.6) Carthage - **OFF-AIR**, do not program. (Note: 146.730
+           on the route is *Lafayette TN* K4?/pool TSQL 114.8, a different, live
+           repeater - see `AVL to KY.csv` slot 170.)
+
+------------------------------------------------------------------------------
+Woodbury, TN  (Cannon County, Short Mountain) - wide-coverage site S of I-40,
+covers the Cookeville -> Lebanon -> Nashville stretch
+------------------------------------------------------------------------------
+Captured 2026-07-13 from RepeaterBook (Cannon County listing).
+
+W4YXA    146.91000  (-0.600)   Uplink tone 114.8, Downlink none listed
+   -> programmed as Tone (encode-only) 114.8. Open / On-Air.
+   Short Mountain Repeater Club, Woodbury / Short Mtn (~60 mi SSE of Nashville).
+   Hosts the "Old Codgers Net" 8 PM.
+
+   ** Frequency collision to be aware of: 146.910 is ALSO `SpiveyV` (W4MOE,
+      Spivey Mountain) in the local WNC baseline, on tone 91.5. Different tone,
+      different region - both are kept as separate channels; carrier RX on either
+      will simply hear whichever is in range. **
+
+Other Cannon County / Short Mtn repeaters on RepeaterBook (not pulled):
+   KU4B   145.490 (-) 100.0 | WR3S 147.360 (+) 114.8 | W4CAT 444.650 (+) 107.2
+   AB4ZB  441.8625 / 442.0125 (+) 107.2 | W4DMM 440.700 (+) DMR CC1
+
+------------------------------------------------------------------------------
+Provenance note (2026-07-13)
+------------------------------------------------------------------------------
+The three repeaters above are carried in `CHIRP Lists/KY route gap-fillers
+(RepeaterBook).csv`, which is what `Complete Radio Plans/AVL to KY.csv` pulls from.
+(Previously `NewprtTN` was pulled from this document straight into the plan, which
+skipped the CHIRP-List tier of the provenance chain; the list closes that gap.)
+
+Tone-mode standard applied to all three: RepeaterBook lists an **uplink (access)
+tone but no downlink tone**, which cannot justify TSQL -> use `Tone` (encode-only),
+carrier RX, so the repeater is never muted. Same rule as the WNC ham audit.

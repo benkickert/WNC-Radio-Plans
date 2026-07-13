@@ -33,6 +33,7 @@ Read in this order depending on your task:
 | Actually build or edit a CSV (step-by-step)    | [`sops.md`](sops.md) |
 | Find unresolved questions to confirm w/ owner  | [`open-questions.md`](open-questions.md) |
 | See queued build tasks for next session        | [`todo.md`](todo.md) |
+| **Check your work before handing it back**     | `python ai-notes/validate.py` — SOP 4 in script form; read-only, exits non-zero on failure |
 
 ## Folder layout
 
@@ -73,7 +74,7 @@ combine blocks into a Complete Radio Plan before flashing (see [`sops.md`](sops.
 | `local baseline.csv` | `Complete Radio Plans/` | 91 | Everyday WNC plan: GMRS simplex + generic & local GMRS repeaters + MURS + NOAA weather + ham simplex + local WNC ham. The core the other universal plans build on (they carry it verbatim at 1–131). |
 | `Extended Baseline.csv` | `Complete Radio Plans/` | 157 | Baseline core + best statewide-NC ham/GMRS + extended coverage to Knoxville, Tri-Cities, Newport/Greeneville, Greenville & Spartanburg SC, Rock Hill. Assembled from NC Coverage + the two pools. |
 | `Extended Baseline (skip all but local).csv` | `Complete Radio Plans/` | 157 | Same channels as `Extended Baseline.csv`; only the `Skip` column differs — scans just the local WNC repeaters + calling freqs (41 ch), distant ones carried but silent. |
-| `AVL to KY.csv` | `Complete Radio Plans/` | 141 | KY family-trip plan (SOP 3): baseline core + route repeaters in drive order (AVL→Newport→Knoxville trunk, then branches to Somerset & Bowling Green) + heavy destination coverage. Built from the pools + the two KY club lists. |
+| `AVL to KY.csv` | `Complete Radio Plans/` | 143 | KY family-trip plan (SOP 3): baseline core + route repeaters in drive order (AVL→Newport→Knoxville trunk, then branches to Somerset & Bowling Green) + heavy destination coverage. Built from the pools + the two KY club lists. |
 | `Scan Channels (201+).csv` | `Complete Radio Plans/` | 40 | **Supplement plan** (slots 201+, loads on top of a universal plan on the 999-ch radios): Buncombe public safety + KAVL & KCLT airband. RX-only, all in scan. |
 | `Arcshell with Fletcher on 8.csv` | `Complete Radio Plans/` | 16 | Radio-specific AR-5 codeplug: GMRS simplex + the Fletcher repeater on slot 8. Names left blank. |
 | `GA-IL-IN-KY-NC-OH-SC-TN-VA.csv` | `CHIRP Lists/` | 858 | Large 9-state ham-repeater reference pool, ranked by a quality score. A *source to pull from*, not a finished codeplug. |
@@ -86,6 +87,7 @@ combine blocks into a Complete Radio Plan before flashing (see [`sops.md`](sops.
 | `NOAA weather.csv` | `CHIRP Lists/` | 7 | The 7 NOAA NWR channels (slots 91–97, RX-only); `WX1AVL`=WXL56 Asheville. Building block. |
 | `KY Somerset (LCARA).csv` | `CHIRP Lists/` | 5 | Somerset/Monticello KY destination repeaters + club simplex (analog-FM-usable), from the LCARA reference. Building block. |
 | `KY Bowling Green (KCARC).csv` | `CHIRP Lists/` | 11 | Bowling Green-area KY destination repeaters (BG, Glasgow, Bonnieville, Franklin, Morgantown, Cane Valley), from the KCARC reference. Building block. |
+| `KY route gap-fillers (RepeaterBook).csv` | `CHIRP Lists/` | 3 | The AVL→KY route repeaters absent from the pools (`NewprtTN`, `CarthgV`, `WoodbryV`), sourced from RepeaterBook detail pages. Building block. |
 | `CLT Airport.csv` | `CHIRP Lists/` | 10 | Charlotte (KCLT) airband (AM). |
 | `AVL Airport.csv` | `CHIRP Lists/` | 9 | Asheville (KAVL) airband (AM, incl. UHF mil). |
 | `Local Emergency.csv` | `CHIRP Lists/` | 21 | Buncombe County public safety / VFD monitoring (NFM). |

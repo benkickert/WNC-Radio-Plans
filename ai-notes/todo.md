@@ -53,19 +53,27 @@ against `References/` first, then the CHIRP Lists, and dropped from the CSV. Out
   anywhere in the pool. A carrier-squelch 146.910 just hears Spivey. Only worth chasing
   if "Woodbury TN" turns out to be real on RepeaterBook.
 
-**Remaining work — two items:**
+**✅ Carthage + Woodbury sourced and pulled in (2026-07-13) — DONE.** Verified on
+RepeaterBook, recorded in `References/RepeaterBook - KY route gap-fillers.txt`, added to
+the new `CHIRP Lists/KY route gap-fillers (RepeaterBook).csv`, and pulled into
+`AVL to KY.csv` at slots 171–172 in drive order (Cookeville → Carthage → Woodbury →
+Nashville; the Bowling Green block shifted 172–182 → 174–184). Plan is now 143 ch.
+- `CarthgV` 145.250 −0.600 — **KJ4EVS, Carthage** (Smith Co), open/on-air, SERA. Uplink
+  114.8, **no downlink** → `Tone` (encode-only). *The radio had it as TSQL 114.8, which
+  would have muted RX.*
+- `WoodbryV` 146.910 −0.600 — **W4YXA, Short Mountain, Woodbury** (Cannon Co), open/
+  on-air, wide site. Uplink 114.8, **no downlink** → `Tone`. *The radio had it on carrier
+  with no tone, so it would never have keyed the repeater.* (`woodBTN2m` was therefore a
+  real repeater after all — just misprogrammed. Note 146.910 also = baseline `SpiveyV`,
+  tone 91.5; kept as separate channels.)
+- Also learned: Carthage **146.730 K4TP is OFF-AIR** — do not program. (The live 146.730
+  on this route is Lafayette TN, already at slot 170.)
 
-1. **`Carth2m` 145.250 / −0.600 / TSQL 114.8 — the one genuine candidate.** No TN entry
-   at 145.250 exists in the ham pool and nothing in `References/`, which matches
-   `AVL to KY.csv` already flagging **Carthage TN as a pool gap** on the Cumberland/I-40
-   leg. **Do:** verify on RepeaterBook (freq / offset / uplink+downlink tone / call /
-   town), record it in `References/RepeaterBook - KY route gap-fillers.txt`, add it to a
-   CHIRP List, then pull into `AVL to KY.csv` per SOP 3. **Don't copy the radio's values
-   in blind** — they are unverified hand entries.
-2. ⚠️ **Fix the radio's `Knox2m` (145.370), programmed `+0.400`.** The ham pool has
-   `Knox-Sha` at the standard 2 m **`−0.600`** (Tone 100.0, S08, Sharps Ridge) and
-   `AVL to KY.csv` carries it correctly — so the **radio is wrong** and that channel has
-   never keyed Knoxville. Nothing to change in any CSV; correct it on the radio.
+**⚠️ Remaining — owner action on the radio (no CSV change):** the UV-5R Mini's `Knox2m`
+(145.370) is programmed **`+0.400`**. The ham pool has `Knox-Sha` at the standard 2 m
+**`−0.600`** (Tone 100.0, S08, Sharps Ridge), and `AVL to KY.csv` carries it correctly —
+so the **radio is wrong** and that channel has never keyed Knoxville. Reflashing the
+radio from `AVL to KY.csv` fixes it, along with the two misprogrammed repeaters above.
 
 ## 2. Definitive NC supplement list (CHIRP List)
 A fully-verified statewide-NC **building block** (GMRS + ham) to combine with the

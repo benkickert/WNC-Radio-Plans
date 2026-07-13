@@ -1,0 +1,4 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+150,NewprtTN,147.090000,+,0.600000,Tone,203.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Newport TN KG4LHC (RepeaterBook); up 203.5 down blank -> encode-only,,,,
+151,CarthgV,145.250000,-,0.600000,Tone,114.8,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Carthage TN KJ4EVS (RepeaterBook); up 114.8 down blank -> encode-only; I-40 Smith Co,,,,
+152,WoodbryV,146.910000,-,0.600000,Tone,114.8,88.5,023,NN,023,Tone->Tone,FM,5.00,,10W,Woodbury TN W4YXA Short Mtn (RepeaterBook); up 114.8 down blank -> encode-only; wide site,,,,

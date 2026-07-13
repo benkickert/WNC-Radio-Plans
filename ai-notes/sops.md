@@ -142,6 +142,13 @@ blocks, seasonal channels — and you don't want to spend base-plan slots on it.
 
 ## SOP 4 — Validate before handing off / importing
 
+> **Run the validator first:** `python ai-notes/validate.py` (from the repo root) checks
+> every Complete Radio Plan and CHIRP List against the mechanical rules below — caps,
+> name length, duplicate/split slots, the slot-100 split, split TSQL/DTCS tones, duplex
+> vs offset, RX-only channels left transmit-capable, out-of-band freqs, stray commas.
+> It is read-only and exits non-zero on failure. It **cannot** check provenance,
+> tone *values*, or geography — do those by hand from the list below.
+
 Check, at minimum:
 
 - **Provenance** (the core standard): in a CHIRP List, every channel traces to a
