@@ -1,6 +1,6 @@
 # TODO — Queued Build Tasks
 
-> Created 2026-06-29. Tasks to build next session.
+> **Last updated:** 2026-07-13 (created 2026-06-29). Tasks to build next session.
 > **All must follow the standards set this session:**
 > - **Provenance chain** — `References/` → `CHIRP Lists/` → `Complete Radio Plans/`.
 >   Every list channel traces to a source; plans are assembled ONLY from CHIRP Lists
@@ -8,14 +8,16 @@
 > - **LCD rules** — `Name` ≤ 8 chars, ≤ 200 channels, ham ≥ 100 / GMRS ≤ 99.
 > - **Tone standard** — `TSQL` when the repeater broadcasts a tone (with
 >   `rToneFreq == cToneFreq`); `Tone` (encode-only) only for input-tone-only repeaters;
->   carrier when none. Never leave the `88.5` placeholder on a toned row.
+>   carrier when none. Never leave a **split** `rToneFreq=88.5` / real-`cToneFreq` on a
+>   toned row. ⚠️ But **88.5 Hz is also a real tone** — if the `Tone` mode column is set,
+>   an 88.5 is data, not a placeholder; don't strip it. See [`conventions.md`](conventions.md).
 > - **Verify** each repeater's freq/offset/tone against the club lists AND RepeaterBook,
 >   the way the baseline was checked.
 
 ---
 
 ## 1. KY travel list — Bowling Green + Somerset  ✅ DONE 2026-07-01
-**Built as `Complete Radio Plans/AVL to KY.csv` (141 ch)** + two reusable destination
+**Built as `Complete Radio Plans/AVL to KY.csv` (143 ch)** + two reusable destination
 CHIRP Lists (`KY Somerset (LCARA).csv`, `KY Bowling Green (KCARC).csv`). See
 [`inventory.md`](inventory.md). Original spec below (kept for reference):
 

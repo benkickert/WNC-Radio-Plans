@@ -1,6 +1,6 @@
 # Hardware — The Radio Fleet
 
-> **Last updated:** 2026-06-25
+> **Last updated:** 2026-07-13
 > The radios these CSVs are built for, and how they map to the files.
 
 ## Owner location

@@ -1,6 +1,6 @@
 # CHIRP CSV File Format
 
-> **Last updated:** 2026-06-29
+> **Last updated:** 2026-07-13
 > Reference for the column layout CHIRP uses, and the two variants present in this folder.
 > **Authoritative source:** `References/CHIRP CSV Format and Settings.txt` (plus the
 > official `CHIRP Tone Programming Examples` PDF) holds the definitive column and

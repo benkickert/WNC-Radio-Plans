@@ -1,6 +1,6 @@
 # SOPs — Standard Operating Procedures
 
-> **Last updated:** 2026-06-29
+> **Last updated:** 2026-07-13
 > Step-by-step procedures for common tasks in this folder. Read
 > [`file-format.md`](file-format.md), [`conventions.md`](conventions.md), and
 > [`radios.md`](radios.md) first.
